@@ -74,11 +74,51 @@ module.exports = {
       chunkFilename: '[id].css'
     }),
 
-    // Landing page
+    // index
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: './index.html'
     }),
+
+    // все страницы разделов
+    new HtmlWebpackPlugin({
+      template: './src/articles.html',
+      filename: './articles.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/categories.html',
+      filename: './categories.html'
+    }),
+
+    // публикации в разделе "статьи" (articles)
+    new HtmlWebpackPlugin({
+      template: './src/articles/article-1.html',
+      filename: './articles/article-1.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/article-2.html',
+      filename: './articles/article-2.html'
+    }),
+
+    // публикации в разделе "категории" (categories)
+    new HtmlWebpackPlugin({
+      template: './src/categories/fashion.html',
+      filename: './categories/fashion.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/categories/food.html',
+      filename: './categories/food.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/categories/merch.html',
+      filename: './categories/merch.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/categories/photography.html',
+      filename: './categories/photography.html'
+    }),
+
+
 
     // Internal pages
     // new HtmlWebpackPlugin({
