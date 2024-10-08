@@ -89,6 +89,19 @@ module.exports = {
       template: './src/categories.html',
       filename: './categories.html'
     }),
+    new HtmlWebpackPlugin({
+      template: './src/about.html',
+      filename: './about.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/lets-collaborate.html',
+      filename: './lets-collaborate.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/newsletter.html',
+      filename: './newsletter.html'
+    }),
+
 
     // публикации в разделе "статьи" (articles)
     new HtmlWebpackPlugin({
