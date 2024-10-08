@@ -82,24 +82,24 @@ module.exports = {
 
     // все страницы разделов
     new HtmlWebpackPlugin({
-      template: '../src/articles.html',
-      filename: '../articles.html'
+      template: './src/articles.html',
+      filename: './articles.html'
     }),
     new HtmlWebpackPlugin({
-      template: '../src/categories.html',
-      filename: '../categories.html'
+      template: './src/categories.html',
+      filename: './categories.html'
     }),
     new HtmlWebpackPlugin({
-      template: '../src/about.html',
-      filename: '../about.html'
+      template: './src/about.html',
+      filename: './about.html'
     }),
     new HtmlWebpackPlugin({
-      template: '../src/lets-collaborate.html',
-      filename: '../lets-collaborate.html'
+      template: './src/lets-collaborate.html',
+      filename: './lets-collaborate.html'
     }),
     new HtmlWebpackPlugin({
-      template: '../src/newsletter.html',
-      filename: '../newsletter.html'
+      template: './src/newsletter.html',
+      filename: './newsletter.html'
     }),
 
 
