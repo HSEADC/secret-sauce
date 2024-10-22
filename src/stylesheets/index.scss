@@ -57,12 +57,13 @@ body.index {
     height: 15%;
     padding: 8px;
     justify-content: center;
-    align-items: flex-start;
+    
     gap: 5px;
     flex-shrink: 0;
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.10);
     margin-top: 80vh;
+    align-items: center;
 
 
     .logo{
@@ -88,6 +89,7 @@ body.index {
       overflow: hidden;
       background-image: url(../images/about.png);
       background-size: cover;
+      background-position: right;
       
       p{
         color: var(--9672-ff, #9672FF);
@@ -113,6 +115,7 @@ body.index {
       background: #EAE3FF;
       justify-content: space-between;
       display: flex;
+      align-items: center;
       
       p{
         color: var(--9672-ff, #9672FF);
@@ -120,9 +123,10 @@ body.index {
         font-size: 30px;
         font-style: normal;
         font-weight: 400;
-        line-height: 80%; /* 24px */
+        line-height: 80%;
         text-transform: lowercase;
         margin-left: 1vw;
+        margin-top: 0;
       }
 
       
@@ -135,6 +139,7 @@ body.index {
         .input{
           stroke-width: 0;
           background: #FCFAFF;
+
         }
 
         input{
@@ -143,22 +148,24 @@ body.index {
           font-size: 30px;
           font-style: normal;
           font-weight: 400;
-          color: var(--Linear, linear-gradient(90deg, #B59BFF 0%, #CDBBFF 100%));
+          
           line-height: 115%; /* 34.5px */
           width: 70%;
           height: 100%;
-          padding: 0;
+          padding: 0 20px;
           margin: 0;
           box-sizing: border-box;
           stroke-width: 0;
+          border: none;
+
+          &::placeholder {
+            color: #B59BFF;
+          }
         }
 
         
 
-        .button{
-          width: 35%;
-          height: 100%;
-        }
+       
 
         button{
           border-radius: 1vw;
@@ -168,6 +175,9 @@ body.index {
           font-weight: 400;
           background: var(--6-a-35-ff, #6A35FF);
           color: #FFF;
+          border: none;
+          width: 28%;
+          height: 100%;
           
 
         }
