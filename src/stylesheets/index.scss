@@ -1,11 +1,180 @@
+html, body{
+  cursor: url("../images/cursor.png"), default;
+}
+
+
 body.index {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  & > div,
-  & > a {
-    margin: 10px 0;
+  .main{
+    width: 99%;
+    height: 99%;
+    border-radius: 20px;
+    background: radial-gradient(70.1% 70.1% at 50% 47.98%, #AC90FD 0%, #6A35FF 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .text{
+      display: flex;
+      width: 548px;
+      flex-direction: column;
+    }
+
+
+
+      h1{
+        color: #FFF;
+        text-align: center;
+        font-family: Coolvetica;
+        font-size: 160px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 60%;
+        }
+    
+        p{
+          color: #FFF;
+        text-align: center;
+        font-family: "PT Sans";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 110%; 
+        margin-top: 5vh;
+        }
+  
+
+  
+  }
+
+  .menu{
+    position: absolute;
+    display: flex;
+    width: 95%;
+    height: 15%;
+    padding: 8px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.10);
+    margin-top: 80vh;
+
+
+    .logo{
+      display: flex;
+      height: 95%;
+      width: 15%;
+      padding: 16px 24px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      border-radius: 20px;
+      background: var(--Linear, linear-gradient(90deg, #B59BFF 0%, #CDBBFF 100%));
+
+      img{
+        width: 90%;
+      }
+    }
+    .about{
+      width: 10%;
+      height: 95%;
+      flex-shrink: 0;
+      border-radius: 20px;
+      overflow: hidden;
+      background-image: url(../images/about.png);
+      background-size: cover;
+      
+      p{
+        color: var(--9672-ff, #9672FF);
+        text-align: left;
+        margin-top: 0vw;
+        margin-left: 1vw;
+        font-family: Coolvetica;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 115%; /* 34.5px */
+        text-transform: lowercase;
+      }
+
+      
+    }
+
+    .form{
+      height: 95%;
+      width: 75%;
+      flex-shrink: 0;
+      border-radius: 20px;
+      background: #EAE3FF;
+      justify-content: space-between;
+      display: flex;
+      
+      p{
+        color: var(--9672-ff, #9672FF);
+        font-family: Coolvetica;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 80%; /* 24px */
+        text-transform: lowercase;
+        margin-left: 1vw;
+      }
+
+      
+
+      .form1{
+        height: 90%;
+        width: 60%;
+        outline: none;
+
+        .input{
+          stroke-width: 0;
+          background: #FCFAFF;
+        }
+
+        input{
+          border-radius: 1vw;
+          font-family: Coolvetica;
+          font-size: 30px;
+          font-style: normal;
+          font-weight: 400;
+          color: var(--Linear, linear-gradient(90deg, #B59BFF 0%, #CDBBFF 100%));
+          line-height: 115%; /* 34.5px */
+          width: 70%;
+          height: 100%;
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+          stroke-width: 0;
+        }
+
+        
+
+        .button{
+          width: 35%;
+          height: 100%;
+        }
+
+        button{
+          border-radius: 1vw;
+          font-family: Coolvetica;
+          font-size: 30px;
+          font-style: normal;
+          font-weight: 400;
+          background: var(--6-a-35-ff, #6A35FF);
+          color: #FFF;
+          
+
+        }
+        
+
+
+      }
+    }
   }
 }
