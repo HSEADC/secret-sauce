@@ -213,10 +213,24 @@ body.index {
     justify-content: center;
     align-items: center;
 
+    .gif{
+      position: absolute;
+      border-radius: 2vw;
+      margin-left: 70vw;
+      margin-top: -20vh;
+    }
+    .gif1{
+      position: absolute;
+      border-radius: 2vw;
+      margin-right: 70vw;
+      margin-top: -20vh;
+    }
+
     .text{
       display: flex;
       width: 548px;
       flex-direction: column;
+      margin-top: -20vh;
     }
 
 
@@ -1042,7 +1056,17 @@ body.main3{
           width: 99%;
           height: 99vh;
           margin-top: 0.5vh;
-          
+
+          .gif{
+            border-radius: 4vw;
+            margin-left: -3vw;
+            margin-top: 10vh;
+            width: 36vw;
+          }
+
+          .gif1{
+            display: none;
+          }
       
           .text{
             display: flex;
