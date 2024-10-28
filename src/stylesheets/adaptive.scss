@@ -22,7 +22,17 @@
           width: 99%;
           height: 99vh;
           margin-top: 0.5vh;
-          
+
+          .gif{
+            border-radius: 4vw;
+            margin-left: -3vw;
+            margin-top: 10vh;
+            width: 36vw;
+          }
+
+          .gif1{
+            display: none;
+          }
       
           .text{
             display: flex;

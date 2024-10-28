@@ -16,10 +16,24 @@ body.index {
     justify-content: center;
     align-items: center;
 
+    .gif{
+      position: absolute;
+      border-radius: 2vw;
+      margin-left: 70vw;
+      margin-top: -20vh;
+    }
+    .gif1{
+      position: absolute;
+      border-radius: 2vw;
+      margin-right: 70vw;
+      margin-top: -20vh;
+    }
+
     .text{
       display: flex;
       width: 548px;
       flex-direction: column;
+      margin-top: -20vh;
     }
 
 
