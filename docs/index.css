@@ -134,7 +134,7 @@ table {
 }
 
 @font-face {
-  font-family: 'PT Root UI';
+  font-family: 'PT_Root_UI';
   src: url(0bce3076665566508666.woff2) format('woff2'),
     url(54df1b192edf2e91a546.woff) format('woff');
   font-weight: 100;
@@ -142,7 +142,7 @@ table {
 }
 
 @font-face {
-  font-family: 'PT Root UI';
+  font-family: 'PT_Root_UI';
   src: url(5bc2b31914a4bb7b8de1.woff2) format('woff2'),
     url(8de68b3f36592e26c908.woff) format('woff');
   font-weight: 400;
@@ -150,7 +150,7 @@ table {
 }
 
 @font-face {
-  font-family: 'PT Root UI';
+  font-family: 'PT_Root_UI';
   src: url(dd167f0d4438cf0bd619.woff2) format('woff2'),
     url(148e47414646ebc2122c.woff) format('woff');
   font-weight: 500;
@@ -158,7 +158,7 @@ table {
 }
 
 @font-face {
-  font-family: 'PT Root UI';
+  font-family: 'PT_Root_UI';
   src: url(16327b245df30c1eae90.woff2) format('woff2'),
     url(a10cc33ac65952788349.woff) format('woff');
   font-weight: 700;
@@ -167,7 +167,7 @@ table {
 
 
 @font-face {
-  font-family: 'coolveticarg';
+  font-family: 'coolvetica_rg';
   src: url(e0f50a8ecb1cac4cb432.otf) format('otf');
   font-weight: 700;
   font-style: normal;
