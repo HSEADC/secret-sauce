@@ -1,5 +1,5 @@
 import './index.css'
-import jpg from './images/image.jpg'
+// import jpg from './images/image.jpg'
 document.addEventListener ("DOMContentLoaded", function(){
     const container = document.querySelector (".cursor-trail");
     let imageIndex = 1;
@@ -14,7 +14,7 @@ document.addEventListener ("DOMContentLoaded", function(){
         newItem.style.top = `${y - 100}px`;
 
         const img = document.createElement("img");
-        img.src = `./src/images/animatiom-try${imageIndex}.jpg`;
+        img.src = `./src/images/animatiom_try${imageIndex}.jpg`;
         newItem.appendChild(img);
         imageIndex = (imageIndex % 15) + 1;
 
