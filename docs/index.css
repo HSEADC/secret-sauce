@@ -770,9 +770,11 @@ body.main2 {
           line-height: 100%;
         }
 
-        img{
-          width: 80%;
+        a{
+          img{
+            width: 80%;}
         }
+      
       }
 
       .gradient{
