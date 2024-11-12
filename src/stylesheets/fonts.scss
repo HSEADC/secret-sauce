@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'PT Root UI';
+  font-family: 'PT_Root_UI';
   src: url('../fonts/PT-Root-UI_Light.woff2') format('woff2'),
     url('../fonts/PT-Root-UI_Light.woff') format('woff');
   font-weight: 100;
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: 'PT Root UI';
+  font-family: 'PT_Root_UI';
   src: url('../fonts/PT-Root-UI_Regular.woff2') format('woff2'),
     url('../fonts/PT-Root-UI_Regular.woff') format('woff');
   font-weight: 400;
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-  font-family: 'PT Root UI';
+  font-family: 'PT_Root_UI';
   src: url('../fonts/PT-Root-UI_Medium.woff2') format('woff2'),
     url('../fonts/PT-Root-UI_Medium.woff') format('woff');
   font-weight: 500;
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-  font-family: 'PT Root UI';
+  font-family: 'PT_Root_UI';
   src: url('../fonts/PT-Root-UI_Bold.woff2') format('woff2'),
     url('../fonts/PT-Root-UI_Bold.woff') format('woff');
   font-weight: 700;
@@ -32,16 +32,15 @@
 
 
 @font-face {
-  font-family: 'coolveticarg';
-  src: url('../fonts/coolveticarg.otf') format('otf');
+  font-family: 'coolvetica_rg';
+  src: url('../fonts/coolvetica_rg.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'PT_Sans-Web-Regular';
-  src: url('../fonts/PT_Sans-Web-Regular.ttf') format('ttf');
+  font-family: 'PT_Sans_Web_Regular';
+  src: url('../fonts/PT_Sans_Web_Regular.ttf') format('ttf');
   font-weight: 400;
   font-style: normal;
 }
-
