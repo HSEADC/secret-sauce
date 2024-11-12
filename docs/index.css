@@ -135,32 +135,32 @@ table {
 
 @font-face {
   font-family: 'PT_Root_UI';
-  src: url(0bce3076665566508666.woff2) format('woff2'),
-    url(54df1b192edf2e91a546.woff) format('woff');
+  src: url(fonts/bda7a6c7cac36b22a349.woff2) format('woff2'),
+    url(fonts/71b6bd99d93559d9961e.woff) format('woff');
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'PT_Root_UI';
-  src: url(5bc2b31914a4bb7b8de1.woff2) format('woff2'),
-    url(8de68b3f36592e26c908.woff) format('woff');
+  src: url(fonts/51b7ac2a32dbd9f9a8b4.woff2) format('woff2'),
+    url(fonts/c8b6805d45082a7a786f.woff) format('woff');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'PT_Root_UI';
-  src: url(dd167f0d4438cf0bd619.woff2) format('woff2'),
-    url(148e47414646ebc2122c.woff) format('woff');
+  src: url(fonts/942457a32664c9562464.woff2) format('woff2'),
+    url(fonts/dab54de622fa055f7799.woff) format('woff');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'PT_Root_UI';
-  src: url(16327b245df30c1eae90.woff2) format('woff2'),
-    url(a10cc33ac65952788349.woff) format('woff');
+  src: url(fonts/b951c0ef88c8e40c8a76.woff2) format('woff2'),
+    url(fonts/3028ce7836cd978b7d1f.woff) format('woff');
   font-weight: 700;
   font-style: normal;
 }
@@ -168,14 +168,14 @@ table {
 
 @font-face {
   font-family: 'coolvetica_rg';
-  src: url(fc81d116b9eef6cbdf18.woff2) format('woff2');
+  src: url(fonts/7838d1d1b17982780b8f.woff2) format('woff2');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'PT_Sans_Web_Regular';
-  src: url(ed5de3c10b712f972447.ttf) format('ttf');
+  src: url(fonts/983a32f60c185f37dab7.ttf) format('truetype');
   font-weight: 400;
   font-style: normal;
 }
@@ -1623,4 +1623,3 @@ body.main3{
     
 }
 h2{color:#292929;font-family:Coolvetica;font-size:32px;font-style:normal;font-weight:400;line-height:100%}p{color:#797979;font-family:"PT Sans Caption";font-size:15px;font-style:normal;font-weight:400;line-height:normal}img{width:15%}.div3{display:flex;width:25vw;height:40vh;padding:2vw 4vh;flex-direction:column;align-items:flex-start;gap:2vw;flex-shrink:0;border-radius:23.32px;background:radial-gradient(52.55% 52.6% at 47.58% 47.4%, rgba(255, 217, 40, 0.2) 0%, rgba(247, 137, 65, 0.2) 25.5%, rgba(174, 146, 255, 0.2) 100%);}.div3 h2{color:#292929;font-family:Coolvetica;font-size:32px;font-style:normal;font-weight:400;line-height:100%}.div3 p{color:#797979;font-family:"PT Sans Caption";font-size:15px;font-style:normal;font-weight:400;line-height:normal}.div3 img{width:15%}.footer{display:flex;justify-content:center;width:100vw;height:80vh;margin-top:20vh;align-items:center;}.footer .telegram{width:25vw;height:10vh;display:inline-flex;padding:.5vw 1vh;justify-content:center;align-items:center;gap:1vw;border-radius:16px;background:#6A35FF;background:var(--6-a-35-ff, #6A35FF);box-shadow:0px 0px 26.4px 1px rgba(255, 255, 255, 0.87),8px -7px 20px 0px rgba(255, 255, 255, 0.25) inset,-6px 6px 20px 0px rgba(255, 255, 255, 0.25) inset;}.footer .telegram h3{color:#fff;font-family:Coolvetica;font-size:20px;font-style:normal;font-weight:400;line-height:100%}.footer .telegram img{width:20%}.footer .gradient{z-index:-1;position:absolute;width:432px;height:382px;flex-shrink:0;border-radius:406px;background:radial-gradient(53.01% 52.98% at 50% 50.33%, rgba(203, 185, 255, 0.8) 1%, rgba(251, 244, 72, 0.8) 41.5%, rgba(255, 121, 59, 0.8) 68%, rgba(203, 185, 255, 0.8) 97%);filter:blur(77px)}
-
