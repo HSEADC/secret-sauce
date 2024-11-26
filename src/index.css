@@ -3,9 +3,9 @@
 @import 'stylesheets/fonts.scss';
 @import 'stylesheets/basics.scss';
 @import 'stylesheets/index.scss';
-@import 'stylesheets/adaptive.scss';
 @import 'stylesheets/about.scss';
 @import 'stylesheets/article.scss';
+@import 'stylesheets/adaptive.scss';
 
 h2{
     color: #292929;
