@@ -342,18 +342,7 @@ body.index {
           margin-top: 0;
          }
 
-        p{
-          color: var(--9672-ff, #9672FF);
-          text-align: left;
-          margin-top: 0vw;
-          margin-left: 1vw;
-          
-          font-size: 30px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 115%; /* 34.5px */
-          text-transform: lowercase;
-        }
+        
 
 
       }
