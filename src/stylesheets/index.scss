@@ -1,12 +1,15 @@
 html, body{
   cursor: url("../images/cursor.png"), default;
 }
+
+
 body.index {
   display: flex;
   justify-content: center;
   align-items: center;
   background: #F0EBFF;
   font-family: "PragmaticaBook";
+  overflow: hidden;
 
   .main{
     width: 99%;
@@ -82,109 +85,80 @@ body.index {
           object-fit: cover;
         }
 
-
-
-  }
-
-  .menu{
-    position: absolute;
-    display: flex;
-    width: 95%;
-    margin-top: 80vh;
-    align-items: center;
-    font-family: "PragmaticaBook";
-    justify-content: space-between;
-
-    img{
-      width: 5vw;
-    }
-
-    a {
-      text-decoration: none;
-      color: #FFF;
-    }
-
-
-
-
-    .form{
-      height: 95%;
-      width: 75%;
-      flex-shrink: 0;
-      border-radius: 20px;
-      background: #EAE3FF;
-      justify-content: space-between;
-      display: flex;
-      align-items: center;
-
-      p{
-        color: var(--9672-ff, #9672FF);
-        font-family: "PragmaticaBook";
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 80%;
-        text-transform: lowercase;
-        margin-left: 1vw;
-        margin-top: 0;
-      }
-
-
-
-      .form1{
-        height: 90%;
-        width: 60%;
-        outline: none;
-
-        .input{
-          stroke-width: 0;
-          background: #FCFAFF;
-
-        }
-
-        input{
-          border-radius: 1vw;
-          
-          font-size: 30px;
-          font-style: normal;
-          font-weight: 400;
-          font-family: "PragmaticaBook";
-          line-height: 115%; /* 34.5px */
-          width: 70%;
-          height: 100%;
-          padding: 0 20px;
-          margin: 0;
-          box-sizing: border-box;
-          stroke-width: 0;
-          border: none;
-
-          &::placeholder {
-            color: #B59BFF;
+        .form1{
+          height: 90%;
+          width: 60%;
+          outline: none;
+          position: absolute;
+          margin-top: 65%;
+          margin-left: 36%;
+  
+          .input{
+            stroke-width: 0;
+            background: #FCFAFF;
+  
           }
+  
+          input{
+            border-radius: 1vw;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 400;
+            font-family: "PragmaticaBook";
+            line-height: 115%; /* 34.5px */
+            width: 30%;
+            height: 5vh;
+            padding: 0 20px;
+            margin: 0;
+            box-sizing: border-box;
+            stroke-width: 0;
+            border: none;
+  
+            &::placeholder {
+              color: #B59BFF;
+            }
+          }
+ 
+          button{
+            border-radius: 1vw;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 400;
+            background: var(--6-a-35-ff, #6A35FF);
+            color: #FFF;
+            border: none;
+            width: 10%;
+            height: 5vh;
+  
+          }
+  
         }
 
+        .menu{
+          position: absolute;
+          display: flex;
+          width: 65%;
+          margin-top: 80vh;
+          align-items: center;
+          font-family: "PragmaticaBook";
+          justify-content: space-between;
+      
+          img{
+            width: 6vw;
+          }
+      
+          a {
+            text-decoration: none;
+            color: #FFF;
+          }
+      
+            
+          }
 
-
-
-
-        button{
-          border-radius: 1vw;
           
-          font-size: 30px;
-          font-style: normal;
-          font-weight: 400;
-          background: var(--6-a-35-ff, #6A35FF);
-          color: #FFF;
-          border: none;
-          width: 28%;
-          height: 100%;
 
-
-        }
-
-
-
-      }
-    }
   }
-}
+
+  
+  }
+
