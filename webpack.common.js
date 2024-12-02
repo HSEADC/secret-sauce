@@ -84,10 +84,7 @@ module.exports = {
       template: './src/articles.html',
       filename: './articles.html'
     }),
-    new HtmlWebpackPlugin({
-      template: './src/categories.html',
-      filename: './categories.html'
-    }),
+    
     new HtmlWebpackPlugin({
       template: './src/about.html',
       filename: './about.html'
