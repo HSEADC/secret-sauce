@@ -107,28 +107,9 @@ module.exports = {
       template: './src/articles/article-1.html',
       filename: './articles/article-1.html'
     }),
-    new HtmlWebpackPlugin({
-      template: './src/articles/article-2.html',
-      filename: './articles/article-2.html'
-    }),
+  
 
-    // публикации в разделе "категории" (categories)
-    new HtmlWebpackPlugin({
-      template: './src/categories/fashion.html',
-      filename: './categories/fashion.html'
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/categories/food.html',
-      filename: './categories/food.html'
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/categories/merch.html',
-      filename: './categories/merch.html'
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/categories/photography.html',
-      filename: './categories/photography.html'
-    }),
+    
 
 
 
