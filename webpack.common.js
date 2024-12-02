@@ -95,6 +95,16 @@ module.exports = {
       filename: './newsletter.html'
     }),
 
+    new HtmlWebpackPlugin({
+      template: './src/visualfood.html',
+      filename: './visualfood.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/styleguide.html',
+      filename: './styleguide.html'
+    }),
+
 
     // публикации в разделе "статьи" (articles)
     new HtmlWebpackPlugin({
