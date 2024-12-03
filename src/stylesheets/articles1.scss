@@ -4,14 +4,15 @@ body.main3{
     height: 420vh;
     background: #F0EBFF;
 
+
     h1{
       font-family: "PragmaticaBook";
     }
     .menu2{
-        position: absolute;
+        margin-top: 5vh;
         display: flex;
         width: 65%;
-        
+        align-self: center;
         align-items: center;
         font-family: "PragmaticaBook";
         justify-content: space-between;
