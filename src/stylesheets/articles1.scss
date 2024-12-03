@@ -9,35 +9,24 @@ body.main3{
     }
   
     .menu2{
-      position: absolute;
-      display: flex;
-      width: 30%;
-      height: 10%;
-      padding: 8px;
-      justify-content: center;
-      gap: 5px;
-      flex-shrink: 0;
-      margin-top: 1vh;
-      align-items: center;
-      align-self: center;
-  
-  
-  
-      .logoabout{
+        position: absolute;
         display: flex;
-        width: 40%;
-        height: 100%;
-        padding: 11.2px 16.8px;
-        justify-content: center;
+        width: 65%;
+        margin-top: -80vh;
         align-items: center;
-        gap: 7px;
-        border-radius: 14px;
-        background: var(--Linear, linear-gradient(90deg, #B59BFF 0%, #CDBBFF 100%));
+        font-family: "PragmaticaBook";
+        justify-content: space-between;
+        color: #292929;
   
         img{
-          width: 90%;
+            width: 6vw;
+          }
+      
+          a {
+            text-decoration: none;
+            color: #292929;
+          }
         }
-      }
   
       .tomain{
         display: flex;
@@ -67,7 +56,7 @@ body.main3{
   
   
   
-     }
+     
   
   
   
