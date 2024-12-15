@@ -1,4 +1,35 @@
-h1{
+h1,h2,h3,h4,p,h5{
   font-family: "NonBureau-Regular";
   }
+h1{
+  font-size: 100px;
+  color: #1C1500;
 
+}
+h2{
+  font-size: 64px;
+  color: #1C1500;
+}
+h3{
+  font-size: 40px;
+  color: #1C1500;
+}
+h4{
+  font-size: 24px;
+  color: #1C1500;
+}
+h5{
+  font-size: 24px;
+  color: #1C1500;
+}
+
+p{
+  font-size: 48px;
+  color: #1C1500;
+}
+
+body.S_block1{
+  background-image: url(../images/StyleGuideCover.webp);
+  width: 100%;
+
+}

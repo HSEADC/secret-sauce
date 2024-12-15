@@ -195,7 +195,7 @@ table {
 }
 
 @font-face { 
-  font-family: "PragmaticaBook";
+  font-family: "NonBureau-Regular";
   src: url(fonts/3d736a325e2d3fcdb3df.ttf) format("truetype");
   font-style: normal;
   font-weight: normal;
@@ -231,7 +231,7 @@ body.index {
   justify-content: center;
   align-items: center;
   background: #F0EBFF;
-  font-family: "PragmaticaBook";
+  font-family: "NonBureau-Regular";
   overflow: hidden;
 
   .main{
@@ -278,7 +278,7 @@ body.index {
         p{
           color: #FFF;
         text-align: center;
-        font-family: "PragmaticaBook";
+        font-family: "NonBureau-Regular";
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
@@ -327,7 +327,7 @@ body.index {
             font-size: 1rem;
             font-style: normal;
             font-weight: 400;
-            font-family: "PragmaticaBook";
+            font-family: "NonBureau-Regular";
             line-height: 115%; /* 34.5px */
             width: 30%;
             height: 5vh;
@@ -363,7 +363,7 @@ body.index {
           width: 65%;
           margin-top: 80vh;
           align-items: center;
-          font-family: "PragmaticaBook";
+          font-family: "NonBureau-Regular";
           justify-content: space-between;
       
           img{
@@ -452,7 +452,7 @@ body.main2 {
       width: 47vw;
       color: #3C3B3B;
       text-align: center;
-      font-family: "PragmaticaMedium";
+      
       font-size: 55px;
       font-style: normal;
       font-weight: 400;
@@ -466,7 +466,7 @@ body.main2 {
       width: 65%;
       margin-top: -80vh;
       align-items: center;
-      font-family: "PragmaticaBook";
+      font-family: "NonBureau-Regular";
       justify-content: space-between;
       color: #292929;
   
@@ -491,7 +491,7 @@ body.main2 {
               width: 47vw;
               color: #3C3B3B;
               text-align: center;
-              font-family: "PragmaticaMedium";
+              
               font-size: 55px;
               font-style: normal;
               font-weight: 400;
@@ -537,7 +537,7 @@ body.main2 {
   
           p{
             color: #797979;
-            font-family: "PragmaticaBook";
+            font-family: "NonBureau-Regular";
             font-size: 15px;
             font-style: normal;
             font-weight: 400;
@@ -569,7 +569,7 @@ body.main2 {
           }
           p{
             color: #797979;
-            font-family: "PragmaticaBook";
+            font-family: "NonBureau-Regular";
             font-size: 15px;
             font-style: normal;
             font-weight: 400;
@@ -608,7 +608,7 @@ body.main2 {
           }
           p{
             color: #797979;
-            font-family: "PragmaticaBook";
+            font-family: "NonBureau-Regular";
             font-size: 15px;
             font-style: normal;
             font-weight: 400;
@@ -706,13 +706,7 @@ body.main2 {
   }
 
 h1{
-    font-family: "PragmaticaBook";
-  }
-h1{
-    font-family: "PragmaticaBook";
-  }
-h1{
-    font-family: "PragmaticaBook";
+  font-family: "NonBureau-Regular";
   }
 body.main3{
     display: flex;
@@ -722,7 +716,7 @@ body.main3{
 
 
     h1{
-      font-family: "PragmaticaBook";
+      font-family: "NonBureau-Regular";
     }
     .menu2{
         margin-top: 5vh;
@@ -730,7 +724,7 @@ body.main3{
         width: 65%;
         align-self: center;
         align-items: center;
-        font-family: "PragmaticaBook";
+        font-family: "NonBureau-Regular";
         justify-content: space-between;
         color: #292929;
 
@@ -792,7 +786,7 @@ body.main3{
        }
        p{
         color: var(--black-black-text, #151515);
-        font-family: "PragmaticaBook";
+        font-family: "NonBureau-Regular";
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
@@ -814,7 +808,7 @@ body.main3{
         border-radius: 24px;
         background:  #FFF;
         color: var(--black-black-text, #151515);
-        font-family: "PragmaticaBook";
+        font-family: "NonBureau-Regular";
         font-size: 1.3vw;
         font-style: normal;
         font-weight: 400;
@@ -837,7 +831,7 @@ body.main3{
     }
     p{
       color: var(--black-black-text, #151515);
-      font-family: "PragmaticaBook";
+      font-family: "NonBureau-Regular";
       font-size: 1vw;
       font-style: normal;
       font-weight: 400;
@@ -1358,7 +1352,7 @@ body.main3{
       
            h1{
             color: var(--black-black-text, #151515);
-            font-family: "PragmaticaMedium";
+            font-family: "NonBureau-Regular";
             font-size: 8vw;
             font-style: normal;
             font-weight: 400;
@@ -1414,7 +1408,7 @@ body.main3{
       
         h1{
           color: var(--black-black-text, #151515);
-          font-family: "PragmaticaMedium";
+          font-family: "NonBureau-Regular";
           font-size: 7vw;
           font-style: normal;
           font-weight: 400;
