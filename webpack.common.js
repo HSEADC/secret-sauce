@@ -84,21 +84,25 @@ module.exports = {
       template: './src/articles.html',
       filename: './articles.html'
     }),
-    new HtmlWebpackPlugin({
-      template: './src/categories.html',
-      filename: './categories.html'
-    }),
+    
     new HtmlWebpackPlugin({
       template: './src/about.html',
       filename: './about.html'
     }),
-    new HtmlWebpackPlugin({
-      template: './src/lets-collaborate.html',
-      filename: './lets-collaborate.html'
-    }),
+    
     new HtmlWebpackPlugin({
       template: './src/newsletter.html',
       filename: './newsletter.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/visualfood.html',
+      filename: './visualfood.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/styleguide.html',
+      filename: './styleguide.html'
     }),
 
 
@@ -107,28 +111,9 @@ module.exports = {
       template: './src/articles/article-1.html',
       filename: './articles/article-1.html'
     }),
-    new HtmlWebpackPlugin({
-      template: './src/articles/article-2.html',
-      filename: './articles/article-2.html'
-    }),
+  
 
-    // публикации в разделе "категории" (categories)
-    new HtmlWebpackPlugin({
-      template: './src/categories/fashion.html',
-      filename: './categories/fashion.html'
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/categories/food.html',
-      filename: './categories/food.html'
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/categories/merch.html',
-      filename: './categories/merch.html'
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/categories/photography.html',
-      filename: './categories/photography.html'
-    }),
+    
 
 
 
