@@ -99,11 +99,10 @@ body.styleguide{
     margin-left: 6vh;
     padding-left: 0.5vw;
     position: sticky;
-    top: 4.762vw;
     width: 13vw;
     background: rgba(255, 196, 4, 0.10);
     border-radius: 2vw;
-    margin-top: 15vh;
+    margin-top: 20vh;
 
 
     a{
@@ -169,13 +168,37 @@ body.styleguide{
       gap: 8vh;
       margin-top: 5vh;
 
-      .secblock4{
+      .c_div{
         display: flex;
-        gap: 2vh;
-        p{
-          width: 25vw;
+        flex-direction: column;
+        gap: 8vh;
+
+        .secblock4{
+          display: flex;
+          gap: 2vh;
+
+          p{
+            width: 25vw;
+          }
+        }
+
+        img{
+          
+          width: 60%;
         }
       }
+
+      .c_div1{
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+
+        img{
+          width: 60%;
+        }
+      }
+
+      
     }
 
 
