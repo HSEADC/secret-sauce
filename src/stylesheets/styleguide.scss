@@ -175,7 +175,7 @@ body.styleguide{
 
         .secblock4{
           display: flex;
-          gap: 2vh;
+          gap: 7vh;
 
           p{
             width: 25vw;
@@ -184,7 +184,7 @@ body.styleguide{
 
         img{
           
-          width: 60%;
+          width: 70%;
         }
       }
 
@@ -193,8 +193,17 @@ body.styleguide{
         flex-direction: column;
         gap: 5vh;
 
+        .secblock4{
+          display: flex;
+          gap: 7vh;
+
+          p{
+            width: 25vw;
+          }
+        }
+
         img{
-          width: 60%;
+          width: 70%;
         }
       }
 
