@@ -1,7 +1,3 @@
-html {
-  scroll-behavior: smooth;
-}
-
 h1,
 h2,
 h3,
@@ -44,7 +40,7 @@ body.styleguide {
   .S_block1 {
     background-image: url(../images/StyleGuideCover.webp);
     width: 100%;
-    height: 98vh;
+    height: 51vw;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 0% 0% 5% 5%;
@@ -53,45 +49,42 @@ body.styleguide {
 
     .brand {
       position: absolute;
-      margin-top: 60vh;
-      margin-left: -60vw;
+      margin-top: 30vw;
+      margin-left: -50vw;
     }
     .brand2 {
       position: absolute;
-      margin-top: 73vh;
-      margin-left: -30vw;
+      margin-top: 37vw;
+      margin-left: 1vw;
     }
   }
 
   .S_block2 {
-    margin-top: 15vh;
-    margin-left: 6vh;
+    margin-top: 15vw;
+    margin-left: 6vw;
     width: 43vw;
   }
 
   .blocks {
     display: flex;
 
-    margin-top: 10vh;
-    gap: 10vh;
-
-    & > div {
-      padding-left: 25vw;
-    }
+    margin-top: 10vw;
+    gap: 10vw;
 
     .allblocks {
+      padding-left: 5vw;
       .S_block3 {
         display: flex;
         flex-direction: column;
         width: 100vw;
-        gap: 8vh;
+        gap: 8vw;
 
         .secblockmain {
           display: flex;
-          gap: 2vh;
+          gap: 2vw;
 
           .secblock {
-            gap: 1vh;
+            gap: 1vw;
             display: flex;
             flex-direction: column;
 
@@ -109,44 +102,71 @@ body.styleguide {
         flex-direction: column;
 
         width: 100vw;
-        gap: 8vh;
-        margin-top: 5vh;
+        gap: 8vw;
+        margin-top: 5vw;
 
         .c_div {
           display: flex;
           flex-direction: column;
-          gap: 8vh;
+          gap: 8vw;
+
+          img {
+            width: 60%;
+          }
 
           .secblock4 {
             display: flex;
-            gap: 7vh;
+            gap: 7vw;
 
             p {
               width: 25vw;
             }
           }
 
-          img {
-            width: 70%;
+          .imgblock2 {
+            display: flex;
+            gap: 0.5vw;
+            img {
+              width: 30%;
+            }
           }
         }
 
         .c_div1 {
           display: flex;
           flex-direction: column;
-          gap: 5vh;
+          gap: 5vw;
 
           .secblock4 {
             display: flex;
-            gap: 7vh;
+            gap: 7vw;
 
             p {
               width: 25vw;
             }
           }
 
-          img {
-            width: 70%;
+          .imgblock1 {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5vw;
+
+            .imgb1,
+            .imgb2 {
+              display: flex;
+              gap: 0.5vw;
+
+              img {
+                width: 30%;
+              }
+            }
+          }
+          .imgblock2 {
+            display: flex;
+            gap: 0.5vw;
+            img {
+              width: 30%;
+            }
           }
         }
       }
@@ -157,10 +177,9 @@ body.styleguide {
       flex-direction: column;
       justify-content: center;
       font-size: 1.5vw;
-      gap: 1vh;
-      height: 58vh;
-
-      padding-left: 0.5vw;
+      gap: 0.5vw;
+      height: 37vw;
+      padding: 0.5vw 0.5vw;
       position: sticky;
       top: 4vw;
       left: 4vw;
@@ -170,13 +189,13 @@ body.styleguide {
 
       a {
         width: 12vw;
-        height: 6vh;
+        height: 4vw;
         text-decoration: none;
         color: #1c1500;
         border-radius: 1vw;
         background: #fff;
         display: flex;
-        padding: 1.5vh 1.5vw;
+        padding: 1.5vw 1.5vw;
         align-items: center;
         gap: 5vw;
         align-self: stretch;
