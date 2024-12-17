@@ -7,7 +7,6 @@
 @import 'stylesheets/article.scss';
 @import 'stylesheets/newsletter.scss';
 @import 'stylesheets/styleguide.scss';
-@import 'stylesheets/visualfood.scss';
 @import 'stylesheets/articles1.scss';
 @import 'stylesheets/components/atoms.scss';
 @import 'stylesheets/components/moleculs.scss';
@@ -15,17 +14,11 @@
 @import 'stylesheets/components/wrappers.scss';
 @import 'stylesheets/adaptive.scss';
 
+img {
+  width: 15%;
+}
 
-
-  img{
-    width: 15%;
-  }
-
-
-
-
-.div3{
-
+.div3 {
   display: flex;
   width: 25vw;
   height: 40vh;
@@ -35,18 +28,14 @@
   gap: 2vw;
   flex-shrink: 0;
   border-radius: 23.32px;
-  background: radial-gradient(52.55% 52.6% at 47.58% 47.4%, rgba(255, 217, 40, 0.20) 0%, rgba(247, 137, 65, 0.20) 25.5%, rgba(174, 146, 255, 0.20) 100%);
+  background: radial-gradient(
+    52.55% 52.6% at 47.58% 47.4%,
+    rgba(255, 217, 40, 0.2) 0%,
+    rgba(247, 137, 65, 0.2) 25.5%,
+    rgba(174, 146, 255, 0.2) 100%
+  );
 
-
-  
-
-  img{
+  img {
     width: 15%;
   }
-
-
 }
-
-
-
-
