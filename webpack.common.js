@@ -8,7 +8,6 @@ const path = require('path');
 module.exports = {
   entry: {
     index: './src/index.js',
-    styleguide: './src/javascripts/styleguide.js',
   },
   output: {
     filename: '[name].js',
