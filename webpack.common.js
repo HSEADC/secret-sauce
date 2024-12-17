@@ -1,18 +1,19 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin')
-const HtmlWebpackPartialsPlugin = require('html-webpack-partials-plugin')
-const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPartialsPlugin = require('html-webpack-partials-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
-const webpack = require('webpack')
-const path = require('path')
+const webpack = require('webpack');
+const path = require('path');
 
 module.exports = {
   entry: {
-    index: './src/index.js'
+    index: './src/index.js',
+    styleguide: './src/javascripts/styleguide.js',
   },
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, 'docs'),
-    clean: true
+    clean: true,
   },
   module: {
     rules: [
@@ -23,9 +24,9 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             presets: ['@babel/preset-env', '@babel/preset-react'],
-            plugins: ['@babel/plugin-proposal-class-properties']
-          }
-        }
+            plugins: ['@babel/plugin-proposal-class-properties'],
+          },
+        },
       },
       {
         test: /\.(sa|sc|c)ss$/i,
@@ -36,86 +37,82 @@ module.exports = {
             loader: 'postcss-loader',
             options: {
               postcssOptions: {
-                plugins: [['postcss-preset-env']]
-              }
-            }
+                plugins: [['postcss-preset-env']],
+              },
+            },
           },
-          'sass-loader'
-        ]
+          'sass-loader',
+        ],
       },
       {
         test: /\.html$/i,
-        loader: 'html-loader'
+        loader: 'html-loader',
       },
       {
         resourceQuery: /raw/,
-        type: 'asset/source'
+        type: 'asset/source',
       },
       {
         test: /\.(png|jpg|jpeg|gif|svg|webp)$/i,
         type: 'asset/resource',
         generator: {
-          filename: 'images/[hash][ext][query]'
-        }
+          filename: 'images/[hash][ext][query]',
+        },
       },
       {
         test: /\.(ttf|otf|woff|woff2)$/i,
         type: 'asset/resource',
         generator: {
-          filename: 'fonts/[hash][ext][query]'
-        }
-      }
-    ]
+          filename: 'fonts/[hash][ext][query]',
+        },
+      },
+    ],
   },
   plugins: [
     new MiniCssExtractPlugin({
       filename: '[name].css',
-      chunkFilename: '[id].css'
+      chunkFilename: '[id].css',
     }),
 
     // index
     new HtmlWebpackPlugin({
       template: './src/index.html',
-      filename: './index.html'
+      filename: './index.html',
     }),
 
     // все страницы разделов
     new HtmlWebpackPlugin({
       template: './src/articles.html',
-      filename: './articles.html'
+      filename: './articles.html',
     }),
-    
+
     new HtmlWebpackPlugin({
       template: './src/about.html',
-      filename: './about.html'
+      filename: './about.html',
     }),
-    
+
     new HtmlWebpackPlugin({
       template: './src/newsletter.html',
-      filename: './newsletter.html'
+      filename: './newsletter.html',
     }),
 
     new HtmlWebpackPlugin({
       template: './src/visualfood.html',
-      filename: './visualfood.html'
+      filename: './visualfood.html',
     }),
 
     new HtmlWebpackPlugin({
       template: './src/styleguide.html',
-      filename: './styleguide.html'
+      filename: './styleguide.html',
+      chunks: ['index', 'styleguide'],
     }),
-
 
     // публикации в разделе "статьи" (articles)
     new HtmlWebpackPlugin({
       template: './src/articles/article-1.html',
-      filename: './articles/article-1.html'
+      filename: './articles/article-1.html',
+      chunks: ['index'],
     }),
-  
-
-    
-
-
 
     // Internal pages
     // new HtmlWebpackPlugin({
@@ -132,9 +129,8 @@ module.exports = {
         path: path.join(__dirname, './src/partials/analytics.html'),
         location: 'analytics',
         template_filename: '*',
-        priority: 'replace'
-      }
-    ])
+        priority: 'replace',
+      },
+    ]),
   ],
-
-}
+};

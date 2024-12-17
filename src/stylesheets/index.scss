@@ -1,5 +1,5 @@
-html, body{
-  cursor: url("../images/cursor.webp"), default;
+html{
+  scroll-behavior: smooth;
 }
 
 
@@ -8,7 +8,7 @@ body.index {
   justify-content: center;
   align-items: center;
   background: #F0EBFF;
-  font-family: "PragmaticaBook";
+  font-family: "NonBureau-Regular";
   overflow: hidden;
 
   .main{
@@ -17,27 +17,28 @@ body.index {
     border-radius: 20px;
     background: radial-gradient(70.1% 70.1% at 50% 47.98%, #AC90FD 0%, #6A35FF 100%);
     display: flex;
-    justify-content: center;
+    
     align-items: center;
+    flex-direction: column;
 
     .gif{
       position: absolute;
       border-radius: 2vw;
       margin-left: 70vw;
-      margin-top: -20vh;
+      margin-top: 30vh;
     }
     .gif1{
       position: absolute;
       border-radius: 2vw;
       margin-right: 70vw;
-      margin-top: -20vh;
+      margin-top: 30vh;
     }
 
     .text{
       display: flex;
       width: 548px;
       flex-direction: column;
-      margin-top: -20vh;
+      margin-top: 10vh;
     }
 
 
@@ -55,7 +56,7 @@ body.index {
         p{
           color: #FFF;
         text-align: center;
-        font-family: "PragmaticaBook";
+        font-family: "NonBureau-Regular";
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
@@ -63,14 +64,7 @@ body.index {
         margin-top: 5vh;
         }
 
-        .cursor-trail {
-          position: fixed;
-          top: 0;
-          left: 0;
-          width: 100vw;
-          height: 100vh;
-          z-index: 99;
-        }
+        
 
         .item {
           position: absolute;
@@ -104,7 +98,7 @@ body.index {
             font-size: 1rem;
             font-style: normal;
             font-weight: 400;
-            font-family: "PragmaticaBook";
+            font-family: "NonBureau-Regular";
             line-height: 115%; /* 34.5px */
             width: 30%;
             height: 5vh;
@@ -134,26 +128,7 @@ body.index {
   
         }
 
-        .menu{
-          position: absolute;
-          display: flex;
-          width: 65%;
-          margin-top: 80vh;
-          align-items: center;
-          font-family: "PragmaticaBook";
-          justify-content: space-between;
-      
-          img{
-            width: 6vw;
-          }
-      
-          a {
-            text-decoration: none;
-            color: #FFF;
-          }
-      
-            
-          }
+        
 
           
 

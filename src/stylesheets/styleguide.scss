@@ -1,3 +1,193 @@
-h1{
-    font-family: "PragmaticaBook";
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+h5,
+a {
+  font-family: 'NonBureau-Regular';
+}
+h1 {
+  font-size: 8vw;
+  color: #1c1500;
+}
+h2 {
+  font-size: 4vw;
+  color: #1c1500;
+}
+h3 {
+  font-size: 2.5vw;
+  color: #1c1500;
+}
+h4 {
+  font-size: 1.8vw;
+  color: #1c1500;
+}
+h5 {
+  font-size: 3vw;
+  color: #1c1500;
+}
+
+p {
+  font-size: 1.3vw;
+  color: rgba(28, 21, 0, 0.6);
+}
+
+body.styleguide {
+  overflow-x: hidden;
+  color: #fffdf7;
+
+  .S_block1 {
+    background-image: url(../images/StyleGuideCover.webp);
+    width: 100%;
+    height: 98vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0% 0% 5% 5%;
+    display: flex;
+    justify-content: center;
+
+    .brand {
+      position: absolute;
+      margin-top: 60vh;
+      margin-left: -60vw;
+    }
+    .brand2 {
+      position: absolute;
+      margin-top: 73vh;
+      margin-left: -30vw;
+    }
   }
+
+  .S_block2 {
+    margin-top: 15vh;
+    margin-left: 6vh;
+    width: 43vw;
+  }
+
+  .blocks {
+    display: flex;
+
+    margin-top: 10vh;
+    gap: 10vh;
+
+    & > div {
+      padding-left: 25vw;
+    }
+
+    .allblocks {
+      .S_block3 {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        gap: 8vh;
+
+        .secblockmain {
+          display: flex;
+          gap: 2vh;
+
+          .secblock {
+            gap: 1vh;
+            display: flex;
+            flex-direction: column;
+
+            p {
+              width: 25vw;
+            }
+          }
+        }
+      }
+
+      .S_block4 {
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        flex-direction: column;
+
+        width: 100vw;
+        gap: 8vh;
+        margin-top: 5vh;
+
+        .c_div {
+          display: flex;
+          flex-direction: column;
+          gap: 8vh;
+
+          .secblock4 {
+            display: flex;
+            gap: 7vh;
+
+            p {
+              width: 25vw;
+            }
+          }
+
+          img {
+            width: 70%;
+          }
+        }
+
+        .c_div1 {
+          display: flex;
+          flex-direction: column;
+          gap: 5vh;
+
+          .secblock4 {
+            display: flex;
+            gap: 7vh;
+
+            p {
+              width: 25vw;
+            }
+          }
+
+          img {
+            width: 70%;
+          }
+        }
+      }
+    }
+
+    div.menuleft {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-size: 1.5vw;
+      gap: 1vh;
+      height: 58vh;
+
+      padding-left: 0.5vw;
+      position: sticky;
+      top: 4vw;
+      left: 4vw;
+      width: 13vw;
+      background: rgba(255, 196, 4, 0.1);
+      border-radius: 2vw;
+
+      a {
+        width: 12vw;
+        height: 6vh;
+        text-decoration: none;
+        color: #1c1500;
+        border-radius: 1vw;
+        background: #fff;
+        display: flex;
+        padding: 1.5vh 1.5vw;
+        align-items: center;
+        gap: 5vw;
+        align-self: stretch;
+      }
+
+      a:hover {
+        background: #ffc403;
+        box-shadow: -8px -8px 20px 0px rgba(255, 255, 255, 0.4) inset,
+          8px 8px 20px 0px rgba(255, 255, 255, 0.4) inset;
+        color: #f2f2f2;
+      }
+    }
+  }
+}
