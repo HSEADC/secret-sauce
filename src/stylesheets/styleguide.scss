@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 h1,
 h2,
 h3,
@@ -76,7 +80,7 @@ body.styleguide {
       .S_block3 {
         display: flex;
         flex-direction: column;
-        width: 100vw;
+
         gap: 8vw;
 
         .secblockmain {
@@ -101,7 +105,6 @@ body.styleguide {
         display: flex;
         flex-direction: column;
 
-        width: 100vw;
         gap: 8vw;
         margin-top: 5vw;
 
