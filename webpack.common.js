@@ -104,7 +104,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/styleguide.html',
       filename: './styleguide.html',
-      chunks: ['index', 'styleguide'],
+      chunks: ['index'],
     }),
 
     // публикации в разделе "статьи" (articles)
