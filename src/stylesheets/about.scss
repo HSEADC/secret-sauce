@@ -13,11 +13,12 @@ body.main2 {
       margin-right: 0.5vw;
       margin-top: 0.5vw;
       width: 99vw;
-    height: 98vh;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+      height: 98vh;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      
   
   
   
@@ -72,27 +73,7 @@ body.main2 {
      }
     }
   
-    .menu{
-      position: absolute;
-      display: flex;
-      width: 65%;
-      margin-top: -80vh;
-      align-items: center;
-      font-family: "NonBureau-Regular";
-      justify-content: space-between;
-      color: #292929;
-  
-      img{
-        width: 6vw;
-      }
-  
-      a {
-        text-decoration: none;
-        color: #292929;
-      }
-  
-        
-      }
+    
   
      .second{
       display: flex;
