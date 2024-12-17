@@ -872,9 +872,6 @@ body.styleguide {
   }
 }
 
-h1{
-    font-family: "NonBureau-Regular";
-  }
 body.main3{
     display: flex;
     flex-direction: column;
