@@ -97,11 +97,6 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
-      template: './src/visualfood.html',
-      filename: './visualfood.html',
-    }),
-
-    new HtmlWebpackPlugin({
       template: './src/styleguide.html',
       filename: './styleguide.html',
       chunks: ['index'],
