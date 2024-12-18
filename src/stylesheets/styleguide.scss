@@ -2,44 +2,44 @@ html {
   scroll-behavior: smooth;
 }
 
-h1,
-h2,
-h3,
-h4,
-p,
-h5,
-a {
-  font-family: 'NonBureau-Regular';
-}
-h1 {
-  font-size: 8vw;
-  color: #1c1500;
-}
-h2 {
-  font-size: 4vw;
-  color: #1c1500;
-}
-h3 {
-  font-size: 2.5vw;
-  color: #1c1500;
-}
-h4 {
-  font-size: 1.8vw;
-  color: #1c1500;
-}
-h5 {
-  font-size: 3vw;
-  color: #1c1500;
-}
-
-p {
-  font-size: 1.3vw;
-  color: rgba(28, 21, 0, 0.6);
-}
-
 body.styleguide {
   overflow-x: hidden;
   color: #fffdf7;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  h5,
+  a {
+    font-family: 'NonBureau-Regular';
+  }
+  h1 {
+    font-size: 8vw;
+    color: #1c1500;
+  }
+  h2 {
+    font-size: 4vw;
+    color: #1c1500;
+  }
+  h3 {
+    font-size: 2.5vw;
+    color: #1c1500;
+  }
+  h4 {
+    font-size: 1.8vw;
+    color: #1c1500;
+  }
+  h5 {
+    font-size: 3vw;
+    color: #1c1500;
+  }
+
+  p {
+    font-size: 1.3vw;
+    color: rgba(28, 21, 0, 0.6);
+  }
 
   .S_block1 {
     background-image: url(../images/StyleGuideCover.webp);
@@ -114,7 +114,7 @@ body.styleguide {
           gap: 8vw;
 
           img {
-            width: 60%;
+            width: 80%;
           }
 
           .secblock4 {
@@ -130,7 +130,7 @@ body.styleguide {
             display: flex;
             gap: 0.5vw;
             img {
-              width: 30%;
+              width: 40%;
             }
           }
         }
@@ -160,7 +160,7 @@ body.styleguide {
               gap: 0.5vw;
 
               img {
-                width: 30%;
+                width: 40%;
               }
             }
           }
@@ -168,7 +168,7 @@ body.styleguide {
             display: flex;
             gap: 0.5vw;
             img {
-              width: 30%;
+              width: 40%;
             }
           }
         }

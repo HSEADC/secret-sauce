@@ -7,3 +7,34 @@ a.A_menu-point {
     color: rgba(28, 21, 0, 0.6);
   }
 }
+
+.A_sendbutton {
+  padding: 0;
+  background: #fdefa7;
+  width: 3vw;
+  height: 3vw;
+  border: none;
+  border-radius: 10vw;
+  padding-top: 0.3vw;
+
+  &:active {
+    filter: blur(0.1vw);
+  }
+}
+
+.O_contentform {
+  img {
+    width: 20%;
+  }
+}
+
+.M_formfooter {
+  .A_input {
+    border: none;
+    background: none;
+    font-family: 'NonBureau-Regular';
+    font-size: 1.3vw;
+    color: rgba(28, 21, 0, 0.6);
+    width: 10vw;
+  }
+}

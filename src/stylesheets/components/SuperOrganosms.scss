@@ -1,0 +1,14 @@
+.S_footer {
+  background-image: url(../../images/FooterBack.webp);
+  width: 98vw;
+  height: 50vw;
+  margin-top: 10vw;
+  border-radius: 5vw;
+  margin-left: 1vw;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8vw;
+}

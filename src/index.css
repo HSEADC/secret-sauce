@@ -13,4 +13,6 @@
 @import 'stylesheets/components/organisms.scss';
 @import 'stylesheets/components/wrappers.scss';
 @import 'stylesheets/components/responsive.scss';
+@import 'stylesheets/components/quarks.scss';
+@import 'stylesheets/components/SuperOrganosms.scss';
 @import 'stylesheets/adaptive.scss';

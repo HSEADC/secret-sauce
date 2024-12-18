@@ -1,0 +1,9 @@
+.A_sendbutton {
+  img {
+    width: 50%;
+
+    &:hover {
+      transform: rotate(-20deg);
+    }
+  }
+}

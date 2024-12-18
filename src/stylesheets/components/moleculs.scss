@@ -1,13 +1,27 @@
-.M_menu{
-    width: 20vw;
-    height: 5vh;
-    display: flex;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    padding: 16px, 16px;
-    gap: 10px;
-    border-radius: 1000px;
-    background: rgba(255, 255, 255, 0.50);
-    margin-top: 2vh;
+.M_menu {
+  width: 20vw;
+  height: 5vh;
+  display: flex;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px, 16px;
+  gap: 10px;
+  border-radius: 1000px;
+  background: rgba(255, 255, 255, 0.5);
+  margin-top: 2vh;
+}
+
+.M_formfooter {
+  width: 15vw;
+  background-color: #ffffff;
+  border-radius: 10vw;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5vw;
+}
+
+.M_menufooter {
+  display: flex;
+  gap: 2vw;
 }
