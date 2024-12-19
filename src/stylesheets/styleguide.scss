@@ -77,11 +77,15 @@ body.styleguide {
 
     .allblocks {
       padding-left: 5vw;
+      display: flex;
+      flex-direction: column;
+      gap: 10vw;
+
       .S_block3 {
         display: flex;
         flex-direction: column;
 
-        gap: 8vw;
+        gap: 3vw;
 
         .secblockmain {
           display: flex;
@@ -105,13 +109,12 @@ body.styleguide {
         display: flex;
         flex-direction: column;
 
-        gap: 8vw;
-        margin-top: 5vw;
+        gap: 3vw;
 
         .c_div {
           display: flex;
           flex-direction: column;
-          gap: 8vw;
+          gap: 3vw;
 
           img {
             width: 80%;
@@ -138,7 +141,7 @@ body.styleguide {
         .c_div1 {
           display: flex;
           flex-direction: column;
-          gap: 5vw;
+          gap: 3vw;
 
           .secblock4 {
             display: flex;
@@ -209,6 +212,126 @@ body.styleguide {
         box-shadow: -8px -8px 20px 0px rgba(255, 255, 255, 0.4) inset,
           8px 8px 20px 0px rgba(255, 255, 255, 0.4) inset;
         color: #f2f2f2;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  body.styleguide {
+    h1 {
+      font-size: 12vw;
+    }
+    h2 {
+      font-size: 8vw;
+    }
+    h3 {
+      font-size: 6vw;
+    }
+    h4 {
+      font-size: 4vw;
+    }
+    h5 {
+      font-size: 6vw;
+      margin-top: 26vw;
+    }
+
+    p {
+      font-size: 4vw;
+    }
+
+    .S_block1 {
+      background-image: url(../images/stylebackmobile.webp);
+      width: 100%;
+      height: 172vw;
+      border-radius: 0% 0% 5% 5%;
+
+      .brand2 {
+        position: absolute;
+        margin-top: 157vw;
+        margin-left: -9vw;
+      }
+      .brand {
+        position: absolute;
+        margin-top: 146vw;
+      }
+    }
+
+    .S_block2 {
+      width: 84vw;
+    }
+
+    .blocks {
+      div.menuleft {
+        display: none;
+      }
+
+      .allblocks {
+        margin-top: 16vw;
+        gap: 20vw;
+        .S_block3 {
+          .secblockmain {
+            flex-direction: column;
+            gap: 6vw;
+            .secblock {
+              gap: 2vw;
+              p {
+                width: 93vw;
+              }
+            }
+          }
+        }
+        .S_block4 {
+          gap: 10vw;
+          .c_div {
+            gap: 6vw;
+            img {
+              width: 95%;
+            }
+            .secblock4 {
+              flex-direction: column;
+              gap: 7vw;
+              p {
+                width: 93vw;
+              }
+            }
+            .imgblock2 {
+              flex-direction: column;
+              gap: 2vw;
+              img {
+                width: 95%;
+              }
+            }
+          }
+          .c_div1 {
+            gap: 6vw;
+            .secblock4 {
+              flex-direction: column;
+              p {
+                width: 93vw;
+              }
+            }
+            .imgblock1 {
+              gap: 2vw;
+              .imgb1,
+              .imgb2 {
+                flex-direction: column;
+                gap: 2vw;
+
+                img {
+                  width: 95%;
+                }
+              }
+            }
+            .imgblock2 {
+              flex-direction: column;
+              gap: 2vw;
+              img {
+                width: 95%;
+              }
+            }
+          }
+        }
       }
     }
   }
