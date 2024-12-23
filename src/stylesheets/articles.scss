@@ -1,0 +1,105 @@
+body.articles {
+  font-family: 'NonBureau-Regular';
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+
+  a {
+    text-decoration: none;
+  }
+
+  h1 {
+    font-size: 12vw;
+  }
+  h3 {
+    font-size: 40px;
+  }
+  h4 {
+    font-size: 24px;
+  }
+  h5 {
+    font-size: 6vw;
+    margin-top: 26vw;
+  }
+
+  p {
+    font-size: 18px;
+    color: rgba(28, 21, 0, 0.6);
+  }
+
+  .gradient {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#fdefa7, rgba(253, 239, 167, 0));
+    height: 10vw;
+  }
+  .A_block1 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+
+    .text {
+      gap: 2vw;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width: 30vw;
+      align-items: center;
+    }
+
+    .filters {
+      width: 48vw;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .filter {
+        max-width: 7em;
+        height: 4.5vw;
+        background: #1c1500;
+        border-radius: 10vw;
+        display: flex;
+        justify-content: center;
+        padding: 0.5vw;
+        color: #f2f2f2;
+        text-align: center;
+        font-family: 'NonBureau-Regular';
+        border: none;
+        font-size: 1.5vw;
+        align-items: center;
+        padding: 1.5vw;
+      }
+      .filter1,
+      .filter2 {
+        max-width: 21vw;
+        height: 4.5vw;
+        background: #f2f2f2;
+        border-radius: 10vw;
+        display: flex;
+        justify-content: center;
+        padding: 0.5vw;
+        color: #1c1500;
+        text-align: center;
+        font-family: 'NonBureau-Regular';
+        border: none;
+        font-size: 1.5vw;
+        align-items: center;
+        padding: 1.5vw;
+      }
+    }
+
+    .QR-code {
+      width: 10%;
+    }
+  }
+
+  .articlesblock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vw;
+    gap: 10vw;
+  }
+}

@@ -22,6 +22,20 @@ a.A_menu-point {
   }
 }
 
+.A_sendbutton2 {
+  padding: 0;
+  background: #fff;
+  width: 3vw;
+  height: 3vw;
+  border: none;
+  border-radius: 10vw;
+  padding-top: 0.3vw;
+
+  &:active {
+    filter: blur(0.1vw);
+  }
+}
+
 .O_contentform {
   img {
     width: 20%;
@@ -37,4 +51,24 @@ a.A_menu-point {
     color: rgba(28, 21, 0, 0.6);
     width: 10vw;
   }
+}
+
+.A_tags {
+  gap: 0.5vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.M_article-card {
+  img {
+    width: 100%;
+
+    &:hover {
+      box-shadow: 20px -7px 30px 0px rgba(255, 255, 255, 0.6) inset,
+        -6px 6px 20px 0px rgba(255, 255, 255, 0.6) inset;
+    }
+  }
+}
+.A_artbox {
+  display: flex;
 }

@@ -8,3 +8,53 @@
   gap: 2vw;
   margin-top: 10vw;
 }
+
+.O_lil-cards,
+.O_selected-cards {
+  display: flex;
+  gap: 1vw;
+}
+
+.O_article {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  gap: 1vw;
+
+  h4 {
+    color: rgba(28, 21, 0, 0.6);
+  }
+  .toparicle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .imgtext {
+      display: flex;
+      align-items: center;
+      gap: 0.5vw;
+
+      img {
+        width: 15%;
+      }
+    }
+  }
+  .img {
+    border-radius: 1vw;
+    transition: box-shadow 0.3s ease;
+    width: 50vw;
+    img {
+      width: 100%;
+    }
+  }
+
+  .img:hover {
+    box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5);
+  }
+
+  .bottomarticle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
