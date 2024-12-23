@@ -8,6 +8,7 @@ const path = require('path');
 module.exports = {
   entry: {
     index: './src/index.js',
+    swiper: './src/javascript/swiper.js',
   },
   output: {
     filename: '[name].js',
@@ -77,34 +78,39 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: './index.html',
+      chunks: ['index', 'swiper.js'],
     }),
 
     // все страницы разделов
     new HtmlWebpackPlugin({
       template: './src/articles.html',
       filename: './articles.html',
+      chunks: ['index'],
     }),
 
     new HtmlWebpackPlugin({
       template: './src/about.html',
       filename: './about.html',
+      chunks: ['index'],
     }),
 
     new HtmlWebpackPlugin({
       template: './src/newsletter.html',
       filename: './newsletter.html',
+      chunks: ['index'],
     }),
 
     new HtmlWebpackPlugin({
       template: './src/styleguide.html',
       filename: './styleguide.html',
       chunks: ['index'],
+      chunks: ['index'],
     }),
 
     // публикации в разделе "статьи" (articles)
     new HtmlWebpackPlugin({
-      template: './src/articles/article-1.html',
-      filename: './articles/article-1.html',
+      template: './src/articles/diesel.html',
+      filename: './articles/diesel.html',
       chunks: ['index'],
     }),
 

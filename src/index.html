@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <title>
       secret sauce — Медиа про визуал продуктов, которые ты покупаешь
     </title>
@@ -107,6 +113,7 @@
           <em class="color">Secret Sause</em>&nbsp;&mdash; медиа про визуал
           популярных продуктов
         </h2>
+
         <div class="promo-cards">
           <img src="./images/promo-cards/promo-card1.webp" alt="" />
           <img src="./images/promo-cards/promo-card2.webp" alt="" />
@@ -168,6 +175,7 @@
         <div class="O_lil-cards">
           <a href="">
             <div class="M_article-card">
+              <div class="shadow"></div>
               <img src="./images/cards/scard1.webp" alt="" />
               <h4>Skims&nbsp;&mdash; флагманский магазин (ч3)</h4>
               <div class="A_tags">
@@ -179,6 +187,7 @@
           </a>
           <a href="">
             <div class="M_article-card">
+              <div class="shadow"></div>
               <img src="./images/cards/scard1.webp" alt="" />
               <h4>Skims&nbsp;&mdash; флагманский магазин (ч3)</h4>
               <div class="A_tags">
@@ -190,6 +199,7 @@
           </a>
           <a href="">
             <div class="M_article-card">
+              <div class="shadow"></div>
               <img src="./images/cards/scard1.webp" alt="" />
               <h4>Skims&nbsp;&mdash; флагманский магазин (ч3)</h4>
               <div class="A_tags">
@@ -201,6 +211,7 @@
           </a>
           <a href="">
             <div class="M_article-card">
+              <div class="shadow"></div>
               <img src="./images/cards/scard1.webp" alt="" />
               <h4>Skims&nbsp;&mdash; флагманский магазин (ч3)</h4>
               <div class="A_tags">
@@ -214,6 +225,7 @@
         <div class="O_selected-cards">
           <a href="">
             <div class="M_selected-card">
+              <div class="shadow"></div>
               <img src="./images/cards/scard5.webp" alt="" />
               <div class="A_artbox">
                 <h4>Balencidada&nbsp;&mdash; бренд одежды как новый дадаизм</h4>
@@ -227,6 +239,7 @@
           </a>
           <a href="">
             <div class="M_selected-card">
+              <div class="shadow"></div>
               <img src="./images/cards/scard6.webp" alt="" />
               <div class="A_artbox">
                 <h4>Balencidada&nbsp;&mdash; бренд одежды как новый дадаизм</h4>
@@ -252,49 +265,86 @@
         </p>
       </div>
       <div class="slider">
-        <div class="slide">
-          <div class="avatars">
-            <img src="./images/allcollaborationcards/avatar-1.webp" alt="" />
-            <img src="./images/allcollaborationcards/avatar-2.webp" alt="" />
-            <img src="./images/allcollaborationcards/avatar-3.webp" alt="" />
-            <img src="./images/allcollaborationcards/avatar-4.webp" alt="" />
-            <img src="./images/allcollaborationcards/avatar.webp" alt="" />
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+              <div class="avatars">
+                <img
+                  src="./images/allcollaborationcards/avatar-1.webp"
+                  alt=""
+                />
+                <img
+                  src="./images/allcollaborationcards/avatar-2.webp"
+                  alt=""
+                />
+                <img
+                  src="./images/allcollaborationcards/avatar-3.webp"
+                  alt=""
+                />
+                <img
+                  src="./images/allcollaborationcards/avatar-4.webp"
+                  alt=""
+                />
+                <img src="./images/allcollaborationcards/avatar.webp" alt="" />
+              </div>
+              <div class="collabcard">
+                <img src="./images/allcollaborationcards/collab1.webp" alt="" />
+                <p>
+                  XOXO x&nbsp;Secret Sause. Diesel&nbsp;&mdash; still hot
+                  or&nbsp;not?
+                </p>
+                <button>Читать</button>
+              </div>
+            </div>
+            <div class="swiper-slide slide1">
+              <div class="avatars">
+                <img
+                  src="./images/allcollaborationcards/avatar-2.webp"
+                  alt=""
+                />
+                <img
+                  src="./images/allcollaborationcards/avatar-3.webp"
+                  alt=""
+                />
+                <img
+                  src="./images/allcollaborationcards/avatar-5.webp"
+                  alt=""
+                />
+              </div>
+              <div class="collabcard">
+                <img src="./images/allcollaborationcards/collab2.webp" alt="" />
+                <p>Тоня x&nbsp;Secret Sause. Ценности в&nbsp;продукте</p>
+                <button>Скоро</button>
+              </div>
+            </div>
+            <div class="swiper-slide slide2">
+              <div class="avatars">
+                <img
+                  src="./images/allcollaborationcards/avatar-2.webp"
+                  alt=""
+                />
+                <img
+                  src="./images/allcollaborationcards/avatar-3.webp"
+                  alt=""
+                />
+                <img
+                  src="./images/allcollaborationcards/plusavatar.webp"
+                  alt=""
+                />
+              </div>
+              <div class="text">
+                <h3>Хочешь стать следующим гостем?</h3>
+                <p>
+                  Нам всегда нужны новые люди, идеи и&nbsp;мысли. Если тебе
+                  есть, что рассказать&nbsp;&mdash; давай сотрудничать!
+                </p>
+              </div>
+              <button><span>Стать следующим гостем</span></button>
+            </div>
           </div>
-          <div class="collabcard">
-            <img src="./images/allcollaborationcards/collab1.webp" alt="" />
-            <p>
-              XOXO x&nbsp;Secret Sause. Diesel&nbsp;&mdash; still hot
-              or&nbsp;not?
-            </p>
-            <button>Читать</button>
-          </div>
-        </div>
-        <div class="slide1">
-          <div class="avatars">
-            <img src="./images/allcollaborationcards/avatar-2.webp" alt="" />
-            <img src="./images/allcollaborationcards/avatar-3.webp" alt="" />
-            <img src="./images/allcollaborationcards/avatar-5.webp" alt="" />
-          </div>
-          <div class="collabcard">
-            <img src="./images/allcollaborationcards/collab2.webp" alt="" />
-            <p>Тоня x&nbsp;Secret Sause. Ценности в&nbsp;продукте</p>
-            <button>Скоро</button>
-          </div>
-        </div>
-        <div class="slide2">
-          <div class="avatars">
-            <img src="./images/allcollaborationcards/avatar-2.webp" alt="" />
-            <img src="./images/allcollaborationcards/avatar-3.webp" alt="" />
-            <img src="./images/allcollaborationcards/plusavatar.webp" alt="" />
-          </div>
-          <div class="text">
-            <h3>Хочешь стать следующим гостем?</h3>
-            <p>
-              Нам всегда нужны новые люди, идеи и&nbsp;мысли. Если тебе есть,
-              что рассказать&nbsp;&mdash; давай сотрудничать!
-            </p>
-          </div>
-          <button><span>Стать следующим гостем</span></button>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
         </div>
       </div>
     </div>

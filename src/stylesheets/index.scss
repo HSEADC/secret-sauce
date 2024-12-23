@@ -39,27 +39,43 @@ body.index {
     .block {
       display: flex;
       flex-direction: column;
-      gap: 3vw;
 
       .promo-cards {
-        align-self: center;
+        display: flex;
+        justify-content: center;
+        transition: all 0.2s ease;
+        align-items: center;
+
+        &:hover img:nth-of-type(1) {
+          transform: translate(0vw, 2vw) rotate(-15deg);
+          transition: all 0.6s ease;
+        }
+        &:hover img:nth-of-type(3) {
+          transform: translate(0vw, 2vw) rotate(15deg);
+          transition: all 0.6s ease;
+        }
+
         img {
-          border-radius: 2.5vw;
+          border-radius: 1vw;
+          transition: all 0.2s ease;
+        }
+        img:nth-of-type(2) {
+          position: relative;
+          height: 50%;
+          z-index: 1;
           box-shadow: 77px 28px 23px 0px rgba(54, 53, 53, 0),
             49px 18px 21px 0px rgba(54, 53, 53, 0.01),
             28px 10px 18px 0px rgba(54, 53, 53, 0.05),
             12px 4px 13px 0px rgba(54, 53, 53, 0.09),
             3px 1px 7px 0px rgba(54, 53, 53, 0.1);
         }
-      }
-      h2 {
-        text-align: center;
-        width: 32vw;
-        font-size: 3vw;
-        align-self: center;
-
-        .color {
-          color: linear-gradient(120deg, #ffc403 -41.94%, #fff 130.85%);
+        img:nth-of-type(1) {
+          height: 40%;
+          transform: translate(2vw, 2vw) rotate(-15deg);
+        }
+        img:nth-of-type(3) {
+          height: 40%;
+          transform: translate(-2vw, 2vw) rotate(15deg);
         }
       }
       .button {
@@ -69,14 +85,25 @@ body.index {
         background: #1c1500;
         border-radius: 10vw;
         display: flex;
-        justify-content: center;
-        padding: 0.5vw;
+        justify-content: space-between;
+        padding: 1vw;
         color: #f2f2f2;
         text-align: center;
         font-family: 'NonBureau-Regular';
         border: none;
         font-size: 1.5vw;
         align-items: center;
+      }
+
+      h2 {
+        text-align: center;
+        width: 32vw;
+        font-size: 3vw;
+        align-self: center;
+
+        .color {
+          color: linear-gradient(120deg, #ffc403 -41.94%, #fff 130.85%);
+        }
       }
     }
   }
@@ -176,6 +203,10 @@ body.index {
       img {
         width: 40%;
       }
+    }
+
+    .slider {
+      width: 60vw;
     }
 
     .slide {
