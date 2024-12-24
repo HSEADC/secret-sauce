@@ -219,24 +219,27 @@ body.styleguide {
 @media only screen and (max-width: 768px) {
   body.styleguide {
     h1 {
-      font-size: 12vw;
-    }
-    h2 {
       font-size: 8vw;
     }
-    h3 {
+    h2 {
       font-size: 6vw;
     }
-    h4 {
+    h3 {
       font-size: 4vw;
     }
+    h4 {
+      font-size: 2vw;
+    }
     h5 {
-      font-size: 6vw;
-      margin-top: 26vw;
+      font-size: 4vw;
+      margin-top: 20vw;
     }
 
     p {
-      font-size: 4vw;
+      font-size: 2vw;
+    }
+    .S_block2 {
+      width: 80vw;
     }
   }
 }
