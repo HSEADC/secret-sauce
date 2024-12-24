@@ -78,7 +78,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: './index.html',
-      chunks: ['index', 'swiper.js'],
+      chunks: ['index', 'swiper'],
     }),
 
     // все страницы разделов

@@ -3,6 +3,10 @@ import '../stylesheets/index.scss';
 const swiper = new Swiper('.swiper', {
   loop: true,
 
+  autoplay: {
+    delay: 3000,
+  },
+
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',

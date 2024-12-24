@@ -37,7 +37,7 @@ body.styleguide {
   }
 
   p {
-    font-size: 1.3vw;
+    font-size: 1.5vw;
     color: rgba(28, 21, 0, 0.6);
   }
 
@@ -216,8 +216,31 @@ body.styleguide {
     }
   }
 }
+@media only screen and (max-width: 768px) {
+  body.styleguide {
+    h1 {
+      font-size: 12vw;
+    }
+    h2 {
+      font-size: 8vw;
+    }
+    h3 {
+      font-size: 6vw;
+    }
+    h4 {
+      font-size: 4vw;
+    }
+    h5 {
+      font-size: 6vw;
+      margin-top: 26vw;
+    }
 
-@media only screen and (max-width: 360px) {
+    p {
+      font-size: 4vw;
+    }
+  }
+}
+@media only screen and (max-width: 500px) {
   body.styleguide {
     h1 {
       font-size: 12vw;

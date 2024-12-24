@@ -161,8 +161,96 @@ body.about {
     }
   }
 }
+@media only screen and (max-width: 768px) {
+  body.about {
+    p {
+      font-size: 2.5vw;
+    }
+    h4 {
+      font-size: 5vw;
+    }
+    .A_block1 {
+      height: 70vw;
 
-@media only screen and (max-width: 360px) {
+      .text {
+        width: 83vw;
+      }
+    }
+
+    .A_block3 {
+      .background {
+        height: 100vw;
+        .text {
+          width: 60vw;
+          gap: 7vw;
+        }
+        img {
+          width: 92%;
+        }
+        .gif {
+          width: 21%;
+          transform: translate(-35vw, 28vw);
+        }
+
+        .gif1 {
+          width: 21%;
+          transform: translate(35vw, 28vw);
+        }
+
+        .gif2 {
+          display: none;
+        }
+      }
+    }
+
+    .A_block4 {
+      gap: 13vw;
+      margin-top: 20vw;
+      .text {
+        width: 60vw;
+        gap: 7vw;
+      }
+
+      .allfaq {
+        .faq {
+          min-height: 42vw;
+          width: 80vw;
+          justify-content: center;
+        }
+      }
+    }
+    .S_footer {
+      height: 166vw;
+      margin-top: 20vw;
+      background-image: url(../images/FooterMobile.webp);
+    }
+
+    .O_contentform {
+      width: 74vw;
+      gap: 7vw;
+      margin-top: 38vw;
+    }
+
+    .A_sendbutton {
+      width: 8vw;
+      height: 8vw;
+    }
+    .M_formfooter {
+      width: 30vw;
+      padding: 01vw;
+
+      .A_input {
+        font-size: 3vw;
+        width: 19vw;
+      }
+    }
+    .M_menufooter {
+      margin-top: 23vw;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
   body.about {
     h1 {
       font-size: 12vw;

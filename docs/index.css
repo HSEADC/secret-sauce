@@ -1433,9 +1433,9 @@ body.articles {
   }
 }
 
-h1{
-    font-family: "NonBureau-Regular";
-  }
+h1 {
+  font-family: 'NonBureau-Regular';
+}
 html {
   scroll-behavior: smooth;
 }
@@ -2040,12 +2040,10 @@ a.A_menu-point {
 }
 
 .M_menupoint {
-  width: 20vw;
-  height: 5vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 16px, 16px;
+  padding: 16px 16px;
   gap: 10px;
   border-radius: 1000px;
   background: rgba(255, 255, 255, 0.5);
@@ -2208,7 +2206,6 @@ a.A_menu-point {
   }
 }
 
-
 @media only screen and (max-width: 767px) {
   .M_menu {
     width: 38vw;
@@ -2342,5 +2339,3 @@ a.A_menu-point {
 
 @media screen and (max-width: 480px) {
 }
-
-
