@@ -1,0 +1,205 @@
+body.articles {
+  font-family: 'NonBureau-Regular';
+  overflow-x: hidden;
+
+  a {
+    text-decoration: none;
+  }
+
+  h1 {
+    font-size: 12vw;
+  }
+  h3 {
+    font-size: 40px;
+  }
+  h4 {
+    font-size: 24px;
+  }
+  h5 {
+    font-size: 6vw;
+    margin-top: 26vw;
+  }
+
+  p {
+    font-size: 18px;
+    color: rgba(28, 21, 0, 0.6);
+  }
+
+  .gradient {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#fdefa7, rgba(253, 239, 167, 0));
+    height: 10vw;
+  }
+  .A_block1 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+
+    .text {
+      gap: 2vw;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width: 30vw;
+      align-items: center;
+    }
+
+    .filters {
+      width: 48vw;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .filter {
+        max-width: 7em;
+        height: 4.5vw;
+        background: #1c1500;
+        border-radius: 10vw;
+        display: flex;
+        justify-content: center;
+        padding: 0.5vw;
+        color: #f2f2f2;
+        text-align: center;
+        font-family: 'NonBureau-Regular';
+        border: none;
+        font-size: 1.5vw;
+        align-items: center;
+        padding: 1.5vw;
+      }
+      .filter1,
+      .filter2 {
+        max-width: 21vw;
+        height: 4.5vw;
+        background: #f2f2f2;
+        border-radius: 10vw;
+        display: flex;
+        justify-content: center;
+        padding: 0.5vw;
+        color: #1c1500;
+        text-align: center;
+        font-family: 'NonBureau-Regular';
+        border: none;
+        font-size: 1.5vw;
+        align-items: center;
+        padding: 1.5vw;
+      }
+    }
+
+    .QR-code {
+      width: 10%;
+    }
+  }
+
+  .articlesblock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vw;
+    gap: 10vw;
+  }
+}
+@media only screen and (max-width: 360px) {
+  body.articles {
+    h1 {
+      font-size: 12vw;
+    }
+    h2 {
+      font-size: 8vw;
+    }
+    h3 {
+      font-size: 4vw;
+    }
+    h4 {
+      font-size: 4vw;
+    }
+    h5 {
+      font-size: 6vw;
+      margin-top: 26vw;
+    }
+
+    p {
+      font-size: 4vw;
+    }
+
+    .A_block1 {
+      margin-top: 20vw;
+      gap: 6vw;
+      .text {
+        width: 70vw;
+        gap: 6vw;
+      }
+      .filters {
+        width: 85vw;
+        .filter {
+          max-width: 17em;
+          height: 4.5vw;
+          font-size: 2.3vw;
+          padding: 4vw;
+        }
+
+        .filter1,
+        .filter2 {
+          max-width: 17em;
+          height: 4.5vw;
+          font-size: 2.3vw;
+          padding: 4vw;
+        }
+      }
+    }
+
+    .O_article {
+      width: 92vw;
+      gap: 3vw;
+      .img {
+        width: 92vw;
+      }
+
+      .toparicle {
+        .imgtext {
+          gap: 1.5vw;
+        }
+      }
+    }
+    .A_tags {
+      gap: 0.5vw;
+      width: 46vw;
+    }
+    .Q_tag {
+      font-size: 12px;
+      height: 8vw;
+      padding: 4vw;
+    }
+
+    .S_footer {
+      height: 166vw;
+      margin-top: 20vw;
+      background-image: url(../images/FooterMobile.webp);
+    }
+
+    .O_contentform {
+      width: 74vw;
+      gap: 7vw;
+      margin-top: 38vw;
+    }
+
+    .A_sendbutton {
+      width: 8vw;
+      height: 8vw;
+    }
+    .M_formfooter {
+      width: 30vw;
+      padding: 01vw;
+
+      .A_input {
+        font-size: 3vw;
+        width: 19vw;
+      }
+    }
+    .M_menufooter {
+      margin-top: 23vw;
+    }
+  }
+}

@@ -1,13 +1,112 @@
-.M_menu{
-    width: 20vw;
-    height: 5vh;
-    display: flex;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    padding: 16px, 16px;
-    gap: 10px;
-    border-radius: 1000px;
-    background: rgba(255, 255, 255, 0.50);
-    margin-top: 2vh;
+.M_menu {
+  width: 30vw;
+  height: 5vh;
+  display: flex;
+  display: inline-flex;
+  justify-content: center;
+  margin-top: 2vw;
+  gap: 0.5vw;
+
+  img {
+    height: 100%;
+  }
+}
+
+.M_menupoint {
+  width: 20vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px, 16px;
+  gap: 10px;
+  border-radius: 1000px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.M_formfooter {
+  width: 15vw;
+  background-color: #ffffff;
+  border-radius: 10vw;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5vw;
+}
+
+.M_menufooter {
+  display: flex;
+  gap: 2vw;
+}
+
+.M_button-simple {
+  width: 18vw;
+  height: 4.5vw;
+  background: #1c1500;
+  border-radius: 10vw;
+  display: flex;
+  justify-content: center;
+  padding: 0.5vw;
+  color: #f2f2f2;
+  text-align: center;
+  font-family: 'NonBureau-Regular';
+  border: none;
+  font-size: 1.5vw;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+    color: #f2f2f2;
+  }
+  &:hover span {
+    display: none;
+  }
+
+  &:hover:before {
+    content: 'Подписаться в тг';
+  }
+
+  &:hover {
+    background: rgba(28, 21, 0, 0.6);
+  }
+}
+
+.M_article-card {
+  display: flex;
+  flex-direction: column;
+  width: 16vw;
+  gap: 1vw;
+  color: #1c1500;
+  .shadow {
+    position: absolute;
+    width: 16vw;
+    height: 20vw;
+    pointer-events: none;
+    border-radius: 1vw;
+  }
+}
+.M_article-card:hover .shadow {
+  box-shadow: 0px -20px 40px rgb(255, 255, 255) inset;
+}
+
+.M_selected-card {
+  display: flex;
+  flex-direction: column;
+  width: 32vw;
+  gap: 1vw;
+  color: #1c1500;
+  .shadow {
+    position: absolute;
+    width: 32vw;
+    height: 32vw;
+    pointer-events: none;
+    border-radius: 1vw;
+  }
+
+  a {
+    text-decoration: none;
+    color: #1c1500;
+  }
+}
+.M_selected-card:hover .shadow {
+  box-shadow: 0px -20px 40px rgb(255, 255, 255) inset;
 }

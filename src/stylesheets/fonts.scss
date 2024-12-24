@@ -30,7 +30,6 @@
   font-style: normal;
 }
 
-
 @font-face {
   font-family: Coolvetica;
   src: url('../fonts/coolvetica_rg.woff2') format('woff2');
@@ -59,30 +58,30 @@
   font-style: normal;
 }
 
-@font-face { 
-  font-family: "PragmaticaBook";
-  src: url("../fonts/PragmaticaBook.ttf") format("truetype");
+@font-face {
+  font-family: 'PragmaticaBook';
+  src: url('../fonts/PragmaticaBook.ttf') format('truetype');
   font-style: normal;
   font-weight: normal;
 }
 
-@font-face { 
-  font-family: "PragmaticaMedium";
-  src: url("../fonts/PragmaticaMedium.ttf") format("truetype");
+@font-face {
+  font-family: 'PragmaticaMedium';
+  src: url('../fonts/PragmaticaMedium.ttf') format('truetype');
   font-style: normal;
   font-weight: 500;
 }
 
-@font-face { 
-  font-family: "NonBureau-Medium";
-  src: url("../fonts/NonBureau-Medium.otf") format("truetype");
+@font-face {
+  font-family: 'NonBureau-Medium';
+  src: url('../fonts/NonBureau-Medium.otf') format('opentype');
   font-style: normal;
   font-weight: 500;
 }
 
-@font-face { 
-  font-family: "NonBureau-Regular";
-  src: url("../fonts/NonBureau-Regular.otf") format("truetype");
+@font-face {
+  font-family: 'NonBureau-Regular';
+  src: url('../fonts/NonBureau-Regular.otf') format('opentype');
   font-style: normal;
   font-weight: normal;
 }
