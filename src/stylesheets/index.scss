@@ -175,6 +175,18 @@ body.index {
     flex-direction: column;
     gap: 3vw;
 
+    .overlay {
+      position: absolute;
+      background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0) 61.1%,
+        #fff 110.09%
+      );
+      width: 67vw;
+      height: 60vw;
+      margin-top: 15vw;
+    }
+
     .text {
       gap: 2vw;
       display: flex;
@@ -407,6 +419,9 @@ body.index {
       width: 30vw;
       align-items: center;
     }
+    button {
+      display: none;
+    }
 
     .QR-code {
       width: 20%;
@@ -414,10 +429,12 @@ body.index {
 
     .telegramprom {
       display: flex;
+      margin-top: 6vw;
+      margin-bottom: 6vw;
       .post-card {
         display: flex;
         flex-direction: column;
-        width: 20vw;
+        width: 16vw;
         gap: 0.5vw;
         .top {
           display: flex;
@@ -425,6 +442,263 @@ body.index {
           align-items: center;
         }
       }
+      .post-card:nth-of-type(1) {
+        transform: translate(4vw, -6vw) rotate(-7deg);
+      }
+      .post-card:nth-of-type(2) {
+        transform: translate(7vw, 0vw) rotate(10deg);
+      }
+      .post-card:nth-of-type(3) {
+        transform: translate(-8vw, 18vw);
+      }
+      .post-card:nth-of-type(4) {
+        transform: translate(-3vw, 1vw) rotate(6deg);
+      }
+      .post-card:nth-of-type(5) {
+        transform: translate(5vw, -10vw) rotate(6deg);
+      }
+      .post-card:nth-of-type(6) {
+        transform: translate(-5vw, 23vw) rotate(-6deg);
+      }
+    }
+  }
+}
+@media only screen and (max-width: 360px) {
+  body.index {
+    h1 {
+      font-size: 12vw;
+    }
+    h2 {
+      font-size: 8vw;
+    }
+    h3 {
+      font-size: 6vw;
+    }
+    h4 {
+      font-size: 4vw;
+    }
+    h5 {
+      font-size: 6vw;
+      margin-top: 26vw;
+    }
+
+    p {
+      font-size: 4vw;
+    }
+
+    .I_block1 {
+      background-image: url(../images/hero-screen.webp);
+      height: 184vw;
+      border-radius: 0% 0% 5% 5%;
+      .block {
+        margin-top: 60vw;
+        gap: 6vw;
+        h2 {
+          text-align: center;
+          width: 74vw;
+          font-size: 7vw;
+          align-self: center;
+        }
+        .promo-cards {
+          display: none;
+        }
+        .button {
+          width: 46vw;
+          height: 11.5vw;
+          background: #1c1500;
+          padding: 3vw;
+          color: #f2f2f2;
+          font-size: 3.5vw;
+          .A_sendbutton2 {
+            width: 7vw;
+            height: 7vw;
+            border: none;
+            border-radius: 10vw;
+            padding-top: 0.3vw;
+          }
+        }
+      }
+    }
+    .I_block2 {
+      gap: 9vw;
+      .brands {
+        width: 90vw;
+        justify-content: center;
+
+        img {
+          width: 35%;
+        }
+      }
+      margin-top: 17vw;
+      .text {
+        width: 70vw;
+        gap: 6vw;
+      }
+    }
+
+    .I_block3 {
+      margin-top: 17vw;
+      .backgroud {
+        height: 370vw;
+        .formarcards {
+          flex-direction: column;
+          gap: 3vw;
+
+          img {
+            width: 93%;
+          }
+        }
+      }
+    }
+
+    .I_block4 {
+      margin-top: 17vw;
+      gap: 9vw;
+      .text {
+        width: 70vw;
+        gap: 6vw;
+      }
+      .overlay {
+        display: none;
+      }
+      .M_button-simple {
+        width: 46vw;
+        height: 11.5vw;
+        background: #1c1500;
+        padding: 3vw;
+        color: #f2f2f2;
+        font-size: 3.5vw;
+      }
+      .S_cards {
+        .O_lil-cards {
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 2vw;
+        }
+
+        .O_selected-cards {
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 3vw;
+        }
+      }
+      .M_article-card {
+        width: 45vw;
+        gap: 3vw;
+      }
+      .Q_tag {
+        font-size: 12px;
+        height: 8vw;
+        padding: 4vw;
+      }
+      .M_selected-card {
+        display: flex;
+        flex-direction: column;
+        width: 92vw;
+        gap: 3vw;
+        color: #1c1500;
+      }
+    }
+
+    .I_block5 {
+      margin-top: 30vw;
+      .text {
+        width: 70vw;
+        gap: 6vw;
+      }
+    }
+
+    .I_block6 {
+      margin-top: 30vw;
+      .text {
+        width: 70vw;
+        gap: 6vw;
+      }
+      .button {
+        width: 46vw;
+        height: 11.5vw;
+        background: #1c1500;
+        padding: 3vw;
+        color: #f2f2f2;
+        font-size: 3.5vw;
+        align-self: center;
+        border-radius: 10vw;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        border: none;
+        align-items: center;
+        .A_sendbutton2 {
+          width: 7vw;
+          height: 7vw;
+          padding: 1.5vw 1vw 1vw 1.5vw;
+          background: #fff;
+          border: none;
+          border-radius: 10vw;
+          display: flex;
+
+          img {
+            width: 90%;
+          }
+        }
+      }
+      .QR-code {
+        display: none;
+      }
+      .telegramprom {
+        flex-direction: column;
+        margin-top: 26vw;
+        margin-bottom: 46vw;
+        .post-card:nth-of-type(1) {
+          width: 65vw;
+        }
+        .post-card:nth-of-type(3) {
+          transform: translate(0vw, 76vw) rotate(4deg);
+          width: 80vw;
+        }
+        .post-card:nth-of-type(6) {
+          transform: translate(0vw, -39vw) rotate(-6deg);
+          width: 73vw;
+        }
+        .post-card:nth-of-type(2) {
+          display: none;
+        }
+        .post-card:nth-of-type(4) {
+          display: none;
+        }
+        .post-card:nth-of-type(5) {
+          display: none;
+        }
+      }
+    }
+
+    .S_footer {
+      height: 166vw;
+      margin-top: 20vw;
+      background-image: url(../images/FooterMobile.webp);
+    }
+
+    .O_contentform {
+      width: 74vw;
+      gap: 7vw;
+      margin-top: 38vw;
+    }
+
+    .A_sendbutton {
+      width: 8vw;
+      height: 8vw;
+    }
+    .M_formfooter {
+      width: 30vw;
+      padding: 01vw;
+
+      .A_input {
+        font-size: 3vw;
+        width: 19vw;
+      }
+    }
+    .M_menufooter {
+      margin-top: 23vw;
     }
   }
 }

@@ -7,6 +7,15 @@
 @media only screen and (max-width: 360px) {
   .M_menu {
     width: 81vw;
+    gap: 1vw;
+  }
+
+  .M_menupoint {
+    width: 66vw;
+
+    a {
+      font-size: 3.5vw;
+    }
   }
 
   .S_block1 {

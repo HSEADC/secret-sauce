@@ -1,8 +1,6 @@
 body.articles {
   font-family: 'NonBureau-Regular';
   overflow-x: hidden;
-  display: flex;
-  flex-direction: column;
 
   a {
     text-decoration: none;
@@ -101,5 +99,83 @@ body.articles {
     align-items: center;
     margin-top: 10vw;
     gap: 10vw;
+  }
+}
+@media only screen and (max-width: 360px) {
+  body.articles {
+    h1 {
+      font-size: 12vw;
+    }
+    h2 {
+      font-size: 8vw;
+    }
+    h3 {
+      font-size: 4vw;
+    }
+    h4 {
+      font-size: 4vw;
+    }
+    h5 {
+      font-size: 6vw;
+      margin-top: 26vw;
+    }
+
+    p {
+      font-size: 4vw;
+    }
+
+    .A_block1 {
+      margin-top: 20vw;
+      .text {
+        width: 70vw;
+        gap: 6vw;
+      }
+    }
+
+    .O_article {
+      width: 92vw;
+      gap: 3vw;
+      .img {
+        width: 92vw;
+      }
+    }
+    .A_tags {
+      gap: 0.5vw;
+      width: 46vw;
+    }
+    .Q_tag {
+      font-size: 12px;
+      height: 8vw;
+      padding: 4vw;
+    }
+
+    .S_footer {
+      height: 166vw;
+      margin-top: 20vw;
+      background-image: url(../images/FooterMobile.webp);
+    }
+
+    .O_contentform {
+      width: 74vw;
+      gap: 7vw;
+      margin-top: 38vw;
+    }
+
+    .A_sendbutton {
+      width: 8vw;
+      height: 8vw;
+    }
+    .M_formfooter {
+      width: 30vw;
+      padding: 01vw;
+
+      .A_input {
+        font-size: 3vw;
+        width: 19vw;
+      }
+    }
+    .M_menufooter {
+      margin-top: 23vw;
+    }
   }
 }
