@@ -1,87 +1,20 @@
 @font-face {
-  font-family: 'PT_Root_UI';
-  src: url('../fonts/PT-Root-UI_Light.woff2') format('woff2'),
-    url('../fonts/PT-Root-UI_Light.woff') format('woff');
+  font-family: 'SuisseIntl-Book';
+  src: url('../fonts/SuisseIntl-Book.otf') format('otf');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SuisseIntlTrial-Medium';
+  src: url('../fonts/SuisseIntlTrial-Medium.otf') format('otf');
+  font-weight: 300;
+  font-style: medium;
+}
+
+@font-face {
+  font-family: 'SuisseIntlTrial-Regular';
+  src: url('../fonts/SuisseIntlTrial-Regular.otf') format('otf');
   font-weight: 100;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'PT_Root_UI';
-  src: url('../fonts/PT-Root-UI_Regular.woff2') format('woff2'),
-    url('../fonts/PT-Root-UI_Regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'PT_Root_UI';
-  src: url('../fonts/PT-Root-UI_Medium.woff2') format('woff2'),
-    url('../fonts/PT-Root-UI_Medium.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'PT_Root_UI';
-  src: url('../fonts/PT-Root-UI_Bold.woff2') format('woff2'),
-    url('../fonts/PT-Root-UI_Bold.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Coolvetica;
-  src: url('../fonts/coolvetica_rg.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'PT_Sans_Web_Regular';
-  src: url('../fonts/PT_Sans_Web_Regular.ttf') format('otf');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'prg65';
-  src: url('../fonts/prg65.otf') format('otf');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'prg55';
-  src: url('../fonts/prg55.otf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'PragmaticaBook';
-  src: url('../fonts/PragmaticaBook.ttf') format('truetype');
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: 'PragmaticaMedium';
-  src: url('../fonts/PragmaticaMedium.ttf') format('truetype');
-  font-style: normal;
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: 'NonBureau-Medium';
-  src: url('../fonts/NonBureau-Medium.otf') format('opentype');
-  font-style: normal;
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: 'NonBureau-Regular';
-  src: url('../fonts/NonBureau-Regular.otf') format('opentype');
-  font-style: normal;
-  font-weight: normal;
+  font-style: medium;
 }
