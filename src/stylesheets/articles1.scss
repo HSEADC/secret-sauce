@@ -6,11 +6,19 @@ body.article {
   background-size: cover;
   background-position: center;
   h3 {
+<<<<<<< HEAD
     font-size: 22px;
     color: #1c1500;
   }
   p {
     font-size: 1.3vw;
+=======
+    font-size: 2vw;
+    color: #1c1500;
+  }
+  p {
+    font-size: 1.5vw;
+>>>>>>> gh-pages
     color: rgba(28, 21, 0, 0.6);
   }
 
@@ -49,6 +57,10 @@ body.article {
       width: 13vw;
       background: rgba(255, 196, 4, 0.1);
       border-radius: 2vw;
+<<<<<<< HEAD
+=======
+      z-index: 1;
+>>>>>>> gh-pages
 
       a {
         width: 12vw;
@@ -93,6 +105,7 @@ body.article {
         img {
           width: 100%;
           border-radius: 2vw;
+<<<<<<< HEAD
         }
       }
       .heading {
@@ -125,4 +138,126 @@ body.article {
   .margin-bottom {
     height: 4vw;
   }
+=======
+        }
+      }
+      .heading {
+        width: 40vw;
+        min-height: 3rem;
+        background: #fffdf7;
+        padding: 2vw;
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+        border-radius: 2vw;
+        font-size: 2vw;
+      }
+
+      .paragrapgh {
+        width: 40vw;
+        min-height: 6rem;
+        background: #fffdf7;
+        padding: 2vw;
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+        border-radius: 2vw;
+        font-size: 1.5vw;
+        color: rgba(28, 21, 0, 0.6);
+      }
+    }
+  }
+
+  .margin-bottom {
+    height: 4vw;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body.article {
+    h3 {
+      font-size: 3vw;
+    }
+    p {
+      font-size: 2.5vw;
+    }
+
+    .top {
+      .button {
+        margin-left: 0;
+        transform: translate(3vw, 22vw);
+        width: 18vw;
+        position: absolute;
+      }
+    }
+    .bottom {
+      .menuleft {
+        display: none;
+      }
+
+      .article {
+        transform: translate(0vw, 35vw);
+        gap: 3vw;
+
+        .imgblock {
+          width: 59vw;
+          padding: 3vw;
+        }
+        .heading {
+          width: 59vw;
+          font-size: 3vw;
+          padding: 3vw;
+        }
+        .paragrapgh {
+          width: 59vw;
+          font-size: 2.5vw;
+          padding: 3vw;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 500px) {
+  body.article {
+    h3 {
+      font-size: 22px;
+    }
+    p {
+      font-size: 4vw;
+    }
+
+    .top {
+      .button {
+        margin-left: 0;
+        transform: translate(3vw, 22vw);
+        width: 18vw;
+        position: absolute;
+      }
+    }
+    .bottom {
+      .menuleft {
+        display: none;
+      }
+
+      .article {
+        transform: translate(0vw, 35vw);
+        gap: 3vw;
+
+        .imgblock {
+          width: 90vw;
+          padding: 6vw;
+        }
+        .heading {
+          width: 90vw;
+          font-size: 5vw;
+          padding: 6vw;
+        }
+        .paragrapgh {
+          width: 90vw;
+          font-size: 4vw;
+          padding: 6vw;
+        }
+      }
+    }
+  }
+>>>>>>> gh-pages
 }

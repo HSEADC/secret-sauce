@@ -8,6 +8,7 @@
 @import 'stylesheets/newsletter.scss';
 @import 'stylesheets/styleguide.scss';
 @import 'stylesheets/articles1.scss';
+<<<<<<< HEAD
 @import 'stylesheets/components/atoms.scss';
 @import 'stylesheets/components/moleculs.scss';
 @import 'stylesheets/components/organisms.scss';
@@ -15,4 +16,14 @@
 @import 'stylesheets/components/responsive.scss';
 @import 'stylesheets/components/quarks.scss';
 @import 'stylesheets/components/SuperOrganosms.scss';
+=======
+@import 'stylesheets/components/02_atoms.scss';
+@import 'stylesheets/components/03_moleculs.scss';
+@import 'stylesheets/components/06_organisms.scss';
+@import 'stylesheets/components/04_wrappers.scss';
+@import 'stylesheets/components/responsive.scss';
+@import 'stylesheets/components/01_quarks.scss';
+@import 'stylesheets/components/07_SuperOrganosms.scss';
+@import 'stylesheets/components/05_collections.scss';
+>>>>>>> gh-pages
 @import 'stylesheets/adaptive.scss';

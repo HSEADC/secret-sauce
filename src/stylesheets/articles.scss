@@ -101,7 +101,102 @@ body.articles {
     gap: 10vw;
   }
 }
+<<<<<<< HEAD
 @media only screen and (max-width: 360px) {
+=======
+@media only screen and (max-width: 768px) {
+  body.articles {
+    p {
+      font-size: 2.5vw;
+    }
+    h4 {
+      font-size: 4vw;
+    }
+
+    .A_block1 {
+      margin-top: 20vw;
+      gap: 6vw;
+      .text {
+        width: 70vw;
+        gap: 6vw;
+      }
+      .filters {
+        width: 85vw;
+        .filter {
+          max-width: 17em;
+          height: 4.5vw;
+          font-size: 2.3vw;
+          padding: 4vw;
+        }
+
+        .filter1,
+        .filter2 {
+          max-width: 17em;
+          height: 4.5vw;
+          font-size: 2.3vw;
+          padding: 4vw;
+        }
+      }
+    }
+
+    .O_article {
+      width: 92vw;
+      gap: 3vw;
+      .shadow {
+        display: none;
+      }
+      .img {
+        width: 92vw;
+      }
+
+      .toparicle {
+        .imgtext {
+          gap: 1.5vw;
+        }
+      }
+    }
+    .A_tags {
+      gap: 0.5vw;
+      width: 46vw;
+    }
+    .Q_tag {
+      font-size: 2vw;
+      height: 4vw;
+      padding: 3vw;
+    }
+
+    .S_footer {
+      height: 166vw;
+      margin-top: 20vw;
+      background-image: url(../images/FooterMobile.webp);
+    }
+
+    .O_contentform {
+      width: 74vw;
+      gap: 7vw;
+      margin-top: 38vw;
+    }
+
+    .A_sendbutton {
+      width: 8vw;
+      height: 8vw;
+    }
+    .M_formfooter {
+      width: 30vw;
+      padding: 01vw;
+
+      .A_input {
+        font-size: 3vw;
+        width: 19vw;
+      }
+    }
+    .M_menufooter {
+      margin-top: 23vw;
+    }
+  }
+}
+@media only screen and (max-width: 500px) {
+>>>>>>> gh-pages
   body.articles {
     h1 {
       font-size: 12vw;
@@ -126,10 +221,34 @@ body.articles {
 
     .A_block1 {
       margin-top: 20vw;
+<<<<<<< HEAD
+=======
+      gap: 6vw;
+>>>>>>> gh-pages
       .text {
         width: 70vw;
         gap: 6vw;
       }
+<<<<<<< HEAD
+=======
+      .filters {
+        width: 85vw;
+        .filter {
+          max-width: 17em;
+          height: 4.5vw;
+          font-size: 2.3vw;
+          padding: 4vw;
+        }
+
+        .filter1,
+        .filter2 {
+          max-width: 17em;
+          height: 4.5vw;
+          font-size: 2.3vw;
+          padding: 4vw;
+        }
+      }
+>>>>>>> gh-pages
     }
 
     .O_article {
@@ -138,6 +257,15 @@ body.articles {
       .img {
         width: 92vw;
       }
+<<<<<<< HEAD
+=======
+
+      .toparicle {
+        .imgtext {
+          gap: 1.5vw;
+        }
+      }
+>>>>>>> gh-pages
     }
     .A_tags {
       gap: 0.5vw;

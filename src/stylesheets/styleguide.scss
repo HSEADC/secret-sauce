@@ -37,7 +37,11 @@ body.styleguide {
   }
 
   p {
+<<<<<<< HEAD
     font-size: 1.3vw;
+=======
+    font-size: 1.5vw;
+>>>>>>> gh-pages
     color: rgba(28, 21, 0, 0.6);
   }
 
@@ -216,8 +220,39 @@ body.styleguide {
     }
   }
 }
+<<<<<<< HEAD
 
 @media only screen and (max-width: 360px) {
+=======
+@media only screen and (max-width: 768px) {
+  body.styleguide {
+    h1 {
+      font-size: 8vw;
+    }
+    h2 {
+      font-size: 6vw;
+    }
+    h3 {
+      font-size: 4vw;
+    }
+    h4 {
+      font-size: 2vw;
+    }
+    h5 {
+      font-size: 4vw;
+      margin-top: 20vw;
+    }
+
+    p {
+      font-size: 2vw;
+    }
+    .S_block2 {
+      width: 80vw;
+    }
+  }
+}
+@media only screen and (max-width: 500px) {
+>>>>>>> gh-pages
   body.styleguide {
     h1 {
       font-size: 12vw;
@@ -248,12 +283,21 @@ body.styleguide {
 
       .brand2 {
         position: absolute;
+<<<<<<< HEAD
         margin-top: 157vw;
+=======
+        margin-top: 142vw;
+>>>>>>> gh-pages
         margin-left: -9vw;
       }
       .brand {
         position: absolute;
+<<<<<<< HEAD
         margin-top: 146vw;
+=======
+        margin-top: 130vw;
+        margin-left: -32vw;
+>>>>>>> gh-pages
       }
     }
 

@@ -1,0 +1,32 @@
+.A_sendbutton {
+  img {
+    width: 50%;
+
+    &:hover {
+      transform: rotate(-20deg);
+    }
+  }
+}
+.A_sendbutton2 {
+  img {
+    width: 50%;
+
+    &:hover {
+      transform: rotate(-20deg);
+    }
+  }
+}
+
+.Q_tag {
+  min-width: 4em;
+  height: 3vw;
+  background-color: #fdefa7;
+  border-radius: 10vw;
+  padding: 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  resize: both;
+  box-shadow: -8px -8px 20px 0px rgba(255, 255, 255, 0.4) inset,
+    8px 8px 20px 0px rgba(255, 255, 255, 0.4) inset;
+}
