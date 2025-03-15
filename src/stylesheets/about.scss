@@ -84,19 +84,12 @@ body.about {
     margin-top: 10vw;
     .background {
       display: flex;
-<<<<<<< HEAD
-=======
       padding: 2vw;
->>>>>>> gh-pages
       justify-content: center;
       align-items: center;
       flex-direction: column;
       width: 99vw;
-<<<<<<< HEAD
-      height: 60vw;
-=======
       min-height: 25rem;
->>>>>>> gh-pages
       gap: 3vw;
       border-radius: 2vw;
       background: linear-gradient(
@@ -105,13 +98,10 @@ body.about {
         rgba(253, 239, 167, 0.3) 59.07%
       );
 
-<<<<<<< HEAD
-=======
       img {
         width: 100%;
       }
 
->>>>>>> gh-pages
       .text {
         display: flex;
         flex-direction: column;
@@ -120,8 +110,6 @@ body.about {
         gap: 1vw;
         gap: 3vw;
       }
-<<<<<<< HEAD
-=======
 
       .gif {
         position: absolute;
@@ -136,7 +124,6 @@ body.about {
       .gif2 {
         transform: translate(20vw, -6vw);
       }
->>>>>>> gh-pages
     }
   }
 
@@ -174,8 +161,6 @@ body.about {
     }
   }
 }
-<<<<<<< HEAD
-=======
 @media only screen and (max-width: 768px) {
   body.about {
     p {
@@ -388,4 +373,3 @@ body.about {
     }
   }
 }
->>>>>>> gh-pages
