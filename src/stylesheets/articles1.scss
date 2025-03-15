@@ -6,19 +6,11 @@ body.article {
   background-size: cover;
   background-position: center;
   h3 {
-<<<<<<< HEAD
-    font-size: 22px;
-    color: #1c1500;
-  }
-  p {
-    font-size: 1.3vw;
-=======
     font-size: 2vw;
     color: #1c1500;
   }
   p {
     font-size: 1.5vw;
->>>>>>> gh-pages
     color: rgba(28, 21, 0, 0.6);
   }
 
@@ -57,10 +49,7 @@ body.article {
       width: 13vw;
       background: rgba(255, 196, 4, 0.1);
       border-radius: 2vw;
-<<<<<<< HEAD
-=======
       z-index: 1;
->>>>>>> gh-pages
 
       a {
         width: 12vw;
@@ -105,40 +94,6 @@ body.article {
         img {
           width: 100%;
           border-radius: 2vw;
-<<<<<<< HEAD
-        }
-      }
-      .heading {
-        width: 40vw;
-        min-height: 3rem;
-        background: #fffdf7;
-        padding: 2vw;
-        display: flex;
-        flex-direction: column;
-        gap: 2vw;
-        border-radius: 2vw;
-        font-size: 2vw;
-      }
-
-      .paragrapgh {
-        width: 40vw;
-        min-height: 6rem;
-        background: #fffdf7;
-        padding: 2vw;
-        display: flex;
-        flex-direction: column;
-        gap: 2vw;
-        border-radius: 2vw;
-        font-size: 1.3vw;
-        color: rgba(28, 21, 0, 0.6);
-      }
-    }
-  }
-
-  .margin-bottom {
-    height: 4vw;
-  }
-=======
         }
       }
       .heading {
@@ -259,5 +214,4 @@ body.article {
       }
     }
   }
->>>>>>> gh-pages
 }

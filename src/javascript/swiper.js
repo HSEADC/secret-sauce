@@ -3,13 +3,10 @@ import '../stylesheets/index.scss';
 const swiper = new Swiper('.swiper', {
   loop: true,
 
-<<<<<<< HEAD
-=======
   autoplay: {
     delay: 3000,
   },
 
->>>>>>> gh-pages
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',

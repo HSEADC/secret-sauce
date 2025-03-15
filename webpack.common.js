@@ -78,11 +78,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: './index.html',
-<<<<<<< HEAD
-      chunks: ['index', 'swiper.js'],
-=======
       chunks: ['index', 'swiper'],
->>>>>>> gh-pages
     }),
 
     // все страницы разделов
@@ -115,8 +111,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/articles/diesel.html',
       filename: './articles/diesel.html',
-<<<<<<< HEAD
-=======
       chunks: ['index'],
     }),
 
@@ -135,7 +129,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/articles/Skims.html',
       filename: './articles/Skims.html',
->>>>>>> gh-pages
       chunks: ['index'],
     }),
 

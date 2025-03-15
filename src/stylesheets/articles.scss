@@ -101,9 +101,6 @@ body.articles {
     gap: 10vw;
   }
 }
-<<<<<<< HEAD
-@media only screen and (max-width: 360px) {
-=======
 @media only screen and (max-width: 768px) {
   body.articles {
     p {
@@ -196,7 +193,6 @@ body.articles {
   }
 }
 @media only screen and (max-width: 500px) {
->>>>>>> gh-pages
   body.articles {
     h1 {
       font-size: 12vw;
@@ -221,16 +217,11 @@ body.articles {
 
     .A_block1 {
       margin-top: 20vw;
-<<<<<<< HEAD
-=======
       gap: 6vw;
->>>>>>> gh-pages
       .text {
         width: 70vw;
         gap: 6vw;
       }
-<<<<<<< HEAD
-=======
       .filters {
         width: 85vw;
         .filter {
@@ -248,7 +239,6 @@ body.articles {
           padding: 4vw;
         }
       }
->>>>>>> gh-pages
     }
 
     .O_article {
@@ -257,15 +247,12 @@ body.articles {
       .img {
         width: 92vw;
       }
-<<<<<<< HEAD
-=======
 
       .toparicle {
         .imgtext {
           gap: 1.5vw;
         }
       }
->>>>>>> gh-pages
     }
     .A_tags {
       gap: 0.5vw;
