@@ -1,9 +1,51 @@
-.A_menu-point {
+a.A-MenuPoint {
+  min-width: 5.35vw;
+  max-width: 12.36vw;
+  height: 2.99vw;
   text-decoration: none;
-  color: var(--off-white-02);
+  color: var(--dark-brown);
   font-size: 16px;
+  display: flex;
+  padding: 0.63vw 0.83vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.52vw;
+  border-radius: 5vw;
+  background: var(--off-white-02);
+  backdrop-filter: blur(calc(var(--80, 80px) / 2));
+  text-decoration: none;
+  color: inherit;
 
   &:hover {
-    color: rgba(28, 21, 0, 0.6);
+    background: var(--soft-orange);
+  }
+}
+
+.A-Searchbar {
+  display: flex;
+  width: 24.03vw;
+  padding: 0.83vw 1.11vw;
+  align-items: center;
+  gap: 0.69vw;
+  border-radius: 69.44vw;
+  background: var(--soft-orange);
+  backdrop-filter: blur(calc(var(--80, 80px) / 2));
+  color: var(--dark-brown);
+  opacity: 0.5;
+}
+
+.A-MainPageButton {
+  display: flex;
+  padding: 0.83vw 1.67vw;
+  justify-content: center;
+  align-items: center;
+  gap: 0.69vw;
+  border-radius: 6.94vw;
+  background: var(--off-white);
+  box-shadow: 0.14vw 0.14vw 1.04vw 0vw #fdefa7 inset,
+    -0.07vw -0.07vw 0.35vw 0vw #fdefa7 inset;
+  &:hover {
+    background: var(--soft-orange);
   }
 }

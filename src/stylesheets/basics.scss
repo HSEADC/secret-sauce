@@ -7,7 +7,52 @@ body {
   height: 100%;
 }
 
-p{
-  font-family: "Suisse Intl";
-  font-weight: 450;
+h1 {
+  font-family: 'SuisseIntl-Medium';
+  font-size: 64px;
+}
+
+h2 {
+  font-family: 'SuisseIntl-Book';
+  font-size: 48px;
+}
+
+h3 {
+  font-family: 'SuisseIntl-Medium';
+  font-size: 36px;
+}
+
+h4 {
+  font-family: 'SuisseIntl-Book';
+  font-size: 32px;
+}
+
+h5 {
+  font-family: 'SuisseIntl-Medium';
+  font-size: 24px;
+}
+
+h6 {
+  font-family: 'SuisseIntl-Book';
+  font-size: 14px;
+}
+
+p.p1 {
+  font-family: 'SuisseIntl-Regular';
+  font-size: 22px;
+}
+
+p.p2 {
+  font-family: 'SuisseIntl-Regular';
+  font-size: 20px;
+}
+
+p.p3 {
+  font-family: 'SuisseIntl-Book';
+  font-size: 16px;
+}
+
+p.p4 {
+  font-family: 'SuisseIntl-Regular';
+  font-size: 14px;
 }

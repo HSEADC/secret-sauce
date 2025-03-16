@@ -1,4 +1,4 @@
-.Main-Page{
+.Main-Page {
   background-image: url(/src/images/main-page/Q_background.png);
   display: flex;
   flex-direction: column;
@@ -7,4 +7,5 @@
   background-position: top;
   width: 100%;
   height: 100%;
+  gap: 5.56vw;
 }
