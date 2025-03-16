@@ -1,4 +1,69 @@
 :root {
+  --off-white: hsla(0, 0%, 100%, 1);
+  --off-white-01: hsla(0, 0%, 95%, 1);
   --off-white-02: hsla(0, 0%, 95%, 1);
   --dark-brown: hsla(45, 100%, 5%, 1);
+  --dark-brown-60: hsla(45, 100%, 5%, 0.6);
+  --orange: hsla(46, 100%, 51%, 1);
+  --soft-orange: hsla(50, 96%, 82%, 1);
+  --soft-orange-halftone: hsla(50, 96%, 91%, 1);
+  --soft-orange-50: hsla(50, 96%, 82%, 0.5);
+  --xoxo: hsla(328, 79%, 58%, 1);
+  --xoxo-text: hsla(328, 88%, 34%, 1);
+  --xoxo-20: hsla(328, 83%, 56%, 0.2);
+  --xoxo-light: hsla(328, 82%, 91%, 1);
+  --xoxo-superlight: hsla(330, 53%, 93%, 1);
+  --tiffany-superlight: hsla(173, 56%, 94%, 1);
+  --tiffany-light: hsla(175, 53%, 86%, 1);
+  --tiffany-dark: hsla(174, 61%, 50%, 1);
+}
+
+h1 {
+  font-family: 'SuisseIntl-Medium';
+  font-size: 64px;
+}
+
+h2 {
+  font-family: 'SuisseIntl-Book';
+  font-size: 48px;
+}
+
+h3 {
+  font-family: 'SuisseIntl-Medium';
+  font-size: 36px;
+}
+
+h4 {
+  font-family: 'SuisseIntl-Book';
+  font-size: 32px;
+}
+
+h5 {
+  font-family: 'SuisseIntl-Medium';
+  font-size: 24px;
+}
+
+h6 {
+  font-family: 'SuisseIntl-Book';
+  font-size: 14px;
+}
+
+p.p1 {
+  font-family: 'SuisseIntl-Regular';
+  font-size: 22px;
+}
+
+p.p2 {
+  font-family: 'SuisseIntl-Regular';
+  font-size: 20px;
+}
+
+p.p3 {
+  font-family: 'SuisseIntl-Book';
+  font-size: 16px;
+}
+
+p.p4 {
+  font-family: 'SuisseIntl-Regular';
+  font-size: 14px;
 }
