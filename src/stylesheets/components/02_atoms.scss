@@ -19,6 +19,7 @@ a.A-MenuPoint {
 
   &:hover {
     background: var(--soft-orange);
+    transition: 0.5s;
   }
 }
 
@@ -47,5 +48,31 @@ a.A-MenuPoint {
     -0.07vw -0.07vw 0.35vw 0vw #fdefa7 inset;
   &:hover {
     background: var(--soft-orange);
+        transition: 0.5s;
   }
+}
+
+a.A-Hero-Card{
+  display: flex;
+  width: 44.48vw;
+  height: 28.13vw;
+  padding: 1.46vw;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: var(--off-white);
+  background-image: url(/src/images/main-page/A_Hero-Card_1_Campein.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.A_TagsCard{
+  display: flex;
+  padding: 0.75rem 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.36vw;
+  border-radius: 5.21vw;
+  background: rgba(255, 255, 255, 0.01);
+  box-shadow: -1px -1px 5px 0px #E9E9E9 inset, 1px 1px 5px 0px rgba(233, 233, 233, 0.50) inset;
 }
