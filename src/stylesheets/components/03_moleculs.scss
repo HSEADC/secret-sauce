@@ -17,14 +17,17 @@
 //бегущая строка
 .M-Hero-Cards-hidden{
   width: 100%;
-  height: 28.13vw;
+
+}
+.M-Hero-Cards-hidden{
+  width: 100%;
   overflow: hidden;
   position: relative;
   padding: 0 1.25vw;
   margin-bottom: 1.25vw;
 }
 .M-Hero-Cards{
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   gap: 0.83vw;
   position: relative;

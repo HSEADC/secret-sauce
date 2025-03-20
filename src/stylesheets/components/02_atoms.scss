@@ -54,16 +54,28 @@ a.A-MenuPoint {
 
 a.A-Hero-Card{
   display: flex;
-  width: 44.48vw;
   height: 28.13vw;
   padding: 1.46vw;
+  flex: 1 0 0;
+  text-decoration: none;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
   color: var(--off-white);
-  background-image: url(/src/images/main-page/A_Hero-Card_1_Campein.png);
-  background-size: 100%;
+
+}
+
+#Hero-Card-1{
+  width: 44.48vw;
+  background-size: contain;
   background-repeat: no-repeat;
+  background-image: url(/src/images/main-page/A_Hero-Card_1_Campein.png);
+}
+#Hero-Card-2{
+  width: 21.88vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/src/images/main-page/A_Hero-Card_2_Campein.png);
 }
 
 .A_TagsCard{
