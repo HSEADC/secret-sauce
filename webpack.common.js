@@ -108,29 +108,6 @@ module.exports = {
     }),
 
     // публикации в разделе "статьи" (articles)
-    new HtmlWebpackPlugin({
-      template: './src/articles/diesel.html',
-      filename: './articles/diesel.html',
-      chunks: ['index'],
-    }),
-
-    new HtmlWebpackPlugin({
-      template: './src/articles/holidayduo.html',
-      filename: './articles/holidayduo.html',
-      chunks: ['index'],
-    }),
-
-    new HtmlWebpackPlugin({
-      template: './src/articles/lapka.html',
-      filename: './articles/lapka.html',
-      chunks: ['index'],
-    }),
-
-    new HtmlWebpackPlugin({
-      template: './src/articles/Skims.html',
-      filename: './articles/Skims.html',
-      chunks: ['index'],
-    }),
 
     // Internal pages
     // new HtmlWebpackPlugin({

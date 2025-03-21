@@ -21,3 +21,15 @@
     text-align: center;
   }
 }
+
+.W-DirectionFilter {
+  display: flex;
+  width: 23vw;
+  height: 15vw;
+  padding: 1vw;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.4vw;
+  border-radius: 1.6vw;
+  background: var(--off-white-01);
+}
