@@ -20,7 +20,6 @@
   width: 100%;
 }
 .M-Hero-Cards-hidden {
-  width: 100%;
   overflow: hidden;
   position: relative;
   padding: 0 1.25vw;
@@ -32,7 +31,18 @@
   gap: 0.83vw;
   position: relative;
   z-index: 1;
+  width: max-content;
   animation: horizontalRunningPhotos 12s linear infinite;
+  &:hover {
+      animation-play-state: paused;
+    }
+}
+.Hidden {
+  display: none;
+}
+
+.M-Hero-Cards:first-of-type {
+  display: inline-flex; 
 }
 
 @keyframes horizontalRunningPhotos {
@@ -40,7 +50,7 @@
     transform: translateX(0);
   }
   to {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
 
@@ -50,6 +60,7 @@
   align-items: flex-start;
   align-content: flex-start;
   gap: 0.25rem;
+  opacity: 0%;
 }
 
 .M-FilterAndNumber {
