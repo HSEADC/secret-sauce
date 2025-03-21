@@ -1,9 +1,11 @@
+//хедер
 .M-HeaderCategories {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 0.28vw;
 }
+//главная страница контент
 .M-MainPageTab {
   display: flex;
   padding: 0.28vw;
@@ -15,18 +17,17 @@
 }
 
 //бегущая строка
-.M-Hero-Cards-hidden{
+.M-Hero-Cards-hidden {
   width: 100%;
-
 }
-.M-Hero-Cards-hidden{
+.M-Hero-Cards-hidden {
   width: 100%;
   overflow: hidden;
   position: relative;
   padding: 0 1.25vw;
   margin-bottom: 1.25vw;
 }
-.M-Hero-Cards{
+.M-Hero-Cards {
   display: inline-flex;
   flex-direction: row;
   gap: 0.83vw;
@@ -44,10 +45,18 @@
   }
 }
 
-.M_TagLine{
+.M_TagLine {
   display: flex;
   width: auto;
   align-items: flex-start;
   align-content: flex-start;
   gap: 0.25rem;
+}
+
+//фильтры на страницы статей
+.M-FilterAndNumber {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
 }

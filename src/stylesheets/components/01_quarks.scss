@@ -1,0 +1,11 @@
+//картинка в фильтрах
+.Q-ImgFilter {
+  background-image: url('/src/images/articles/campain.webp');
+  display: flex;
+  width: 20.5vw;
+  height: 9vw;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5vw;
+  background-size: cover;
+}

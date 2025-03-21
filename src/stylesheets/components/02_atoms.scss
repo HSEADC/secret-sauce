@@ -1,3 +1,4 @@
+//хедер
 a.A-MenuPoint {
   min-width: 5.35vw;
   max-width: 12.36vw;
@@ -36,6 +37,7 @@ a.A-MenuPoint {
   opacity: 0.5;
 }
 
+//главная страница
 .A-MainPageButton {
   display: flex;
   padding: 0.83vw 1.67vw;
@@ -48,11 +50,11 @@ a.A-MenuPoint {
     -0.07vw -0.07vw 0.35vw 0vw #fdefa7 inset;
   &:hover {
     background: var(--soft-orange);
-        transition: 0.5s;
+    transition: 0.5s;
   }
 }
 
-a.A-Hero-Card{
+a.A-Hero-Card {
   display: flex;
   height: 28.13vw;
   padding: 1.46vw;
@@ -62,23 +64,22 @@ a.A-Hero-Card{
   justify-content: space-between;
   align-items: flex-start;
   color: var(--off-white);
-
 }
 
-#Hero-Card-1{
+#Hero-Card-1 {
   width: 44.48vw;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url(/src/images/main-page/A_Hero-Card_1_Campein.png);
 }
-#Hero-Card-2{
+#Hero-Card-2 {
   width: 21.88vw;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url(/src/images/main-page/A_Hero-Card_2_Campein.png);
 }
 
-.A_TagsCard{
+.A_TagsCard {
   display: flex;
   padding: 0.75rem 1rem;
   justify-content: center;
@@ -86,5 +87,15 @@ a.A-Hero-Card{
   gap: 0.36vw;
   border-radius: 5.21vw;
   background: rgba(255, 255, 255, 0.01);
-  box-shadow: -1px -1px 5px 0px #E9E9E9 inset, 1px 1px 5px 0px rgba(233, 233, 233, 0.50) inset;
+  box-shadow: -1px -1px 5px 0px #e9e9e9 inset,
+    1px 1px 5px 0px rgba(233, 233, 233, 0.5) inset;
+}
+
+//страница статей
+.A-NumberArticles {
+  display: flex;
+  padding: 0.5vw 0.9vw;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7vw;
 }
