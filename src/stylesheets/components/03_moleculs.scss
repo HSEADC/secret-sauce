@@ -34,15 +34,15 @@
   width: max-content;
   animation: horizontalRunningPhotos 12s linear infinite;
   &:hover {
-      animation-play-state: paused;
-    }
+    animation-play-state: paused;
+  }
 }
 .Hidden {
   display: none;
 }
 
 .M-Hero-Cards:first-of-type {
-  display: inline-flex; 
+  display: inline-flex;
 }
 
 @keyframes horizontalRunningPhotos {
@@ -76,6 +76,23 @@
 }
 
 .M_TagLine {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 0.3vw;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.M_Avatars {
+  display: flex;
+  width: 25vw;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: -0.7vw;
+}
+
+.M_CollabTags {
   display: flex;
   align-items: flex-start;
   align-content: flex-start;

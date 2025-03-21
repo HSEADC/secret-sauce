@@ -48,7 +48,7 @@ a.A-MenuPoint {
     transition: 0.5s;
   }
 }
-.A-Active-PageButton{
+.A-Active-PageButton {
   background: var(--off-white);
   box-shadow: 0.14vw 0.14vw 1.04vw 0vw #fdefa7 inset,
     -0.07vw -0.07vw 0.35vw 0vw #fdefa7 inset;
@@ -67,11 +67,12 @@ a.A-Hero-Card {
   align-items: flex-start;
   color: var(--off-white);
   border-radius: 0.8vw;
-  .p2{
+  .p2 {
     opacity: 0%;
   }
   &:hover {
-    box-shadow: -20px -20px 50px 0px rgba(255, 255, 255, 0.5) inset, 20px 20px 50px 0px rgba(255, 255, 255, 0.5) inset;
+    box-shadow: -20px -20px 50px 0px rgba(255, 255, 255, 0.5) inset,
+      20px 20px 50px 0px rgba(255, 255, 255, 0.5) inset;
   }
   &:hover .p2,
   &:hover .M_TagLine {
@@ -100,37 +101,46 @@ a.A-Hero-Card {
 }
 //видео
 .A-Card-7 {
-  background-image: url(/src/images/main-page/A_Hero-Card_3_Campein.webp);
+  background-image: url(/src/images/video/isamaya.mp4);
 }
 .A-Card-8 {
-  background-image: url(/src/images/main-page/A_Hero-Card_2_Campein.webp);
+  background-image: url(/src/images/video/MackenzieWilliam.mp4);
 }
 .A-Card-9 {
-  background-image: url(/src/images/main-page/A_Hero-Card_1_Campein.webp);
+  background-image: url(/src/images/video/BORK.mp4);
 }
 .A-Card-10 {
-  background-image: url(/src/images/main-page/A_Hero-Card_3_Campein.webp);
+  background-image: url(/src/images/video/Rhode.mp4);
 }
 .A-Card-11 {
-  background-image: url(/src/images/main-page/A_Hero-Card_4_Campein.webp);
+  background-image: url(/src/images/video/TIFFANY.mp4);
 }
 .A-Card-12 {
   background-image: url(/src/images/main-page/A_Hero-Card_6_Campein.webp);
 }
 
-.A-Card-1, .A-Card-4, .A-Card-9, .A-Card-11{
+.A-Card-1,
+.A-Card-4,
+.A-Card-9,
+.A-Card-11 {
   width: 44.48vw;
   height: 28.13vw;
   background-size: contain;
   background-repeat: no-repeat;
 }
-.A-Card-2, .A-Card-3, .A-Card-5, .A-Card-6, .A-Card-7, .A-Card-8, .A-Card-10, .A-Card-12{
+.A-Card-2,
+.A-Card-3,
+.A-Card-5,
+.A-Card-6,
+.A-Card-7,
+.A-Card-8,
+.A-Card-10,
+.A-Card-12 {
   width: 21.88vw;
   height: 28.13vw;
   background-size: contain;
   background-repeat: no-repeat;
 }
-
 
 .A_TagsCard {
   display: flex;
@@ -195,4 +205,28 @@ a.A-Hero-Card {
   border-radius: 7vw;
   box-shadow: -0.069vw -0.069vw 0.347vw 0px #e9e9e9 inset,
     0.069vw 0.069vw 0.347vw 0px rgba(233, 233, 233, 0.5) inset;
+}
+
+.A_TagFilterPrimaryOrange {
+  display: flex;
+  padding: 0.8vw 1.1vw;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7vw;
+  border-radius: 7vw;
+  box-shadow: 0.3vw 0.3 1.4vw 0px rgba(255, 196, 3, 0.7) inset,
+    -0.3vw -0.3vw 1.4vw 0px rgba(255, 196, 3, 0.7) inset;
+  background: var(--soft-orange);
+}
+
+.A_TagsCardSecondaryOrange {
+  display: flex;
+  padding: 0.8vw 1.1vw;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7vw;
+  border-radius: 7vw;
+  box-shadow: -0.069vw -0.069vw 0.694vw 0px rgba(255, 196, 3, 0.5) inset,
+    0.069vw 0.069vw 0.694vw 0px rgba(255, 196, 3, 0.5) inset;
+  backdrop-filter: blur(4px);
 }
