@@ -1,0 +1,30 @@
+a.O_SmallCard {
+  color: var(--dark-brown);
+  text-decoration: none;
+  width: 23vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.3vw;
+  background-size: cover;
+  background-position: center;
+}
+a.O_MediumCard {
+  color: var(--dark-brown);
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.3vw;
+  width: 23vw;
+}
+
+a.O_LargeCard {
+  color: var(--dark-brown);
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.3vw;
+  width: 45vw;
+}

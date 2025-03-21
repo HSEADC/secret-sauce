@@ -1,4 +1,3 @@
-//картинка в фильтрах
 .Q-ImgFilter {
   background-image: url('/src/images/articles/campain.webp');
   display: flex;
@@ -8,4 +7,27 @@
   align-items: center;
   border-radius: 0.5vw;
   background-size: cover;
+}
+.Q_SmalImg {
+  width: 23vw;
+  height: 23vw;
+  border-radius: 11vw;
+  background-position: 60% 70%;
+  background-size: cover;
+}
+
+.Q_MiddleImg {
+  width: 23vw;
+  height: 30vw;
+  background-image: url(/src/images/articles/KendrikLamar.webp);
+  background-size: cover;
+  border-radius: 0.8vw;
+}
+
+.Q_BigImg {
+  width: 45vw;
+  height: 46vw;
+  background-image: url(/src/images/articles/NothingFancy.webp);
+  background-size: cover;
+  border-radius: 0.8vw;
 }
