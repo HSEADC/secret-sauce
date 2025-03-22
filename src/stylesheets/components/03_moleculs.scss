@@ -62,6 +62,13 @@
   gap: 0.25rem;
   opacity: 0%;
 }
+.M_TagLineArticles {
+  display: flex;
+  width: auto;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 0.25rem;
+}
 
 .M-FilterAndNumber {
   display: flex;
@@ -89,7 +96,6 @@
   width: 25vw;
   flex-direction: row;
   align-items: flex-start;
-  gap: -0.7vw;
 }
 
 .M_CollabTags {
@@ -99,4 +105,10 @@
   gap: 0.3vw;
   align-self: stretch;
   flex-wrap: wrap;
+}
+
+.M_CollabHeading {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
 }
