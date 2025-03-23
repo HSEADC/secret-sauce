@@ -1,5 +1,4 @@
 .Q-ImgFilter {
-  background-image: url('/src/images/articles/campain.webp');
   display: flex;
   width: 20.5vw;
   height: 9vw;
@@ -17,14 +16,14 @@
 }
 
 .Q_MiddleImg {
-  width: 23vw;
+  width: 22vw;
   height: 30vw;
   background-size: cover;
   border-radius: 0.8vw;
 }
 
 .Q_BigImg {
-  width: 45vw;
+  width: 46.5vw;
   height: 46vw;
   background-size: cover;
   border-radius: 0.8vw;
@@ -39,7 +38,12 @@
   width: 30%;
   border-radius: 10vw;
   border: 0.5vw solid var(--off-white);
-  /* shadow */
   transform: translateX(-5px);
   box-shadow: 0px 4px 4px 0px rgba(86, 86, 86, 0.09);
+  position: relative;
+}
+
+.Q_Avatar:not(:first-child) {
+  margin-left: -5%; /* Все, кроме первого, накладываются друг на друга */
+  z-index: calc(10 - var(--i)); /* Контролирует порядок наложения */
 }

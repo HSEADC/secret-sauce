@@ -230,3 +230,32 @@ a.A-Hero-Card {
     0.069vw 0.069vw 0.694vw 0px rgba(255, 196, 3, 0.5) inset;
   backdrop-filter: blur(4px);
 }
+
+.A_LogoFooter {
+  width: 15%;
+}
+
+a.A_Menu-Point {
+  text-decoration: none;
+  color: var(--dark-brown-60);
+}
+
+.A_Input {
+  all: unset;
+  font-size: 16px;
+  color: var(--dark-brown-60);
+  padding-left: 0.5vw;
+  font-family: 'SuisseIntl-Book';
+}
+
+.A_SendButton {
+  all: unset;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.A_SendButton img {
+  width: 90%;
+}
