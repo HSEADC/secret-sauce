@@ -1,11 +1,37 @@
-@media screen and (min-width: 1921px) {
+@media screen and (max-width: 1025px){
+//main page
+//заголовок
+.W-HeroContent {
+  gap: 2.78vw;
+  h1 {
+    font-size: 48px;
+  }
+}
+//бегущая строка
+.A-Hero-Card {
+  height: 45.51vw;
+  padding: 1.46vw;
+}
+.A-Card-1,
+.A-Card-4,
+.A-Card-11 {
+  width: 71.97vw;
+  height: 45.51vw;
+}
+.A-Card-2,
+.A-Card-3,
+.A-Card-5,
+.A-Card-6,
+.A-Card-7,
+.A-Card-8,
+.A-Card-9,
+.A-Card-10,
+.A-Card-12 {
+  width: 35.35vw;
+  height: 45.51vw;
+}
 }
 
-@media screen and (min-width: 1441px) and (max-width: 1920px) {
-}
 
-@media screen and (min-width: 769px) {
-}
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 431px) {
 }

@@ -1,11 +1,10 @@
 a.A-MenuPoint {
   min-width: 5.35vw;
-  height: 2.99vw;
   text-decoration: none;
   color: var(--dark-brown);
   font-size: 16px;
   display: flex;
-  padding: 0.63vw 0.83vw;
+  padding: 12px 16px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -25,7 +24,7 @@ a.A-MenuPoint {
 .A-Searchbar {
   display: flex;
   width: 24.03vw;
-  padding: 0.83vw 1.11vw;
+  padding: 12px 16px;
   align-items: center;
   gap: 0.69vw;
   border-radius: 69.44vw;
@@ -37,7 +36,7 @@ a.A-MenuPoint {
 
 .A-MainPageButton {
   display: flex;
-  padding: 0.83vw 1.67vw;
+  padding: 12px 16px;
   justify-content: center;
   align-items: center;
   gap: 0.69vw;
@@ -249,7 +248,7 @@ a.A_Menu-Point {
 .A_Input {
   all: unset;
   font-size: 16px;
-  color: var(--dark-brown-60);
+  color: var(--dark-brown);
   padding-left: 0.5vw;
   font-family: 'SuisseIntl-Book';
 }
