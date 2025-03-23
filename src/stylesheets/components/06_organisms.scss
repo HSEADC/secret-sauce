@@ -1,69 +1,40 @@
-.O_contentform {
+a.O_SmallCard {
+  color: var(--dark-brown);
+  text-decoration: none;
+  width: 23vw;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 30vw;
-  gap: 2vw;
-  margin-top: 10vw;
+  align-items: flex-start;
+  gap: 1.3vw;
+  background-size: cover;
+  background-position: center;
 }
-
-.O_lil-cards,
-.O_selected-cards {
-  display: flex;
-  gap: 1vw;
-}
-
-.O_article {
+a.O_MediumCard {
+  color: var(--dark-brown);
+  text-decoration: none;
   display: flex;
   flex-direction: column;
-  width: 50vw;
-  gap: 1vw;
+  align-items: flex-start;
+  gap: 1.3vw;
+  width: 22vw;
+}
 
-  h4 {
-    color: rgba(28, 21, 0, 0.6);
-  }
-  .toparicle {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    .imgtext {
-      display: flex;
-      align-items: center;
-      gap: 0.5vw;
-
-      img {
-        width: 15%;
-      }
-    }
-  }
-
-  .shadow {
-    position: absolute;
-    width: 50vw;
-    height: 33vw;
-    pointer-events: none;
-    border-radius: 1vw;
-  }
-  .img {
-    border-radius: 2vw;
-    transition: box-shadow 0.3s ease;
-    width: 50vw;
-    img {
-      width: 100%;
-      border-radius: 1vw;
-    }
-  }
-
-  .img:hover .shadow {
-    box-shadow: 0px -20px 40px rgb(255, 255, 255) inset;
-  }
-
-  .bottomarticle {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+a.O_LargeCard {
+  color: var(--dark-brown);
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.3vw;
+  width: 46.5vw;
+}
+a.O-Collabcard {
+  width: 94.44vw;
+  border-radius: 3.33vw;
+  padding: 4vw;
+  text-decoration: none;
+  color: var(--dark-brown);
+  p {
+    color: var(--dark-brown-60);
   }
 }

@@ -1,0 +1,24 @@
+.S_ArticlePage {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 8vw 1.1vw;
+  flex-wrap: wrap;
+  align-self: stretch;
+  justify-content: flex-start;
+}
+
+.S_FooterDesktop {
+  display: flex;
+  height: 45vw;
+  flex-direction: column;
+  background-image: url(/src/images/footer/S_FooterDesktop.webp);
+  border-radius: var(--48, 48px);
+  background-size: cover;
+  box-shadow: -3px -3px 70px 10px rgba(255, 255, 255, 0.5) inset,
+    3px 3px 70px 10px rgba(255, 255, 255, 0.5) inset;
+  margin-bottom: 2vw;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}

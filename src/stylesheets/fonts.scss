@@ -1,20 +1,20 @@
 @font-face {
+  font-family: 'SuisseIntl-Medium';
+  src: url('../fonts/SuisseIntl-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'SuisseIntl-Book';
-  src: url('../fonts/SuisseIntl-Book.otf') format('otf');
+  src: url('../fonts/SuisseIntl-Book.otf') format('opentype');
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'SuisseIntlTrial-Medium';
-  src: url('../fonts/SuisseIntlTrial-Medium.otf') format('otf');
-  font-weight: 300;
-  font-style: medium;
-}
-
-@font-face {
-  font-family: 'SuisseIntlTrial-Regular';
-  src: url('../fonts/SuisseIntlTrial-Regular.otf') format('otf');
-  font-weight: 100;
-  font-style: medium;
+  font-family: 'SuisseIntl-Regular';
+  src: url('../fonts/SuisseIntl-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
 }

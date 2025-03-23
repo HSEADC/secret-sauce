@@ -9,6 +9,7 @@ module.exports = {
   entry: {
     index: './src/index.js',
     swiper: './src/javascript/swiper.js',
+    tab: './src/javascript/tab.js',
   },
   output: {
     filename: '[name].js',
@@ -78,7 +79,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: './index.html',
-      chunks: ['index', 'swiper'],
+      chunks: ['index', 'swiper', 'tab'],
     }),
 
     // все страницы разделов
@@ -108,30 +109,12 @@ module.exports = {
     }),
 
     // публикации в разделе "статьи" (articles)
-    new HtmlWebpackPlugin({
-      template: './src/articles/diesel.html',
-      filename: './articles/diesel.html',
-      chunks: ['index'],
-    }),
 
     new HtmlWebpackPlugin({
-      template: './src/articles/holidayduo.html',
-      filename: './articles/holidayduo.html',
+      template: './src/articles/visual-fast-food/plantarosa.html',
+      filename: './articles/visual-fast-food/plantarosa.html',
       chunks: ['index'],
     }),
-
-    new HtmlWebpackPlugin({
-      template: './src/articles/lapka.html',
-      filename: './articles/lapka.html',
-      chunks: ['index'],
-    }),
-
-    new HtmlWebpackPlugin({
-      template: './src/articles/Skims.html',
-      filename: './articles/Skims.html',
-      chunks: ['index'],
-    }),
-
     // Internal pages
     // new HtmlWebpackPlugin({
     //   hash: true,

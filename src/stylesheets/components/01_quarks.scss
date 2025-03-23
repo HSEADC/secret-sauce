@@ -1,32 +1,49 @@
-.A_sendbutton {
-  img {
-    width: 50%;
-
-    &:hover {
-      transform: rotate(-20deg);
-    }
-  }
-}
-.A_sendbutton2 {
-  img {
-    width: 50%;
-
-    &:hover {
-      transform: rotate(-20deg);
-    }
-  }
-}
-
-.Q_tag {
-  min-width: 4em;
-  height: 3vw;
-  background-color: #fdefa7;
-  border-radius: 10vw;
-  padding: 1vw;
+.Q-ImgFilter {
   display: flex;
-  align-items: center;
+  width: 20.5vw;
+  height: 9vw;
   justify-content: center;
-  resize: both;
-  box-shadow: -8px -8px 20px 0px rgba(255, 255, 255, 0.4) inset,
-    8px 8px 20px 0px rgba(255, 255, 255, 0.4) inset;
+  align-items: center;
+  border-radius: 0.5vw;
+  background-size: cover;
+}
+.Q_SmalImg {
+  width: 23vw;
+  height: 23vw;
+  border-radius: 11vw;
+  background-position: 60% 70%;
+  background-size: cover;
+}
+
+.Q_MiddleImg {
+  width: 22vw;
+  height: 30vw;
+  background-size: cover;
+  border-radius: 0.8vw;
+}
+
+.Q_BigImg {
+  width: 46.5vw;
+  height: 46vw;
+  background-size: cover;
+  border-radius: 0.8vw;
+}
+
+.Q-CollabImgXOXO {
+  background-image: url('/src/images/articles/O_CollabCard.webp');
+  background-size: cover;
+}
+
+.Q_Avatar {
+  width: 30%;
+  border-radius: 10vw;
+  border: 0.5vw solid var(--off-white);
+  transform: translateX(-5px);
+  box-shadow: 0px 4px 4px 0px rgba(86, 86, 86, 0.09);
+  position: relative;
+}
+
+.Q_Avatar:not(:first-child) {
+  margin-left: -5%; /* Все, кроме первого, накладываются друг на друга */
+  z-index: calc(10 - var(--i)); /* Контролирует порядок наложения */
 }

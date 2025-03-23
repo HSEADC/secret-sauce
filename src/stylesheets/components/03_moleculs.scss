@@ -1,110 +1,161 @@
-.M_menu {
-  width: 30vw;
-  height: 5vh;
+.M-HeaderCategories {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.28vw;
+}
+
+.M-MainPageTab {
+  display: flex;
+  padding: 0.28vw;
+  align-items: center;
+  justify-content: center;
+  gap: 0.28vw;
+  border-radius: 6.94vw;
+  background-color: var(--soft-orange-50);
+}
+
+//бегущая строка
+.M-Hero-Cards-hidden {
+  width: 100%;
+}
+.M-Hero-Cards-hidden {
+  overflow: hidden;
+  position: relative;
+  padding: 0 1.25vw;
+  margin-bottom: 1.25vw;
+}
+.M-Hero-Cards {
   display: inline-flex;
-  justify-content: center;
-  margin-top: 2vw;
-  gap: 0.5vw;
-
-  img {
-    height: 100%;
-  }
-}
-
-.M_menupoint {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 16px 16px;
-  gap: 10px;
-  border-radius: 1000px;
-  background: rgba(255, 255, 255, 0.5);
-}
-
-.M_formfooter {
-  width: 15vw;
-  background-color: #ffffff;
-  border-radius: 10vw;
-  display: flex;
-  justify-content: space-around;
-  padding: 0.5vw;
-}
-
-.M_menufooter {
-  display: flex;
-  gap: 2vw;
-}
-
-.M_button-simple {
-  width: 18vw;
-  height: 4.5vw;
-  background: #1c1500;
-  border-radius: 10vw;
-  display: flex;
-  justify-content: center;
-  padding: 0.5vw;
-  color: #f2f2f2;
-  text-align: center;
-  font-family: 'NonBureau-Regular';
-  border: none;
-  font-size: 1.5vw;
-  align-items: center;
-
-  a {
-    text-decoration: none;
-    color: #f2f2f2;
-  }
-  &:hover span {
-    display: none;
-  }
-
-  &:hover:before {
-    content: 'Подписаться в тг';
-  }
-
+  flex-direction: row;
+  gap: 0.83vw;
+  position: relative;
+  z-index: 1;
+  width: max-content;
+  animation: horizontalRunningPhotos 20s linear infinite;
   &:hover {
-    background: rgba(28, 21, 0, 0.6);
+    animation-play-state: paused;
+  }
+}
+.Hidden {
+  display: none;
+}
+
+.M-Hero-Cards:first-of-type {
+  display: inline-flex;
+}
+
+@keyframes horizontalRunningPhotos {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
   }
 }
 
-.M_article-card {
+.M_TagLine {
+  display: flex;
+  width: auto;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 0.25rem;
+  opacity: 0%;
+}
+.M_TagLineArticles {
+  display: flex;
+  width: auto;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.M-FilterAndNumber {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.M_format-filter {
+  display: flex;
+  align-items: flex-start;
+}
+
+.M_TagLine {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 0.3vw;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.M_Avatars {
+  display: flex;
+  width: 25vw;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.M_CollabTags {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 0.3vw;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.M_CollabHeading {
   display: flex;
   flex-direction: column;
-  width: 16vw;
   gap: 1vw;
-  color: #1c1500;
-  .shadow {
-    position: absolute;
-    width: 16vw;
-    height: 20vw;
-    pointer-events: none;
-    border-radius: 1vw;
-  }
-}
-.M_article-card:hover .shadow {
-  box-shadow: 0px -20px 40px rgb(255, 255, 255) inset;
 }
 
-.M_selected-card {
+.M_FooterText {
+  display: flex;
+  width: 33vw;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.2vw;
+  text-align: center;
+  p {
+    color: var(--dark-brown-60);
+  }
+}
+.M_FooterText {
+  display: flex;
+  width: 33vw;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.2vw;
+  text-align: center;
+  p {
+    color: var(--dark-brown-60);
+  }
+}
+//футер
+
+.M_MenuFooter {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  position: absolute;
+  gap: 1vw;
+  bottom: 2vw;
+}
+.M_formfooter {
   display: flex;
   flex-direction: column;
-  width: 32vw;
-  gap: 1vw;
-  color: #1c1500;
-  .shadow {
-    position: absolute;
-    width: 32vw;
-    height: 32vw;
-    pointer-events: none;
-    border-radius: 1vw;
-  }
-
-  a {
-    text-decoration: none;
-    color: #1c1500;
-  }
+  align-items: center;
 }
-.M_selected-card:hover .shadow {
-  box-shadow: 0px -20px 40px rgb(255, 255, 255) inset;
+.M_InputWrapper {
+  display: flex;
+  align-items: center;
+  background: #f6f3ea;
+  border-radius: 10vw;
+  padding: 0.5vw;
+  justify-content: flex-start;
+  cursor: pointer;
 }
