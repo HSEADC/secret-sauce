@@ -25,7 +25,6 @@
 .W-DirectionFilter {
   display: flex;
   width: 23vw;
-  height: 15vw;
   padding: 1vw;
   flex-direction: column;
   align-items: center;
@@ -53,12 +52,11 @@
 
 .W_CollabAvatarsHeadingTag {
   display: flex;
-  width: 28.194vw;
-  height: 37.014vw;
+  width: 37.014vw;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 11.806vw;
+  gap: 7vw;
 }
 
 .W_CollabTagHeading {

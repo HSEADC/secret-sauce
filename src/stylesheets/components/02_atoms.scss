@@ -101,32 +101,32 @@ a.A-Hero-Card {
 }
 //видео
 .A-Card-7 {
-  background-image: url(/src/images/video/isamaya.mp4);
+  background-image: url(/src/images/video/isamaya.gif);
 }
 .A-Card-8 {
-  background-image: url(/src/images/video/MackenzieWilliam.mp4);
+  background-image: url(/src/images/video/MackenzieWilliam.gif);
 }
 .A-Card-9 {
-  background-image: url(/src/images/video/BORK.mp4);
+  background-image: url(/src/images/video/isamaya.gif);
 }
 .A-Card-10 {
-  background-image: url(/src/images/video/Rhode.mp4);
+  background-image: url(/src/images/video/TIFFANY.gif);
 }
 .A-Card-11 {
-  background-image: url(/src/images/video/TIFFANY.mp4);
+  background-image: url(/src/images/video/BORK.gif);
 }
 .A-Card-12 {
-  background-image: url(/src/images/main-page/A_Hero-Card_6_Campein.webp);
+  background-image: url(/src/images/video/Rhode.gif);
 }
 
 .A-Card-1,
 .A-Card-4,
-.A-Card-9,
 .A-Card-11 {
   width: 44.48vw;
   height: 28.13vw;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 .A-Card-2,
 .A-Card-3,
@@ -134,11 +134,13 @@ a.A-Hero-Card {
 .A-Card-6,
 .A-Card-7,
 .A-Card-8,
+.A-Card-9,
 .A-Card-10,
 .A-Card-12 {
   width: 21.88vw;
   height: 28.13vw;
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -231,13 +233,17 @@ a.A-Hero-Card {
   backdrop-filter: blur(4px);
 }
 
+//футер
 .A_LogoFooter {
   width: 15%;
 }
-
 a.A_Menu-Point {
   text-decoration: none;
   color: var(--dark-brown-60);
+  &:hover {
+    color: var(--dark-brown);
+    transition: 0.5s;
+  }
 }
 
 .A_Input {
