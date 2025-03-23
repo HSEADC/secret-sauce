@@ -10,15 +10,14 @@
 
 .W-HeroContent {
   display: flex;
-  width: 99.79vw;
   flex-direction: column;
   align-items: center;
   gap: 2.78vw;
 
   h1 {
     color: var(--soft-orange);
-    width: 53.54vw;
     text-align: center;
+    font-size: 64px;
   }
 }
 
