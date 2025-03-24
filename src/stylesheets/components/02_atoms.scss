@@ -232,16 +232,15 @@ a.A-Hero-Card {
   backdrop-filter: blur(4px);
 }
 // визуальный фаст-фуд
-.A_TgAuthor{
+.A_TgAuthor {
   background-color: var(--off-white-02);
   padding: 8px 12px;
   border-radius: 7vw;
 }
 .A_MainPhoto {
-  width: 29.06vw;
-  height: 33.33vw;
-  border-radius: 1.39vw; /* 20px */
-  box-shadow: -3px -3px 50px 10px rgba(255, 255, 255, 0.50) inset, 3px 3px 50px 10px rgba(255, 255, 255, 0.50) inset;
+  border-radius: 1.39vw;
+  box-shadow: -3px -3px 50px 10px rgba(255, 255, 255, 0.5) inset,
+    3px 3px 50px 10px rgba(255, 255, 255, 0.5) inset;
 }
 //футер
 .A_LogoFooter {
