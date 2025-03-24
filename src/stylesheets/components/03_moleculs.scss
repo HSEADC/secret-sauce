@@ -271,13 +271,13 @@ a.M_Read {
   justify-content: space-between;
   align-items: center;
 }
-.M_Square {
+.M_ImgArticle {
   display: flex;
   width: 42.7vw;
 }
 .M_ArticleBottomMenu {
   display: flex;
-  padding: 1.111vw 1.111vw 1.111vw 1.667vw;
+  padding: 1vw 1vw 1vw 2vw;
   justify-content: space-between;
   align-items: center;
   align-self: stretch;
@@ -312,4 +312,52 @@ a.M_Read {
 }
 .M_ArticlePointMenuBlue {
   border-top: 1px solid var(--tiffany-light);
+}
+
+.M_TextField {
+  display: flex;
+  padding: 4.44vw 2.78vw;
+  justify-content: center;
+  align-items: center;
+  gap: 0.69vw;
+  align-self: stretch;
+  border-radius: 0.83vw;
+  background: var(--grey);
+}
+.M_QuoteField {
+  display: flex;
+  padding: 3.33vw 2.78vw;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.33vw;
+  align-self: stretch;
+  border-radius: var(--12, 0.83vw);
+}
+.M_QuoteFieldBlue {
+  background: var(--tiffany-light);
+}
+.M_QuoteAuthorLine {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1vw;
+}
+
+.M_TextSmthCard {
+  gap: 1vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.M_FeedTextBlock {
+  display: flex;
+  flex-direction: column;
+  width: 34.236vw;
+  gap: 1vw;
+  position: sticky;
+}
+.M_SimilarText {
+  display: flex;
+  flex-direction: column;
+  gap: 1.389vw;
 }
