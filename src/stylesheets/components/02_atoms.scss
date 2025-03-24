@@ -274,8 +274,12 @@ a.A-Hero-Card {
   background-color: var(--off-white-02);
 }
 //футер
+//здесь проблемка
 .A_LogoFooter {
-  width: 15%;
+  width: 15%;   
+}
+.A_LogoFooter {
+  width: 30%;
 }
 a.A_Menu-Point {
   text-decoration: none;

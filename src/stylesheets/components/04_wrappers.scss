@@ -7,7 +7,9 @@
   justify-content: space-between;
   align-items: center;
 }
-
+.W-Header-Mobile{
+    display: none;
+}
 .W-HeroContent {
   display: flex;
   flex-direction: column;

@@ -15,6 +15,11 @@
     width: 71.97vw;
     height: 45.51vw;
   }
+
+  .C-Burger-Menu{
+    display: none;
+  }
+
   .A-Card-2,
   .A-Card-3,
   .A-Card-5,
@@ -66,6 +71,59 @@
 
 @media screen and (max-width: 700px) {
   //main page
+  //бургер меню
+  .W-Header{
+    display: none;
+  }
+  //здесь проблемка
+  .W-Header{
+    display: none;
+  }
+  .C-Burger-Menu{
+    display: flex;
+    flex-direction: column;
+    gap: 18.56vw;
+  }
+  .W-Header-Mobile{
+    width: 100%;
+    padding: 1.25vw 3vw;
+    gap: 0.8vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .A-MenuPoint-Mobile{
+    display: flex;
+    text-decoration: none;
+    color: var(--dark-brown);
+    gap: var(--16, 1rem);
+    align-self: stretch;
+    border-bottom: 1px solid var(--soft-orange);
+  }
+  .A-Searchbar{
+    width: 100%;
+  }
+
+  .M-HeaderCategories{
+    display: none;
+  }
+  .M-HeaderCategories-Mobile{
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 3vw 3vw 100vw;
+    gap: 4vw;
+  }
+  .A_LogoHeader img{
+    width: 42px;
+    height: 42px;
+  }
+  .Active{
+    display: flex;
+    background-color: var(--soft-orange-halftone);
+  }
+
   //заголовок
   .W-HeroContent {
     gap: 2.78vw;

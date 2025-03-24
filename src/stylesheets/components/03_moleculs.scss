@@ -76,19 +76,21 @@
   flex-wrap: wrap;
   gap: 0.25rem;
 }
-
 .M-FilterAndNumber {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   align-self: stretch;
 }
-
 .M_format-filter {
   display: flex;
   align-items: flex-start;
 }
-
+.M_CollabTags{
+  display: flex;
+  align-items: flex-start;
+  gap: 0.21vw;
+}
 .M_TagLine {
   display: flex;
   align-items: flex-start;
@@ -97,7 +99,6 @@
   align-self: stretch;
   flex-wrap: wrap;
 }
-
 .M_Avatars_L {
   display: flex;
   width: 25vw;
@@ -109,7 +110,6 @@
   flex-direction: row;
   align-items: flex-start;
 }
-
 .M_LargeArticleTags {
   display: flex;
   align-items: flex-start;
@@ -148,7 +148,15 @@
   }
 }
 //футер
-
+//здесь проблемка
+.M_MenuFooter {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  position: absolute;
+  gap: 1vw;
+  bottom: 2vw;
+}
 .M_MenuFooter {
   display: flex;
   flex-direction: row;
