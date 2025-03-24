@@ -73,5 +73,18 @@
 
 .W_HeadingAuthor {
   display: flex;
+  width: 23vw;
+  justify-content: space-between;
+  align-items: center;
   flex-direction: column;
+}
+
+.W_ImgChanging {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.W_SimmilarTags {
+  margin-top: 1.39vw;
 }

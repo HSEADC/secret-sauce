@@ -162,7 +162,6 @@
 
 .M_TitleArticle {
   display: flex;
-  width: 20vw;
   flex-direction: column;
   gap: 1.4vw;
 }
@@ -171,4 +170,48 @@
   display: flex;
   flex-direction: row;
   gap: 1.4vw;
+  align-items: center;
+  gap: 0.56vw;
+}
+
+.M_PhBar {
+  display: inline-flex;
+  flex-direction: row;
+  gap: 0.5vw;
+  padding: 0.417vw;
+  align-items: center;
+  border-radius: 1.25vw;
+  background: var(--off-white-02);
+  margin-top: 0.69vw;
+}
+
+.M_PhBar img {
+  width: 5vw;
+  height: 5vw;
+  object-fit: cover;
+  border-radius: 0.8vw;
+  box-shadow: -3px -3px 10px 3px #ffffff inset, 3px 3px 10px 3px #ffffff inset;
+  transition: transform 0.2s ease-in-out;
+}
+
+.M_Similar {
+  display: flex;
+  align-items: center;
+  gap: 0.83vw;
+  background: #f9f9f9;
+  padding: 0.69vw;
+  border-radius: 0.83vw;
+}
+
+.M_Similar img {
+  width: 3.33vw;
+  height: 3.33vw;
+  border-radius: 0.56vw;
+  object-fit: cover;
+}
+
+.M_Read {
+  display: flex;
+  align-items: center;
+  gap: 0.42vw;
 }
