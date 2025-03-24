@@ -159,3 +159,16 @@
   justify-content: flex-start;
   cursor: pointer;
 }
+
+.M_TitleArticle {
+  display: flex;
+  width: 20vw;
+  flex-direction: column;
+  gap: 1.4vw;
+}
+
+.M_Author-Bar {
+  display: flex;
+  flex-direction: row;
+  gap: 1.4vw;
+}
