@@ -86,9 +86,20 @@
   background-image: url(/src/images/LargeArticles/Q_Cover_Article_Tiffany.webp);
   background-size: cover;
   width: 100%;
-  height: 65.63vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.Q_SendButton img{
+.Q_SendButton img {
   width: 3.8vw;
   height: 3.8vw;
+}
+
+.Q_ClockImg {
+  background-image: url(/src/images/covers/Q_AddSomething-1.webp);
+  width: 42.7vw;
+  height: 31.25vw;
+  background-size: cover;
+  display: flex;
+  padding: 2vw 2vw;
 }

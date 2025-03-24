@@ -114,7 +114,7 @@
   align-items: center;
   text-align: center;
   gap: 4vw;
-  padding: 5vw 3vw 0 3vw; /* top right bottom left */
+  padding: 5vw 3vw 3vw 3vw; /* top right bottom left */
 }
 
 .W_ArticleMenuBox {
@@ -141,5 +141,14 @@
   height: 17.778vw;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-start;
+}
+
+.W_AddSomethingCard {
+  display: flex;
+  flex-direction: column;
+  width: 20.8vw;
+  align-self: center;
+  gap: 10vw;
   align-items: flex-start;
 }
