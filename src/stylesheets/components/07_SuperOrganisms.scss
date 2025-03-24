@@ -26,9 +26,9 @@
 .S_VisualFast-Food {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
+  align-items: flex-end;
+  justify-content: space-between;
   width: 100%;
   gap: 1.39vw;
-  margin: auto;
+  padding: 0 3vw;
 }

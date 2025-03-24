@@ -74,8 +74,9 @@
 .W_HeadingAuthor {
   display: flex;
   width: 23vw;
+  gap: 17.71vw;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
 }
 
@@ -83,8 +84,25 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 2.85vw;
 }
 
 .W_SimmilarTags {
-  margin-top: 1.39vw;
+  display: flex;
+  width: 23vw;
+  gap: 16.41vw;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.W_Similar{
+  display: flex;
+  flex-direction: column;
+  gap: 0.4vw;
+}
+.W_TextRead{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

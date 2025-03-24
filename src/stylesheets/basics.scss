@@ -76,19 +76,19 @@ p.p4 {
 }
 
 h2 {
-  font-size: 48px;
-}
-
-h3 {
   font-size: 36px;
 }
 
-h4 {
+h3 {
   font-size: 32px;
 }
 
-h5 {
+h4 {
   font-size: 24px;
+}
+
+h5 {
+  font-size: 20px;
 }
 
 h6 {
@@ -96,11 +96,11 @@ h6 {
 }
 
 p.p1 {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 p.p2 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 p.p3 {
@@ -112,7 +112,7 @@ p.p4 {
 }
 }
 
-@media screen and (max-width: 431px) {
+@media screen and (max-width: 700px) {
   h1 {
   font-size: 38px;
 }
