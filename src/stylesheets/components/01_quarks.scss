@@ -42,11 +42,19 @@
   box-shadow: 0px 4px 4px 0px rgba(86, 86, 86, 0.09);
   position: relative;
 }
-.Q_Avatar_S {
-  width: 2.7vw;
-  height: 2.7vw;
+.Q_AvatarLargeArticle {
+  width: 20%;
   border-radius: 10vw;
-  border: 0.3vw solid var(--off-white);
+  border: 0.5vw solid var(--off-white);
+  transform: translateX(-5px);
+  box-shadow: 0px 4px 4px 0px rgba(86, 86, 86, 0.09);
+  position: relative;
+}
+.Q_Avatar_S {
+  width: 3.5vw;
+  height: 3.5vw;
+  border-radius: 10vw;
+  border: 0.23vw solid var(--off-white);
   transform: translateX(-5px);
   box-shadow: 0px 4px 4px 0px rgba(86, 86, 86, 0.09);
   position: relative;
@@ -59,7 +67,7 @@
   margin-left: -5%; /* Все, кроме первого, накладываются друг на друга */
   z-index: calc(10 - var(--i)); /* Контролирует порядок наложения */
 }
-
+// visual fast-food
 .Q_ArrowButton img {
   width: 1.11vw;
   height: 1.11vw;
@@ -72,4 +80,10 @@
     fill: var(--dark-brown);
     transition: 0.3s;
   }
+}
+
+.Q_TiffanyCover {
+  background-image: url(/src/images/LargeArticles/Q_Cover_Article_Tiffany.webp);
+  background-size: cover;
+  height: 100%;
 }

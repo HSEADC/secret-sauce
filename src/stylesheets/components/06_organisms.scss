@@ -38,3 +38,17 @@ a.O-Collabcard {
     color: var(--dark-brown-60);
   }
 }
+
+.O_ArticleMenuFull {
+  display: flex;
+  width: 34.236vw;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.556vw;
+}
+
+.O_ArticleMenuFullBlue {
+  p {
+    color: var(--tiffany-dark);
+  }
+}
