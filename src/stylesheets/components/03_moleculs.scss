@@ -259,7 +259,7 @@ a.M_Read {
 
 .M_Bottom-Fixed-Article {
   display: flex;
-  width: 1440px;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
 }
@@ -280,6 +280,7 @@ a.M_Read {
 }
 .M_ArticleTopMenu {
   display: flex;
+  width: 31.2vw;
   padding: 0.556vw 10.625vw;
   justify-content: center;
   align-items: center;
@@ -290,7 +291,7 @@ a.M_Read {
   background: var(--tiffany-light, #c7eeeb);
 }
 .M_ArticleTopMenu img {
-  width: 70%;
+  width: 35%;
 }
 .M_ArticlePointMenu {
   display: flex;
