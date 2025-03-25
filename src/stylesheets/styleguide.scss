@@ -1,0 +1,365 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body.styleguide {
+  overflow-x: hidden;
+  color: #fffdf7;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  h5,
+  a {
+    font-family: 'NonBureau-Regular';
+  }
+  h1 {
+    font-size: 8vw;
+    color: #1c1500;
+  }
+  h2 {
+    font-size: 4vw;
+    color: #1c1500;
+  }
+  h3 {
+    font-size: 2.5vw;
+    color: #1c1500;
+  }
+  h4 {
+    font-size: 1.8vw;
+    color: #1c1500;
+  }
+  h5 {
+    font-size: 3vw;
+    color: #1c1500;
+  }
+
+  p {
+    font-size: 1.5vw;
+    color: rgba(28, 21, 0, 0.6);
+  }
+
+  .S_block1 {
+    background-image: url(../images/StyleGuideCover.webp);
+    width: 100%;
+    height: 51vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0% 0% 5% 5%;
+    display: flex;
+    justify-content: center;
+
+    .brand {
+      position: absolute;
+      margin-top: 30vw;
+      margin-left: -50vw;
+    }
+    .brand2 {
+      position: absolute;
+      margin-top: 37vw;
+      margin-left: 1vw;
+    }
+  }
+
+  .S_block2 {
+    margin-top: 15vw;
+    margin-left: 6vw;
+    width: 43vw;
+  }
+
+  .blocks {
+    display: flex;
+
+    margin-top: 10vw;
+    gap: 10vw;
+
+    .allblocks {
+      padding-left: 5vw;
+      display: flex;
+      flex-direction: column;
+      gap: 10vw;
+
+      .S_block3 {
+        display: flex;
+        flex-direction: column;
+
+        gap: 3vw;
+
+        .secblockmain {
+          display: flex;
+          gap: 2vw;
+
+          .secblock {
+            gap: 1vw;
+            display: flex;
+            flex-direction: column;
+
+            p {
+              width: 25vw;
+            }
+          }
+        }
+      }
+
+      .S_block4 {
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        flex-direction: column;
+
+        gap: 3vw;
+
+        .c_div {
+          display: flex;
+          flex-direction: column;
+          gap: 3vw;
+
+          img {
+            width: 80%;
+          }
+
+          .secblock4 {
+            display: flex;
+            gap: 7vw;
+
+            p {
+              width: 25vw;
+            }
+          }
+
+          .imgblock2 {
+            display: flex;
+            gap: 0.5vw;
+            img {
+              width: 40%;
+            }
+          }
+        }
+
+        .c_div1 {
+          display: flex;
+          flex-direction: column;
+          gap: 3vw;
+
+          .secblock4 {
+            display: flex;
+            gap: 7vw;
+
+            p {
+              width: 25vw;
+            }
+          }
+
+          .imgblock1 {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5vw;
+
+            .imgb1,
+            .imgb2 {
+              display: flex;
+              gap: 0.5vw;
+
+              img {
+                width: 40%;
+              }
+            }
+          }
+          .imgblock2 {
+            display: flex;
+            gap: 0.5vw;
+            img {
+              width: 40%;
+            }
+          }
+        }
+      }
+    }
+
+    div.menuleft {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-size: 1.5vw;
+      gap: 0.5vw;
+      height: 37vw;
+      padding: 0.5vw 0.5vw;
+      position: sticky;
+      top: 4vw;
+      left: 4vw;
+      width: 13vw;
+      background: rgba(255, 196, 4, 0.1);
+      border-radius: 2vw;
+
+      a {
+        width: 12vw;
+        height: 4vw;
+        text-decoration: none;
+        color: #1c1500;
+        border-radius: 1vw;
+        background: #fff;
+        display: flex;
+        padding: 1.5vw 1.5vw;
+        align-items: center;
+        gap: 5vw;
+        align-self: stretch;
+      }
+
+      a:hover {
+        background: #ffc403;
+        box-shadow: -8px -8px 20px 0px rgba(255, 255, 255, 0.4) inset,
+          8px 8px 20px 0px rgba(255, 255, 255, 0.4) inset;
+        color: #f2f2f2;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  body.styleguide {
+    h1 {
+      font-size: 8vw;
+    }
+    h2 {
+      font-size: 6vw;
+    }
+    h3 {
+      font-size: 4vw;
+    }
+    h4 {
+      font-size: 2vw;
+    }
+    h5 {
+      font-size: 4vw;
+      margin-top: 20vw;
+    }
+
+    p {
+      font-size: 2vw;
+    }
+    .S_block2 {
+      width: 80vw;
+    }
+  }
+}
+@media only screen and (max-width: 500px) {
+  body.styleguide {
+    h1 {
+      font-size: 12vw;
+    }
+    h2 {
+      font-size: 8vw;
+    }
+    h3 {
+      font-size: 6vw;
+    }
+    h4 {
+      font-size: 4vw;
+    }
+    h5 {
+      font-size: 6vw;
+      margin-top: 26vw;
+    }
+
+    p {
+      font-size: 4vw;
+    }
+
+    .S_block1 {
+      background-image: url(../images/stylebackmobile.webp);
+      width: 100%;
+      height: 172vw;
+      border-radius: 0% 0% 5% 5%;
+
+      .brand2 {
+        position: absolute;
+        margin-top: 142vw;
+        margin-left: -9vw;
+      }
+      .brand {
+        position: absolute;
+        margin-top: 130vw;
+        margin-left: -32vw;
+      }
+    }
+
+    .S_block2 {
+      width: 84vw;
+    }
+
+    .blocks {
+      div.menuleft {
+        display: none;
+      }
+
+      .allblocks {
+        margin-top: 16vw;
+        gap: 20vw;
+        .S_block3 {
+          .secblockmain {
+            flex-direction: column;
+            gap: 6vw;
+            .secblock {
+              gap: 2vw;
+              p {
+                width: 93vw;
+              }
+            }
+          }
+        }
+        .S_block4 {
+          gap: 10vw;
+          .c_div {
+            gap: 6vw;
+            img {
+              width: 95%;
+            }
+            .secblock4 {
+              flex-direction: column;
+              gap: 7vw;
+              p {
+                width: 93vw;
+              }
+            }
+            .imgblock2 {
+              flex-direction: column;
+              gap: 2vw;
+              img {
+                width: 95%;
+              }
+            }
+          }
+          .c_div1 {
+            gap: 6vw;
+            .secblock4 {
+              flex-direction: column;
+              p {
+                width: 93vw;
+              }
+            }
+            .imgblock1 {
+              gap: 2vw;
+              .imgb1,
+              .imgb2 {
+                flex-direction: column;
+                gap: 2vw;
+
+                img {
+                  width: 95%;
+                }
+              }
+            }
+            .imgblock2 {
+              flex-direction: column;
+              gap: 2vw;
+              img {
+                width: 95%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

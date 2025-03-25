@@ -1,0 +1,254 @@
+@media screen and (max-width: 1025px) {
+  //main page
+  //заголовок
+  .W-HeroContent {
+    gap: 2.78vw;
+  }
+  //бегущая строка
+  .A-Hero-Card {
+    height: 45.51vw;
+    padding: 1.46vw;
+  }
+  .A-Card-1,
+  .A-Card-4,
+  .A-Card-11 {
+    width: 71.97vw;
+    height: 45.51vw;
+  }
+
+  .C-Burger-Menu{
+    display: none;
+  }
+
+  .A-Card-2,
+  .A-Card-3,
+  .A-Card-5,
+  .A-Card-6,
+  .A-Card-7,
+  .A-Card-8,
+  .A-Card-9,
+  .A-Card-10,
+  .A-Card-12 {
+    width: 35.35vw;
+    height: 45.51vw;
+  }
+  //визуальный фаст-фуд
+  .W_ImgChanging {
+    gap: 10vw;
+  }
+  .W_HeadingAuthor {
+    width: 26vw;
+    gap: 24.71vw;
+  }
+  .W_SimmilarTags {
+    width: 25vw;
+    gap: 22.41vw;
+  }
+  .M_PhBar img {
+    width: 6vw;
+    height: 6vw;
+  }
+  .M_Similar img {
+    width: 6.3vw;
+    height: 6.3vw;
+    border-radius: 0.56vw;
+    object-fit: cover;
+  }
+  .M_PhBar {
+    gap: 0.5vw;
+    padding: 0.6vw;
+  }
+  .M_Similar {
+    gap: 1vw;
+    padding: 0.8vw;
+  }
+  .A_MainPhoto {
+    width: 40.06vw;
+    height: 47.33vw;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  //main page
+  //бургер меню
+
+  .W-Header{
+    display: none;
+  }
+  .W-Header{
+    display: none;
+  }
+  .C-Burger-Menu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 18.56vw;
+  }
+  .W-Header-Mobile{
+    width: 100%;
+    padding: 1.25vw 3vw;
+    gap: 0.8vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .A-MenuPoint-Mobile{
+    display: flex;
+    text-decoration: none;
+    color: var(--dark-brown);
+    gap: var(--16, 1rem);
+    align-self: stretch;
+    border-bottom: 1px solid var(--soft-orange);
+  }
+  .A-Searchbar{
+    width: 100%;
+  }
+
+  .M-HeaderCategories{
+    display: none;
+  }
+  .M-HeaderCategories-Mobile{
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 3vw 3vw 140vw;
+    gap: 4vw;
+  }
+  .A_LogoHeader img{
+    width: 42px;
+    height: 42px;
+  }
+  .Active{
+    display: flex;
+    background-color: var(--soft-orange-halftone);
+  }
+
+  //заголовок
+  .W-HeroContent {
+    gap: 2.78vw;
+  }
+  //бегущая строка
+  .M-Hero-Cards {
+    gap: 1.8vw;
+  }
+  .A-Hero-Card {
+    height: 66.67vw;
+    padding: 2.4vw;
+    border-radius: 2.3vw;
+  }
+  .A-Card-1,
+  .A-Card-4,
+  .A-Card-11 {
+    width: 57.33vw;
+    height: 66.67vw;
+  }
+  .A-Card-2,
+  .A-Card-3,
+  .A-Card-5,
+  .A-Card-6,
+  .A-Card-7,
+  .A-Card-8,
+  .A-Card-9,
+  .A-Card-10,
+  .A-Card-12 {
+    width: 57.33vw;
+    height: 66.67vw;
+  }
+
+  //визуальный фаст-фуд
+  .S_VisualFast-Food {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4vw;
+    padding: 5vw 3vw;
+  }
+  .S_VisualFast-Food {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4vw;
+    padding: 5vw 3vw;
+  }
+  .C_Similar {
+    display: none;
+  }
+  .W_ImgChanging {
+    gap: 5.7vw;
+  }
+  .W_HeadingAuthor {
+    width: 70%;
+    gap: 16vw;
+  }
+  .W_SimmilarTags {
+    width: 100%;
+    gap: 22.41vw;
+    align-items: flex-start;
+    margin-top: 10vw;
+  }
+  .M_TitleArticle {
+    gap: 2.8vw;
+  }
+  .M_PhBar {
+    gap: 0.8vw;
+    padding: 1.4vw;
+    border-radius: 2.57vw;
+  }
+  .M_PhBar img {
+    width: 17.29vw;
+    height: 17.29vw;
+    border-radius: 2.29vw;
+  }
+  .M_Similar img {
+    width: 10.29vw;
+    height: 10.29vw;
+    border-radius: 0.56vw;
+    object-fit: cover;
+  }
+  .M_Similar {
+    gap: 1vw;
+    padding: 0.8vw;
+  }
+  .A_MainPhoto {
+    width: 100%;
+    height: 100%;
+    border-radius: 3.43vw;
+  }
+  .Q_Avatar_S {
+    width: 7.5vw;
+    height: 7.5vw;
+    border: 0.5vw solid var(--off-white);
+  }
+}
+
+@media screen and (max-width: 431px) {
+  //main page
+  //заголовок
+  .W-HeroContent {
+    gap: 2.78vw;
+  }
+  //бегущая строка
+  .A-Hero-Card {
+    height: 92.81vw;
+    padding: 1.46vw;
+    border-radius: 2.3vw;
+  }
+  .A-Card-1,
+  .A-Card-4,
+  .A-Card-11 {
+    width: 79.81vw;
+    height: 92.81vw;
+  }
+  .A-Card-2,
+  .A-Card-3,
+  .A-Card-5,
+  .A-Card-6,
+  .A-Card-7,
+  .A-Card-8,
+  .A-Card-9,
+  .A-Card-10,
+  .A-Card-12 {
+    width: 79.81vw;
+    height: 92.81vw;
+  }
+}

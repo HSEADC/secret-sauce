@@ -1,14 +1,17 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin')
-const HtmlWebpackPartialsPlugin = require('html-webpack-partials-plugin')
-const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPartialsPlugin = require('html-webpack-partials-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
-const webpack = require('webpack')
-const path = require('path')
+const webpack = require('webpack');
+const path = require('path');
 
 module.exports = {
   entry: {
-    index: './src/index.js'
+    index: './src/index.js',
+    swiper: './src/javascript/swiper.js',
+    tab: './src/javascript/tab.js',
+    changingimg: './src/javascript/ChangingImg.js',
+    BurgerMenu: './src/javascript/BurgerMenu.js'
   },
   output: {
     filename: '[name].js',
@@ -61,9 +64,9 @@ module.exports = {
       },
       {
         test: /\.(ttf|otf|woff|woff2)$/i,
-        loader: 'file-loader',
-        options: {
-          name: 'fonts/[name].[ext]'
+        type: 'asset/resource',
+        generator: {
+          filename: 'fonts/[hash][ext][query]'
         }
       }
     ]
@@ -74,10 +77,50 @@ module.exports = {
       chunkFilename: '[id].css'
     }),
 
-    // Landing page
+    // index
     new HtmlWebpackPlugin({
       template: './src/index.html',
-      filename: './index.html'
+      filename: './index.html',
+      chunks: ['index', 'swiper', 'tab', 'BurgerMenu']
+    }),
+
+    // все страницы разделов
+    new HtmlWebpackPlugin({
+      template: './src/articles.html',
+      filename: './articles.html',
+      chunks: ['index', 'BurgerMenu']
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/about.html',
+      filename: './about.html',
+      chunks: ['index', 'BurgerMenu']
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/newsletter.html',
+      filename: './newsletter.html',
+      chunks: ['index']
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/styleguide.html',
+      filename: './src/styleguide.html',
+      chunks: ['index', 'BurgerMenu']
+    }),
+
+    // публикации в разделе "статьи" (articles)
+
+    new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/plantarosa.html',
+      filename: './articles/visual-fast-food/plantarosa.html',
+      chunks: ['index', 'changingimg', 'BurgerMenu']
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/articles/large-articles/tiffany.html',
+      filename: './articles/large-articles/tiffany.html',
+      chunks: ['index', 'BurgerMenu']
     }),
 
     // Internal pages
@@ -98,8 +141,5 @@ module.exports = {
         priority: 'replace'
       }
     ])
-  ],
-  optimization: {
-    minimizer: [new CssMinimizerPlugin()]
-  }
+  ]
 }

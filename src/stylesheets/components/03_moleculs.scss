@@ -1,0 +1,355 @@
+.M-HeaderCategories {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.28vw;
+}
+
+.M-MainPageTab {
+  display: flex;
+  padding: 4px;
+  align-items: center;
+  justify-content: center;
+  gap: 0.28vw;
+  border-radius: 6.94vw;
+  background-color: var(--soft-orange-50);
+}
+
+//бегущая строка
+.M-Hero-Cards-hidden {
+  width: 100%;
+}
+.M-Hero-Cards-hidden {
+  overflow: hidden;
+  position: relative;
+  padding: 0 1.25vw;
+  margin-bottom: 1.25vw;
+}
+.M-Hero-Cards {
+  display: inline-flex;
+  flex-direction: row;
+  gap: 0.83vw;
+  position: relative;
+  z-index: 1;
+  width: max-content;
+  animation: horizontalRunningPhotos 20s linear infinite;
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+.Hidden {
+  display: none;
+}
+
+.M-Hero-Cards:first-of-type {
+  display: inline-flex;
+}
+
+@keyframes horizontalRunningPhotos {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.M_TagLine {
+  display: flex;
+  width: auto;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 0.25rem;
+  opacity: 0%;
+}
+.M_TagLineArticles {
+  display: flex;
+  width: auto;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+.M_LargeArticleTags {
+  display: flex;
+  width: auto;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+.M-FilterAndNumber {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.M_format-filter {
+  display: flex;
+  align-items: flex-start;
+}
+.M_CollabTags{
+  display: flex;
+  align-items: flex-start;
+  gap: 0.21vw;
+}
+.M_TagLine {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 0.3vw;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+.M_Avatars_L {
+  display: flex;
+  width: 25vw;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.M_Avatars_S {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.M_LargeArticleTags {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 0.3vw;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.M_CollabHeading {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+.M_FooterText {
+  display: flex;
+  width: 33vw;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.2vw;
+  text-align: center;
+  p {
+    color: var(--dark-brown-60);
+  }
+}
+.M_FooterText {
+  display: flex;
+  width: 33vw;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.2vw;
+  text-align: center;
+  p {
+    color: var(--dark-brown-60);
+  }
+}
+//футер
+//здесь проблемка
+.M_MenuFooter {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  position: absolute;
+  gap: 1vw;
+  bottom: 2vw;
+}
+.M_formfooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.M_InputWrapper {
+  display: flex;
+  align-items: center;
+  background: #f6f3ea;
+  border-radius: 10vw;
+  padding: 0.5vw;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+// визуальный фаст-фуд
+
+.M_TitleArticle {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4vw;
+}
+
+.M_Author-Bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5vw;
+}
+.M_Author-Bar-NonVisible {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  opacity: 0;
+  gap: 0.5vw;
+}
+
+.M_PhBar {
+  display: inline-flex;
+  flex-direction: row;
+  gap: 0.2vw;
+  padding: 0.3vw;
+  align-items: center;
+  border-radius: 1.25vw;
+  background: var(--off-white-02);
+}
+
+.M_PhBar img {
+  width: 3.75vw;
+  position: relative;
+  height: 3.75vw;
+  object-fit: cover;
+  border-radius: 0.8vw;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+.M_PhBar img::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: -0.21vw -0.21vw 0.69vw 0.21vw rgba(255, 255, 255, 0.5) inset,
+    0.21vw 0.21vw 0.69vw 0.21vw rgba(255, 255, 255, 0.5) inset;
+  pointer-events: none;
+  z-index: 1; /* Поднимаем над картинкой */
+}
+
+.M_PhBar img.active {
+  border-radius: 0.8vw;
+  border: 4px solid var(--ss-soft-orange, #fdefa7);
+  box-shadow: -3px -3px 15px 5px #fdefa7 inset, 3px 3px 15px 5px #fdefa7 inset;
+}
+
+.M_Similar {
+  display: flex;
+  gap: 0.83vw;
+  background: #f9f9f9;
+  padding: 0.69vw;
+  border-radius: 0.83vw;
+}
+
+.M_Similar img {
+  width: 3.33vw;
+  height: 3.33vw;
+  border-radius: 0.56vw;
+  object-fit: cover;
+}
+
+a.M_Read {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.42vw;
+  color: var(--dark-brown-60);
+  &:hover {
+    color: var(--dark-brown);
+    transition: 0.3s;
+  }
+}
+
+.M_Bottom-Fixed-Article {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.M_ImgArticle {
+  display: flex;
+  width: 42.7vw;
+}
+.M_ArticleBottomMenu {
+  display: flex;
+  padding: 1vw 1vw 1vw 2vw;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 3.333vw;
+}
+.M_ArticleBottomMenuBlue {
+  background: var(--tiffany-superlight, #e6f8f6);
+}
+.M_ArticleTopMenu {
+  display: flex;
+  width: 31.2vw;
+  padding: 0.556vw 10.625vw;
+  justify-content: center;
+  align-items: center;
+  gap: 1.667vw;
+  border-radius: 6.944vw;
+}
+.M_ArticleTopMenuBlue {
+  background: var(--tiffany-light, #c7eeeb);
+}
+.M_ArticleTopMenu img {
+  width: 35%;
+}
+.M_ArticlePointMenu {
+  display: flex;
+  height: 4.444vw;
+  padding: 1.111vw 2.222vw;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+.M_ArticlePointMenuBlue {
+  border-top: 1px solid var(--tiffany-light);
+}
+
+.M_TextField {
+  display: flex;
+  padding: 4.44vw 2.78vw;
+  justify-content: center;
+  align-items: center;
+  gap: 0.69vw;
+  align-self: stretch;
+  border-radius: 0.83vw;
+  background: var(--grey);
+}
+.M_QuoteField {
+  display: flex;
+  padding: 3.33vw 2.78vw;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.33vw;
+  align-self: stretch;
+  border-radius: var(--12, 0.83vw);
+}
+.M_QuoteFieldBlue {
+  background: var(--tiffany-light);
+}
+.M_QuoteAuthorLine {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1vw;
+}
+
+.M_TextSmthCard {
+  gap: 1vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.M_FeedTextBlock {
+  display: flex;
+  flex-direction: column;
+  width: 34.236vw;
+  gap: 1vw;
+  position: sticky;
+}
+.M_SimilarText {
+  display: flex;
+  flex-direction: column;
+  gap: 1.389vw;
+}

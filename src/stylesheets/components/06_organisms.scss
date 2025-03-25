@@ -1,0 +1,68 @@
+a.O_SmallCard {
+  color: var(--dark-brown);
+  text-decoration: none;
+  width: 23vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.3vw;
+  background-size: cover;
+  background-position: center;
+}
+a.O_MediumCard {
+  color: var(--dark-brown);
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.3vw;
+  width: 22vw;
+}
+
+a.O_LargeCard {
+  color: var(--dark-brown);
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.3vw;
+  width: 46.5vw;
+}
+a.O-Collabcard {
+  width: 94.44vw;
+  border-radius: 3.33vw;
+  padding: 4vw;
+  text-decoration: none;
+  color: var(--dark-brown);
+  p {
+    color: var(--dark-brown-60);
+  }
+}
+
+.O_ArticleMenuFull {
+  display: flex;
+  width: 34.236vw;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.556vw;
+  position: sticky;
+}
+.O_ArticleMenuFullBlue {
+  p {
+    color: var(--tiffany-dark);
+  }
+}
+
+a.O_Similar-L {
+  display: flex;
+  flex-direction: column;
+  gap: 1.389vw;
+  align-self: stretch;
+  text-decoration: none;
+  color: inherit;
+}
+.O_Similar-L img {
+  border-radius: 0.833vw;
+  box-shadow: -3px -3px 70px 10px rgba(255, 255, 255, 0.5) inset,
+    3px 3px 70px 10px rgba(255, 255, 255, 0.5) inset;
+}

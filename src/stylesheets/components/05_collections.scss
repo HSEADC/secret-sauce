@@ -1,0 +1,32 @@
+.C-FilterBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1vw;
+}
+.C_Similar {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+.C_LargeArticle {
+  width: 42.7vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  gap: 3vw;
+}
+
+.C_Similar {
+  width: 42.7vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  gap: 3vw;
+}
+.C-Burger-Menu{
+  display: none;
+}

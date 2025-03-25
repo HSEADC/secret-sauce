@@ -1,0 +1,105 @@
+.Q-ImgFilter {
+  display: flex;
+  width: 20.5vw;
+  height: 9vw;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5vw;
+  background-size: cover;
+}
+.Q_SmalImg {
+  width: 23vw;
+  height: 23vw;
+  border-radius: 11vw;
+  background-position: 60% 70%;
+  background-size: cover;
+}
+
+.Q_MiddleImg {
+  width: 22vw;
+  height: 30vw;
+  background-size: cover;
+  border-radius: 0.8vw;
+}
+
+.Q_BigImg {
+  width: 46.5vw;
+  height: 46vw;
+  background-size: cover;
+  border-radius: 0.8vw;
+}
+
+.Q-CollabImgXOXO {
+  background-image: url('/src/images/articles/O_CollabCard.webp');
+  background-size: cover;
+}
+
+.Q_Avatar_L {
+  width: 30%;
+  border-radius: 10vw;
+  border: 0.5vw solid var(--off-white);
+  transform: translateX(-5px);
+  box-shadow: 0px 4px 4px 0px rgba(86, 86, 86, 0.09);
+  position: relative;
+}
+.Q_AvatarLargeArticle {
+  width: 20%;
+  border-radius: 10vw;
+  border: 0.5vw solid var(--off-white);
+  transform: translateX(-5px);
+  box-shadow: 0px 4px 4px 0px rgba(86, 86, 86, 0.09);
+  position: relative;
+}
+.Q_Avatar_S {
+  width: 3.5vw;
+  height: 3.5vw;
+  border-radius: 10vw;
+  border: 0.23vw solid var(--off-white);
+  transform: translateX(-5px);
+  box-shadow: 0px 4px 4px 0px rgba(86, 86, 86, 0.09);
+  position: relative;
+}
+.Q_Avatar_L:not(:first-child) {
+  margin-left: -5%; /* Все, кроме первого, накладываются друг на друга */
+  z-index: calc(10 - var(--i)); /* Контролирует порядок наложения */
+}
+.Q_Avatar_S:not(:first-child) {
+  margin-left: -5%; /* Все, кроме первого, накладываются друг на друга */
+  z-index: calc(10 - var(--i)); /* Контролирует порядок наложения */
+}
+// visual fast-food
+.Q_ArrowButton img {
+  width: 1.11vw;
+  height: 1.11vw;
+}
+.Q_ArrowButton svg {
+  width: 1.11vw;
+  height: 1.11vw;
+  fill: var(--dark-brown-60);
+  &:hover {
+    fill: var(--dark-brown);
+    transition: 0.3s;
+  }
+}
+
+.Q_TiffanyCover {
+  background-image: url(/src/images/LargeArticles/Q_Cover_Article_Tiffany.webp);
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Q_SendButton img {
+  width: 3.8vw;
+  height: 3.8vw;
+}
+
+.Q_ClockImg {
+  background-image: url(/src/images/covers/Q_AddSomething-1.webp);
+  width: 42.7vw;
+  height: 31.25vw;
+  background-size: cover;
+  display: flex;
+  padding: 2vw 2vw;
+}

@@ -1,0 +1,17 @@
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 360px) {
+  .M_formfooter {
+    width: 30vw;
+    padding: 01vw;
+
+    .A_input {
+      font-size: 3vw;
+      width: 19vw;
+    }
+  }
+  .M_menufooter {
+    margin-top: 23vw;
+  }
+}
