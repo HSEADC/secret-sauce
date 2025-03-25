@@ -393,5 +393,15 @@
   }
   .M_Error {
     margin-bottom: 62vw;
+    display: flex;
+    width: 88.08vw;
+    height: 65.69vw;
+    padding: 5vw 6vw;
+    gap: 5.88vw;
+
+    h4 {
+      font-family: 'SuisseIntl-Book';
+      font-size: 20px;
+    }
   }
 }
