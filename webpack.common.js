@@ -207,7 +207,11 @@ module.exports = {
       filename: './articles/visual-fast-food/nike.html',
       chunks: ['index', 'changingimg', 'BurgerMenu']
     }),
-
+    new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/rhode.html',
+      filename: './articles/visual-fast-food/rhode.html',
+      chunks: ['index', 'changingimg', 'BurgerMenu']
+    }),
 
 
     new HtmlWebpackPlugin({
