@@ -269,8 +269,8 @@ a.A-Hero-Card {
   padding: 8px 12px;
   border-radius: 7vw;
 }
-.A-Shadow{
-  box-shadow: inset -3px -3px 50px 10px rgba(255, 255, 255, 0.5) ,
+.A-Shadow {
+  box-shadow: inset -3px -3px 50px 10px rgba(255, 255, 255, 0.5),
     inset 3px 3px 50px 10px rgba(255, 255, 255, 0.5);
 }
 .A_MainPhoto {
@@ -367,6 +367,12 @@ a.A_Menu-Point {
   background: var(--soft-orange, #fdefa7);
   &:hover {
     transition: 0.5s;
-    box-shadow: 2px 2px 30px 0px rgba(255, 196, 3, 0.7) inset, -1.19px -1.19px 20px 0px rgba(255, 196, 3, 0.7) inset;
+    box-shadow: 2px 2px 30px 0px rgba(255, 196, 3, 0.7) inset,
+      -1.19px -1.19px 20px 0px rgba(255, 196, 3, 0.7) inset;
   }
+}
+
+.A_Author {
+  display: flex;
+  flex-direction: column;
 }

@@ -26,6 +26,28 @@
   display: flex;
   gap: 3vw;
 }
-.C-Burger-Menu{
+.C-Burger-Menu {
   display: none;
+}
+
+.C_AuthorArticle {
+  display: flex;
+  gap: 5vw 2.6vw;
+  width: 46.67vw;
+  flex-wrap: wrap;
+}
+.C_AuthorBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1vw;
+}
+
+.C_AuthorLine {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 4vw;
+  align-self: stretch;
+  justify-content: center;
 }
