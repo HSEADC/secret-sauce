@@ -132,8 +132,24 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/erors/404.html',
       filename: './erors/404.html',
-      chunks: ['index'],
+      chunks: ['index', 'BurgerMenu'],
     }),
+    new HtmlWebpackPlugin({
+      template: './src/erors/500.html',
+      filename: './erors/500.html',
+      chunks: ['index', 'BurgerMenu'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/erors/505.html',
+      filename: './erors/505.html',
+      chunks: ['index', 'BurgerMenu'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/erors/504.html',
+      filename: './erors/504.html',
+      chunks: ['index', 'BurgerMenu'],
+    }),
+
     // Internal pages
     // new HtmlWebpackPlugin({
     //   hash: true,

@@ -16,7 +16,7 @@
     height: 45.51vw;
   }
 
-  .C-Burger-Menu{
+  .C-Burger-Menu {
     display: none;
   }
 
@@ -73,19 +73,19 @@
   //main page
   //бургер меню
 
-  .W-Header{
+  .W-Header {
     display: none;
   }
-  .W-Header{
+  .W-Header {
     display: none;
   }
-  .C-Burger-Menu{
+  .C-Burger-Menu {
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 18.56vw;
   }
-  .W-Header-Mobile{
+  .W-Header-Mobile {
     width: 100%;
     padding: 1.25vw 3vw;
     gap: 0.8vw;
@@ -94,7 +94,7 @@
     justify-content: space-between;
     align-items: center;
   }
-  .A-MenuPoint-Mobile{
+  .A-MenuPoint-Mobile {
     display: flex;
     text-decoration: none;
     color: var(--dark-brown);
@@ -102,25 +102,25 @@
     align-self: stretch;
     border-bottom: 1px solid var(--soft-orange);
   }
-  .A-Searchbar{
+  .A-Searchbar {
     width: 100%;
   }
 
-  .M-HeaderCategories{
+  .M-HeaderCategories {
     display: none;
   }
-  .M-HeaderCategories-Mobile{
+  .M-HeaderCategories-Mobile {
     display: none;
     flex-direction: column;
     align-items: flex-start;
     padding: 3vw 3vw 140vw;
     gap: 4vw;
   }
-  .A_LogoHeader img{
+  .A_LogoHeader img {
     width: 42px;
     height: 42px;
   }
-  .Active{
+  .Active {
     display: flex;
     background-color: var(--soft-orange-halftone);
   }
@@ -250,5 +250,20 @@
   .A-Card-12 {
     width: 79.81vw;
     height: 92.81vw;
+  }
+  .Q_Back_404 {
+    background-image: url(/src/images/erorrs/Q_Back_404Mobile.webp);
+  }
+  .Q_Back_500 {
+    background-image: url(/src/images/erorrs/Q_Back_500Mobile.webp);
+  }
+  .Q_Back_505 {
+    background-image: url(/src/images/erorrs/Q_Back_505Mobile.webp);
+  }
+  .Q_Back_504 {
+    background-image: url(/src/images/erorrs/Q_Back_504Mobile.webp);
+  }
+  .M_Error {
+    margin-bottom: 62vw;
   }
 }
