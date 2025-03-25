@@ -124,106 +124,105 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/isamaya.html',
       filename: './articles/visual-fast-food/isamaya.html',
-      chunks: ['index', 'changingimg', 'BurgerMenu']
+      chunks: ['index', 'changingimg', 'BurgerMenu'],
     }),
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/pixar.html',
       filename: './articles/visual-fast-food/pixar.html',
-      chunks: ['index', 'changingimg', 'BurgerMenu']
+      chunks: ['index', 'changingimg', 'BurgerMenu'],
     }),
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/canyaon.html',
       filename: './articles/visual-fast-food/canyaon.html',
-      chunks: ['index', 'changingimg', 'BurgerMenu']
+      chunks: ['index', 'changingimg', 'BurgerMenu'],
     }),
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/castle.html',
       filename: './articles/visual-fast-food/castle.html',
-      chunks: ['index', 'changingimg', 'BurgerMenu']
+      chunks: ['index', 'changingimg', 'BurgerMenu'],
     }),
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/puma.html',
       filename: './articles/visual-fast-food/puma.html',
-      chunks: ['index', 'changingimg', 'BurgerMenu']
+      chunks: ['index', 'changingimg', 'BurgerMenu'],
     }),
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/osoi.html',
       filename: './articles/visual-fast-food/osoi.html',
-      chunks: ['index', 'changingimg', 'BurgerMenu']
+      chunks: ['index', 'changingimg', 'BurgerMenu'],
     }),
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/severance.html',
       filename: './articles/visual-fast-food/severance.html',
-      chunks: ['index', 'changingimg', 'BurgerMenu']
+      chunks: ['index', 'changingimg', 'BurgerMenu'],
     }),
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/lapka.html',
       filename: './articles/visual-fast-food/lapka.html',
-      chunks: ['index', 'changingimg', 'BurgerMenu']
+      chunks: ['index', 'changingimg', 'BurgerMenu'],
     }),
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/jeremy.html',
       filename: './articles/visual-fast-food/jeremy.html',
-      chunks: ['index', 'changingimg', 'BurgerMenu']
+      chunks: ['index', 'changingimg', 'BurgerMenu'],
     }),
 
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/studio.html',
       filename: './articles/visual-fast-food/studio.html',
-      chunks: ['index', 'changingimg', 'BurgerMenu']
+      chunks: ['index', 'changingimg', 'BurgerMenu'],
     }),
 
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/fenty.html',
       filename: './articles/visual-fast-food/fenty.html',
-      chunks: ['index', 'changingimg', 'BurgerMenu']
+      chunks: ['index', 'changingimg', 'BurgerMenu'],
     }),
 
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/nothing.html',
       filename: './articles/visual-fast-food/nothing.html',
-      chunks: ['index', 'changingimg', 'BurgerMenu']
+      chunks: ['index', 'changingimg', 'BurgerMenu'],
     }),
 
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/gisou.html',
       filename: './articles/visual-fast-food/gisou.html',
-      chunks: ['index', 'changingimg', 'BurgerMenu']
+      chunks: ['index', 'changingimg', 'BurgerMenu'],
     }),
 
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/bork.html',
       filename: './articles/visual-fast-food/bork.html',
-      chunks: ['index', 'changingimg', 'BurgerMenu']
+      chunks: ['index', 'changingimg', 'BurgerMenu'],
     }),
 
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/toyota.html',
       filename: './articles/visual-fast-food/toyota.html',
-      chunks: ['index', 'changingimg', 'BurgerMenu']
+      chunks: ['index', 'changingimg', 'BurgerMenu'],
     }),
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/nike.html',
       filename: './articles/visual-fast-food/nike.html',
-      chunks: ['index', 'changingimg', 'BurgerMenu']
+      chunks: ['index', 'changingimg', 'BurgerMenu'],
     }),
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/rhode.html',
       filename: './articles/visual-fast-food/rhode.html',
-      chunks: ['index', 'changingimg', 'BurgerMenu']
+      chunks: ['index', 'changingimg', 'BurgerMenu'],
     }),
 
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/ismotion.html',
       filename: './articles/visual-fast-food/ismotion.html',
-      chunks: ['index', 'changingimg', 'BurgerMenu']
+      chunks: ['index', 'changingimg', 'BurgerMenu'],
     }),
-
 
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/gentle.html',
       filename: './articles/visual-fast-food/gentle.html',
-      chunks: ['index', 'changingimg', 'BurgerMenu']
+      chunks: ['index', 'changingimg', 'BurgerMenu'],
     }),
     new HtmlWebpackPlugin({
       template: './src/articles/large-articles/tiffany.html',
@@ -256,7 +255,51 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/apple-music.html',
       filename: './articles/visual-fast-food/apple-music.html',
-      chunks: ['index', 'changingimg','BurgerMenu']
+      chunks: ['index', 'changingimg', 'BurgerMenu'],
+    }),
+
+    // публикации в разделе "авторы" (authors)
+
+    new HtmlWebpackPlugin({
+      template: './src/authors/masha.html',
+      filename: './authors/masha.html',
+      chunks: ['index', 'BurgerMenu'],
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/authors/anya.html',
+      filename: './authors/anya.html',
+      chunks: ['index', 'BurgerMenu'],
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/authors/vika.html',
+      filename: './authors/vika.html',
+      chunks: ['index', 'BurgerMenu'],
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/authors/dasha.html',
+      filename: './authors/dasha.html',
+      chunks: ['index', 'BurgerMenu'],
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/authors/ira.html',
+      filename: './authors/ira.html',
+      chunks: ['index', 'BurgerMenu'],
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/authors/marina.html',
+      filename: './authors/marina.html',
+      chunks: ['index', 'BurgerMenu'],
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/authors/ksusha.html',
+      filename: './authors/ksusha.html',
+      chunks: ['index', 'BurgerMenu'],
     }),
 
     // Internal pages
