@@ -132,6 +132,32 @@ module.exports = {
       chunks: ['index', 'changingimg', 'BurgerMenu']
     }),
     new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/canyaon.html',
+      filename: './articles/visual-fast-food/canyaon.html',
+      chunks: ['index', 'changingimg', 'BurgerMenu']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/castle.html',
+      filename: './articles/visual-fast-food/castle.html',
+      chunks: ['index', 'changingimg', 'BurgerMenu']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/puma.html',
+      filename: './articles/visual-fast-food/puma.html',
+      chunks: ['index', 'changingimg', 'BurgerMenu']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/osoi.html',
+      filename: './articles/visual-fast-food/osoi.html',
+      chunks: ['index', 'changingimg', 'BurgerMenu']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/severance.html',
+      filename: './articles/visual-fast-food/severance.html',
+      chunks: ['index', 'changingimg', 'BurgerMenu']
+    }),
+
+    new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/gentle.html',
       filename: './articles/visual-fast-food/gentle.html',
       chunks: ['index', 'changingimg', 'BurgerMenu']
