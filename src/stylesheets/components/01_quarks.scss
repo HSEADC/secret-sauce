@@ -143,3 +143,10 @@
 .Q_Visible {
   background-image: url(/src/images/AboutUs/Q_Visible.webp);
 }
+.Q_AdvertImg {
+  background-image: url(/src/images/AboutUs/advert-block-wrapper.webp);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
