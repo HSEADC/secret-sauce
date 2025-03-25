@@ -68,11 +68,36 @@
     object-fit: cover;
   }
 
+  .S_ArticlePage {
+    gap: 8vw 0.9vw;
+  }
   .M_format-filter {
     align-items: flex-end;
     flex-direction: column;
     gap: 0.6vw;
+  }
+  .W_Filters {
+    align-items: flex-end;
+  }
+  .Q-ImgFilter {
+    border-radius: 0.7vw;
 }
+  .W_CollabAvatarsHeadingTag {
+    width: 50vw;
+    gap: 10vw;
+  }
+  .M_CollabTags {
+    gap: 0.6vw;
+  }
+  .Q_Avatar_L {
+    width: 35%;
+    border-radius: 8vw;
+    border: 0.6vw solid var(--off-white);
+  }
+
+  .S_FooterDesktop {
+    height: 50vw;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -218,7 +243,104 @@
     border: 0.5vw solid var(--off-white);
   }
 
+  .C-FilterBox {
+    width: 100%;
+    padding: 0 3vw;
+    align-items: center;
+    gap: 0.9vw;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .W-DirectionFilter {
+    width: 49.5%;
+    padding: 1.7vw;
+    gap: 1.6vw;
+    border-radius: 1.6vw;
+  }
+  .Q-ImgFilter {
+    border-radius: 1.2vw;
+  }
+  .A-NumberArticles {
+    padding: 1vw 1.5vw;
+    border-radius: 7vw;
+  }
+  .Q_Avatar_L {
+    width: 45%;
+    border-radius: 8vw;
+    border: 0.8vw solid var(--off-white);
+  }
+  .W_CollabAvatarsHeadingTag {
+    width: 68vw;
+    gap: 20vw;
+  }
+  .W_CollabTagHeading {
+    gap: 3vw;
+  }
   
+
+  body.articles {
+    gap: 14vw;
+  }
+  .S_ArticlePage {
+    gap: 8vw 0.9vw;
+    flex-wrap: wrap;
+    align-self: stretch;
+  }
+  .W_MainBlock {
+    gap: 3vw;
+  }
+  a.O_SmallCard {
+    width: 49%;
+  }
+  .Q_SmalImg {
+    width: 100%;
+    height: 100%;
+    border-radius: 50vw;
+  }
+  a.O_MediumCard{
+    width: 49%;
+  }
+  .Q_MiddleImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 2vw;
+  }
+  a.O_LargeCard {
+    width: 100%;
+  }
+  .Q_BigImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 2vw;
+  }
+
+  .W_FooterWrapper {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .S_FooterDesktop {
+    height: 150vw;
+    padding: 8vw;
+    background-image: url(/src/images/footer/S_FooterMobile.webp);
+    border-radius: 0;
+    background-size: cover;
+    box-shadow: none;
+    margin-bottom: 0vw;
+  }
+  .M_FooterText {
+    width: 80%;
+    gap: 6vw;
+  }
+  .M_MenuFooter {
+    gap: 4vw;
+    bottom: 7vw;
+  }
+  .A_LogoFooter {
+    width: 40%;
+  }
+  .M_InputWrapper {
+    padding: 0.8vw;
+  }
 }
 
 @media screen and (max-width: 431px) {

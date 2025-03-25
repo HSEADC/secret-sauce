@@ -127,7 +127,6 @@
   gap: 1vw;
   align-self: stretch;
   border-radius: 3.333vw;
-  /* white */
   box-shadow: -30px -30px 74px 0px rgba(255, 255, 255, 0.5) inset,
     30px 30px 74px 0px rgba(255, 255, 255, 0.5) inset;
 }
@@ -149,8 +148,9 @@
 .W_AddSomethingCard {
   display: flex;
   flex-direction: column;
-  width: 20.8vw;
   align-self: center;
-  gap: 10vw;
+  gap: 6vw;
   align-items: flex-start;
+  justify-content: space-between;
 }
+

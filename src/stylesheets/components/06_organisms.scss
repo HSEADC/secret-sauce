@@ -29,7 +29,7 @@ a.O_LargeCard {
   width: 46.5vw;
 }
 a.O-Collabcard {
-  width: 94.44vw;
+  width: 100%;
   border-radius: 3.33vw;
   padding: 4vw;
   text-decoration: none;
@@ -46,12 +46,16 @@ a.O-Collabcard {
   align-items: flex-start;
   gap: 0.556vw;
   position: sticky;
-  top: 25%;
+  top: 15%;
   z-index: 100;
 }
 .O_ArticleMenuFullBlue {
   p {
     color: var(--tiffany-dark);
+    &:hover {
+      opacity: 0.7;
+      transition: 0.5s;
+    }
   }
 }
 

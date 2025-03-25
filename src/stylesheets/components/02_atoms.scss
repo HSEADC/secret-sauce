@@ -167,7 +167,6 @@ a.A-Hero-Card {
   padding: 0.5vw 0.9vw;
   justify-content: center;
   align-items: center;
-  gap: 0.7vw;
   border-radius: 7vw;
   background: var(--off-white);
 }
@@ -359,6 +358,8 @@ a.A_Menu-Point {
   align-items: center;
   border-radius: 10vw;
   background: var(--soft-orange, #fdefa7);
-  box-shadow: 2px 2px 30px 0px rgba(255, 196, 3, 0.7) inset,
-    -1.19px -1.19px 20px 0px rgba(255, 196, 3, 0.7) inset;
+  &:hover {
+    transition: 0.5s;
+    box-shadow: 2px 2px 30px 0px rgba(255, 196, 3, 0.7) inset, -1.19px -1.19px 20px 0px rgba(255, 196, 3, 0.7) inset;
+  }
 }
