@@ -156,6 +156,30 @@ module.exports = {
       filename: './articles/visual-fast-food/severance.html',
       chunks: ['index', 'changingimg', 'BurgerMenu']
     }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/lapka.html',
+      filename: './articles/visual-fast-food/lapka.html',
+      chunks: ['index', 'changingimg', 'BurgerMenu']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/jeremy.html',
+      filename: './articles/visual-fast-food/jeremy.html',
+      chunks: ['index', 'changingimg', 'BurgerMenu']
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/studio.html',
+      filename: './articles/visual-fast-food/studio.html',
+      chunks: ['index', 'changingimg', 'BurgerMenu']
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/fenty.html',
+      filename: './articles/visual-fast-food/fenty.html',
+      chunks: ['index', 'changingimg', 'BurgerMenu']
+    }),
+
+
 
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/gentle.html',
