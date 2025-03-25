@@ -7,8 +7,8 @@
   justify-content: space-between;
   align-items: center;
 }
-.W-Header-Mobile{
-    display: none;
+.W-Header-Mobile {
+  display: none;
 }
 .W-HeroContent {
   display: flex;
@@ -154,3 +154,15 @@
   justify-content: space-between;
 }
 
+.W_AboutUsInfo {
+  width: 46.67vw;
+  height: 53.52vw;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  gap: 10vw;
+  h2 {
+    text-align: center;
+    color: var(--soft-orange);
+  }
+}
