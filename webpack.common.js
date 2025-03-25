@@ -248,6 +248,12 @@ module.exports = {
       filename: './articles/large-articles/oem.html',
       chunks: ['index', 'BurgerMenu'],
     }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/large-articles/balencidada.html',
+      filename: './articles/large-articles/balencidada.html',
+      chunks: ['index', 'BurgerMenu'],
+    }),
+
 
     // публикации в разделе "ошибки" (erors)
     new HtmlWebpackPlugin({
