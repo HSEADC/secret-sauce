@@ -103,3 +103,27 @@
   display: flex;
   padding: 2vw 2vw;
 }
+
+.Q_Back_404,
+.Q_Back_500,
+.Q_Back_505,
+.Q_Back_504 {
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Q_Back_404 {
+  background-image: url(/src/images/erorrs/Q_Back_404.webp);
+}
+.Q_Back_500 {
+  background-image: url(/src/images/erorrs/Q_Back_500.webp);
+}
+.Q_Back_505 {
+  background-image: url(/src/images/erorrs/Q_Back_505.webp);
+}
+.Q_Back_504 {
+  background-image: url(/src/images/erorrs/Q_Back_504.webp);
+}

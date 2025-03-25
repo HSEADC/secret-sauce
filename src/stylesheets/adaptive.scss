@@ -16,7 +16,7 @@
     height: 45.51vw;
   }
 
-  .C-Burger-Menu{
+  .C-Burger-Menu {
     display: none;
   }
 
@@ -81,7 +81,7 @@
   }
   .Q-ImgFilter {
     border-radius: 0.7vw;
-}
+  }
   .W_CollabAvatarsHeadingTag {
     width: 50vw;
     gap: 10vw;
@@ -101,16 +101,23 @@
 }
 
 @media screen and (max-width: 700px) {
-  .W-Header{
+  //main page
+  //бургер меню
+
+  .W-Header {
     display: none;
   }
-  .C-Burger-Menu{
+
+  .W-Header {
+    display: none;
+  }
+  .C-Burger-Menu {
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 18.56vw;
   }
-  .W-Header-Mobile{
+  .W-Header-Mobile {
     width: 100%;
     padding: 1.25vw 3vw;
     gap: 0.8vw;
@@ -119,7 +126,7 @@
     justify-content: space-between;
     align-items: center;
   }
-  .A-MenuPoint-Mobile{
+  .A-MenuPoint-Mobile {
     display: flex;
     text-decoration: none;
     color: var(--dark-brown);
@@ -127,222 +134,221 @@
     align-self: stretch;
     border-bottom: 1px solid var(--soft-orange);
   }
-  .A-Searchbar{
+  .A-Searchbar {
     width: 100%;
-  }
-  .M-HeaderCategories{
-    display: none;
-  }
-  .M-HeaderCategories-Mobile{
-    display: none;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 3vw 3vw 140vw;
-    gap: 4vw;
-  }
-  .A_LogoHeader img{
-    width: 42px;
-    height: 42px;
-  }
-  .Active{
-    display: flex;
-    background-color: var(--soft-orange-halftone);
   }
 
+  .M-HeaderCategories {
+    .M-HeaderCategories {
+      display: none;
+    }
+    .M-HeaderCategories-Mobile {
+      display: none;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 3vw 3vw 140vw;
+      gap: 4vw;
+    }
+    .A_LogoHeader img {
+      width: 42px;
+      height: 42px;
+    }
+    .Active {
+      display: flex;
+      background-color: var(--soft-orange-halftone);
+    }
 
-  .W-HeroContent {
-    gap: 2.78vw;
-  }
-  .M-Hero-Cards {
-    gap: 1.8vw;
-  }
-  .A-Hero-Card {
-    height: 66.67vw;
-    padding: 2.4vw;
-    border-radius: 2.3vw;
-  }
-  .A-Card-1,
-  .A-Card-4,
-  .A-Card-11 {
-    width: 57.33vw;
-    height: 66.67vw;
-  }
-  .A-Card-2,
-  .A-Card-3,
-  .A-Card-5,
-  .A-Card-6,
-  .A-Card-7,
-  .A-Card-8,
-  .A-Card-9,
-  .A-Card-10,
-  .A-Card-12 {
-    width: 57.33vw;
-    height: 66.67vw;
-  }
+    .W-HeroContent {
+      gap: 2.78vw;
+    }
+    .M-Hero-Cards {
+      gap: 1.8vw;
+    }
+    .A-Hero-Card {
+      height: 66.67vw;
+      padding: 2.4vw;
+      border-radius: 2.3vw;
+    }
+    .A-Card-1,
+    .A-Card-4,
+    .A-Card-11 {
+      width: 57.33vw;
+      height: 66.67vw;
+    }
+    .A-Card-2,
+    .A-Card-3,
+    .A-Card-5,
+    .A-Card-6,
+    .A-Card-7,
+    .A-Card-8,
+    .A-Card-9,
+    .A-Card-10,
+    .A-Card-12 {
+      width: 57.33vw;
+      height: 66.67vw;
+    }
 
+    .S_VisualFast-Food {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 4vw;
+      padding: 5vw 3vw;
+    }
+    .S_VisualFast-Food {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 4vw;
+      padding: 5vw 3vw;
+    }
+    .C_Similar {
+      display: none;
+    }
+    .W_ImgChanging {
+      gap: 5.7vw;
+    }
+    .W_HeadingAuthor {
+      width: 70%;
+      gap: 16vw;
+    }
+    .W_SimmilarTags {
+      width: 100%;
+      gap: 22.41vw;
+      align-items: flex-start;
+      margin-top: 10vw;
+    }
+    .M_TitleArticle {
+      gap: 2.8vw;
+    }
+    .M_PhBar {
+      gap: 0.8vw;
+      padding: 1.4vw;
+      border-radius: 2.57vw;
+    }
+    .M_PhBar img {
+      width: 17.29vw;
+      height: 17.29vw;
+      border-radius: 2.29vw;
+    }
+    .M_Similar img {
+      width: 10.29vw;
+      height: 10.29vw;
+      border-radius: 0.56vw;
+      object-fit: cover;
+    }
+    .M_Similar {
+      gap: 1vw;
+      padding: 0.8vw;
+    }
+    .A_MainPhoto {
+      width: 100%;
+      height: 100%;
+      border-radius: 3.43vw;
+    }
+    .Q_Avatar_S {
+      width: 7.5vw;
+      height: 7.5vw;
+      border: 0.5vw solid var(--off-white);
+    }
 
-  .S_VisualFast-Food {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 4vw;
-    padding: 5vw 3vw;
-  }
-  .S_VisualFast-Food {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 4vw;
-    padding: 5vw 3vw;
-  }
-  .C_Similar {
-    display: none;
-  }
-  .W_ImgChanging {
-    gap: 5.7vw;
-  }
-  .W_HeadingAuthor {
-    width: 70%;
-    gap: 16vw;
-  }
-  .W_SimmilarTags {
-    width: 100%;
-    gap: 22.41vw;
-    align-items: flex-start;
-    margin-top: 10vw;
-  }
-  .M_TitleArticle {
-    gap: 2.8vw;
-  }
-  .M_PhBar {
-    gap: 0.8vw;
-    padding: 1.4vw;
-    border-radius: 2.57vw;
-  }
-  .M_PhBar img {
-    width: 17.29vw;
-    height: 17.29vw;
-    border-radius: 2.29vw;
-  }
-  .M_Similar img {
-    width: 10.29vw;
-    height: 10.29vw;
-    border-radius: 0.56vw;
-    object-fit: cover;
-  }
-  .M_Similar {
-    gap: 1vw;
-    padding: 0.8vw;
-  }
-  .A_MainPhoto {
-    width: 100%;
-    height: 100%;
-    border-radius: 3.43vw;
-  }
-  .Q_Avatar_S {
-    width: 7.5vw;
-    height: 7.5vw;
-    border: 0.5vw solid var(--off-white);
-  }
+    .C-FilterBox {
+      width: 100%;
+      padding: 0 3vw;
+      align-items: center;
+      gap: 0.9vw;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .W-DirectionFilter {
+      width: 49.5%;
+      padding: 1.7vw;
+      gap: 1.6vw;
+      border-radius: 1.6vw;
+    }
+    .Q-ImgFilter {
+      border-radius: 1.2vw;
+    }
+    .A-NumberArticles {
+      padding: 1vw 1.5vw;
+      border-radius: 7vw;
+    }
+    .Q_Avatar_L {
+      width: 45%;
+      border-radius: 8vw;
+      border: 0.8vw solid var(--off-white);
+    }
+    .W_CollabAvatarsHeadingTag {
+      width: 68vw;
+      gap: 20vw;
+    }
+    .W_CollabTagHeading {
+      gap: 3vw;
+    }
 
-  .C-FilterBox {
-    width: 100%;
-    padding: 0 3vw;
-    align-items: center;
-    gap: 0.9vw;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .W-DirectionFilter {
-    width: 49.5%;
-    padding: 1.7vw;
-    gap: 1.6vw;
-    border-radius: 1.6vw;
-  }
-  .Q-ImgFilter {
-    border-radius: 1.2vw;
-  }
-  .A-NumberArticles {
-    padding: 1vw 1.5vw;
-    border-radius: 7vw;
-  }
-  .Q_Avatar_L {
-    width: 45%;
-    border-radius: 8vw;
-    border: 0.8vw solid var(--off-white);
-  }
-  .W_CollabAvatarsHeadingTag {
-    width: 68vw;
-    gap: 20vw;
-  }
-  .W_CollabTagHeading {
-    gap: 3vw;
-  }
-  
+    body.articles {
+      gap: 14vw;
+    }
+    .S_ArticlePage {
+      gap: 8vw 0.9vw;
+      flex-wrap: wrap;
+      align-self: stretch;
+    }
+    .W_MainBlock {
+      gap: 3vw;
+    }
+    a.O_SmallCard {
+      width: 49%;
+    }
+    .Q_SmalImg {
+      width: 100%;
+      height: 100%;
+      border-radius: 50vw;
+    }
+    a.O_MediumCard {
+      width: 49%;
+    }
+    .Q_MiddleImg {
+      width: 100%;
+      height: 100%;
+      border-radius: 2vw;
+    }
+    a.O_LargeCard {
+      width: 100%;
+    }
+    .Q_BigImg {
+      width: 100%;
+      height: 100%;
+      border-radius: 2vw;
+    }
 
-  body.articles {
-    gap: 14vw;
-  }
-  .S_ArticlePage {
-    gap: 8vw 0.9vw;
-    flex-wrap: wrap;
-    align-self: stretch;
-  }
-  .W_MainBlock {
-    gap: 3vw;
-  }
-  a.O_SmallCard {
-    width: 49%;
-  }
-  .Q_SmalImg {
-    width: 100%;
-    height: 100%;
-    border-radius: 50vw;
-  }
-  a.O_MediumCard{
-    width: 49%;
-  }
-  .Q_MiddleImg{
-    width: 100%;
-    height: 100%;
-    border-radius: 2vw;
-  }
-  a.O_LargeCard {
-    width: 100%;
-  }
-  .Q_BigImg{
-    width: 100%;
-    height: 100%;
-    border-radius: 2vw;
-  }
-
-  .W_FooterWrapper {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .S_FooterDesktop {
-    height: 150vw;
-    padding: 8vw;
-    background-image: url(/src/images/footer/S_FooterMobile.webp);
-    border-radius: 0;
-    background-size: cover;
-    box-shadow: none;
-    margin-bottom: 0vw;
-  }
-  .M_FooterText {
-    width: 80%;
-    gap: 6vw;
-  }
-  .M_MenuFooter {
-    gap: 4vw;
-    bottom: 7vw;
-  }
-  .A_LogoFooter {
-    width: 40%;
-  }
-  .M_InputWrapper {
-    padding: 0.8vw;
+    .W_FooterWrapper {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .S_FooterDesktop {
+      height: 150vw;
+      padding: 8vw;
+      background-image: url(/src/images/footer/S_FooterMobile.webp);
+      border-radius: 0;
+      background-size: cover;
+      box-shadow: none;
+      margin-bottom: 0vw;
+    }
+    .M_FooterText {
+      width: 80%;
+      gap: 6vw;
+    }
+    .M_MenuFooter {
+      gap: 4vw;
+      bottom: 7vw;
+    }
+    .A_LogoFooter {
+      width: 40%;
+    }
+    .M_InputWrapper {
+      padding: 0.8vw;
+    }
   }
 }
-
 @media screen and (max-width: 431px) {
   //main page
   //заголовок
@@ -372,5 +378,20 @@
   .A-Card-12 {
     width: 79.81vw;
     height: 92.81vw;
+  }
+  .Q_Back_404 {
+    background-image: url(/src/images/erorrs/Q_Back_404Mobile.webp);
+  }
+  .Q_Back_500 {
+    background-image: url(/src/images/erorrs/Q_Back_500Mobile.webp);
+  }
+  .Q_Back_505 {
+    background-image: url(/src/images/erorrs/Q_Back_505Mobile.webp);
+  }
+  .Q_Back_504 {
+    background-image: url(/src/images/erorrs/Q_Back_504Mobile.webp);
+  }
+  .M_Error {
+    margin-bottom: 62vw;
   }
 }

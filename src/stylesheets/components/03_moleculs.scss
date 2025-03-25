@@ -365,3 +365,17 @@ a.M_ArticleBottomMenu {
   flex-direction: column;
   gap: 1.389vw;
 }
+.M_Error {
+  text-align: center;
+  width: 28vw;
+  display: inline-flex;
+  padding: 2.5vw 1.88vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.88vw;
+  border-radius: 2.78vw;
+  background: rgba(254, 247, 211, 0.6);
+  margin-bottom: 20vw;
+  backdrop-filter: blur(17px);
+}
