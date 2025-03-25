@@ -104,8 +104,8 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
-      template: '/styleguide.html',
-      filename: '/styleguide.html',
+      template: './src/styleguide.html',
+      filename: './src/styleguide.html',
       chunks: ['index'],
     }),
 
