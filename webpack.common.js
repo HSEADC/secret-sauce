@@ -116,6 +116,11 @@ module.exports = {
       filename: './articles/visual-fast-food/plantarosa.html',
       chunks: ['index', 'changingimg', 'BurgerMenu']
     }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/holiday-duo.html',
+      filename: './articles/visual-fast-food/holiday-duo.html',
+      chunks: ['index', 'changingimg', 'BurgerMenu']
+    }),
 
     new HtmlWebpackPlugin({
       template: './src/articles/large-articles/tiffany.html',
