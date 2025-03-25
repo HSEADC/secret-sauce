@@ -52,13 +52,13 @@ a.A-MenuPoint {
   box-shadow: 0.14vw 0.14vw 1.04vw 0vw #fdefa7 inset,
     -0.07vw -0.07vw 0.35vw 0vw #fdefa7 inset;
 }
-a.A-LogoHeader{
-    width: 42px;
-    height: 42px;
+a.A-LogoHeader {
+  width: 42px;
+  height: 42px;
 }
-.A-LogoHeader{
-    width: 42px;
-    height: 42px;
+.A-LogoHeader {
+  width: 42px;
+  height: 42px;
 }
 //бегущая строка
 a.A-Hero-Card {
@@ -281,10 +281,9 @@ a.A-Hero-Card {
   border-radius: 7vw;
   background-color: var(--off-white-02);
 }
-//футер
-//здесь проблемка
+
 .A_LogoFooter {
-  width: 30%;
+  width: 20%;
 }
 a.A_Menu-Point {
   text-decoration: none;
@@ -312,7 +311,7 @@ a.A_Menu-Point {
   cursor: pointer;
 }
 .A_SendButton img {
-  width: 90%;
+  width: 75%;
 }
 
 .A_LineAvatar {
