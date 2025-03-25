@@ -85,6 +85,7 @@
 .M_format-filter {
   display: flex;
   align-items: flex-start;
+  gap: 0.4vw;
 }
 .M_CollabTags{
   display: flex;
@@ -147,8 +148,7 @@
     color: var(--dark-brown-60);
   }
 }
-//футер
-//здесь проблемка
+
 .M_MenuFooter {
   display: flex;
   flex-direction: row;
@@ -171,8 +171,6 @@
   justify-content: flex-start;
   cursor: pointer;
 }
-
-// визуальный фаст-фуд
 
 .M_TitleArticle {
   display: flex;
