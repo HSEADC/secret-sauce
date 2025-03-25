@@ -1,10 +1,7 @@
 @media screen and (max-width: 1025px) {
-  //main page
-  //заголовок
   .W-HeroContent {
     gap: 2.78vw;
   }
-  //бегущая строка
   .A-Hero-Card {
     height: 45.51vw;
     padding: 1.46vw;
@@ -32,7 +29,7 @@
     width: 35.35vw;
     height: 45.51vw;
   }
-  //визуальный фаст-фуд
+
   .W_ImgChanging {
     gap: 10vw;
   }
@@ -101,13 +98,6 @@
 }
 
 @media screen and (max-width: 700px) {
-  //main page
-  //бургер меню
-
-  .W-Header {
-    display: none;
-  }
-
   .W-Header {
     display: none;
   }
@@ -138,7 +128,7 @@
     width: 100%;
   }
 
-  .M-HeaderCategories {
+
     .M-HeaderCategories {
       display: none;
     }
@@ -150,6 +140,10 @@
       gap: 4vw;
     }
     .A_LogoHeader img {
+      width: 42px;
+      height: 42px;
+    }
+    .A_LogoHeader {
       width: 42px;
       height: 42px;
     }
@@ -347,15 +341,37 @@
     .M_InputWrapper {
       padding: 0.8vw;
     }
+
+
+    .Q_Back_404 {
+    background-image: url(/src/images/erorrs/Q_Back_404Mobile.webp);
+  }
+  .Q_Back_500 {
+    background-image: url(/src/images/erorrs/Q_Back_500Mobile.webp);
+  }
+  .Q_Back_505 {
+    background-image: url(/src/images/erorrs/Q_Back_505Mobile.webp);
+  }
+  .Q_Back_504 {
+    background-image: url(/src/images/erorrs/Q_Back_504Mobile.webp);
+  }
+  .M_Error {
+    display: flex;
+    gap: 2.6vw;
+    padding: 3.5vw 2.88vw;
+
+    h4 {
+      font-family: 'SuisseIntl-Book';
+      font-size: 20px;
+    }
   }
 }
 @media screen and (max-width: 431px) {
-  //main page
-  //заголовок
+
   .W-HeroContent {
     gap: 2.78vw;
   }
-  //бегущая строка
+
   .A-Hero-Card {
     height: 92.81vw;
     padding: 1.46vw;
@@ -392,10 +408,7 @@
     background-image: url(/src/images/erorrs/Q_Back_504Mobile.webp);
   }
   .M_Error {
-    margin-bottom: 62vw;
     display: flex;
-    width: 88.08vw;
-    height: 65.69vw;
     padding: 5vw 6vw;
     gap: 5.88vw;
 
