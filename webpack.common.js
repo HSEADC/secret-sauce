@@ -243,6 +243,12 @@ module.exports = {
       chunks: ['index', 'BurgerMenu'],
     }),
 
+    new HtmlWebpackPlugin({
+      template: './src/articles/large-articles/oem.html',
+      filename: './articles/large-articles/oem.html',
+      chunks: ['index', 'BurgerMenu'],
+    }),
+
     // публикации в разделе "ошибки" (erors)
     new HtmlWebpackPlugin({
       template: './src/erors/404.html',
