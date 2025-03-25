@@ -121,11 +121,31 @@ module.exports = {
       filename: './articles/visual-fast-food/holiday-duo.html',
       chunks: ['index', 'changingimg', 'BurgerMenu']
     }),
-
+    new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/isamaya.html',
+      filename: './articles/visual-fast-food/isamaya.html',
+      chunks: ['index', 'changingimg', 'BurgerMenu']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/pixar.html',
+      filename: './articles/visual-fast-food/pixar.html',
+      chunks: ['index', 'changingimg', 'BurgerMenu']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/gentle.html',
+      filename: './articles/visual-fast-food/gentle.html',
+      chunks: ['index', 'changingimg', 'BurgerMenu']
+    }),
     new HtmlWebpackPlugin({
       template: './src/articles/large-articles/tiffany.html',
       filename: './articles/large-articles/tiffany.html',
       chunks: ['index', 'BurgerMenu']
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/apple-music.html',
+      filename: './articles/visual-fast-food/apple-music.html',
+      chunks: ['index', 'changingimg','BurgerMenu']
     }),
 
     // Internal pages
