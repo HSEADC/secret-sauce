@@ -72,14 +72,15 @@
 @media screen and (max-width: 700px) {
   //main page
   //бургер меню
+
   .W-Header{
     display: none;
   }
-  //здесь проблемка
   .W-Header{
     display: none;
   }
   .C-Burger-Menu{
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 18.56vw;
@@ -112,7 +113,7 @@
     display: none;
     flex-direction: column;
     align-items: flex-start;
-    padding: 3vw 3vw 100vw;
+    padding: 3vw 3vw 140vw;
     gap: 4vw;
   }
   .A_LogoHeader img{
@@ -214,8 +215,8 @@
     border-radius: 3.43vw;
   }
   .Q_Avatar_S {
-    width: 3.5vw;
-    height: 3.5vw;
+    width: 7.5vw;
+    height: 7.5vw;
     border: 0.5vw solid var(--off-white);
   }
 }

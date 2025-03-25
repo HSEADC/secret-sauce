@@ -52,6 +52,14 @@ a.A-MenuPoint {
   box-shadow: 0.14vw 0.14vw 1.04vw 0vw #fdefa7 inset,
     -0.07vw -0.07vw 0.35vw 0vw #fdefa7 inset;
 }
+a.A-LogoHeader{
+    width: 42px;
+    height: 42px;
+}
+.A-LogoHeader{
+    width: 42px;
+    height: 42px;
+}
 //бегущая строка
 a.A-Hero-Card {
   text-decoration: none;
@@ -275,9 +283,6 @@ a.A-Hero-Card {
 }
 //футер
 //здесь проблемка
-.A_LogoFooter {
-  width: 15%;   
-}
 .A_LogoFooter {
   width: 30%;
 }
