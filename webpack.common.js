@@ -212,11 +212,6 @@ module.exports = {
       filename: './articles/visual-fast-food/rhode.html',
       chunks: ['index', 'changingimg', 'BurgerMenu']
     }),
-    new HtmlWebpackPlugin({
-      template: './src/articles/visual-fast-food/jaq.html',
-      filename: './articles/visual-fast-food/jaq.html',
-      chunks: ['index', 'changingimg', 'BurgerMenu']
-    }),
 
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/ismotion.html',
