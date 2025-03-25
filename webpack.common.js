@@ -220,7 +220,6 @@ module.exports = {
     }),
 
 
-
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/gentle.html',
       filename: './articles/visual-fast-food/gentle.html',
@@ -235,6 +234,12 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/articles/large-articles/diesel.html',
       filename: './articles/large-articles/diesel.html',
+      chunks: ['index', 'BurgerMenu'],
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/articles/large-articles/charlie.html',
+      filename: './articles/large-articles/charlie.html',
       chunks: ['index', 'BurgerMenu'],
     }),
 
