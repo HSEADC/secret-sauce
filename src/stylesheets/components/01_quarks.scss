@@ -22,7 +22,7 @@
 }
 
 .Q_BigImg {
-  width: 46.5vw;
+  width: 46.3vw;
   height: 46vw;
   background-size: cover;
   border-radius: 0.8vw;
@@ -30,6 +30,11 @@
 
 .Q-CollabImgXOXO {
   background-image: url('/src/images/articles/O_CollabCard.webp');
+  background-size: cover;
+  background-position: center;
+}
+.Q-CollabImgACT {
+  background-image: url('/src/images/articles/O_CollabCard2.webp');
   background-size: cover;
   background-position: center;
 }

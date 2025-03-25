@@ -290,10 +290,12 @@
     .M_CollabHeading {
       gap: 3vw;
     }
+    .A_TagFilter.active{
+      box-shadow: -0.069vw -0.069vw 1.7vw 0px rgba(255, 196, 3, 0.2) inset, 0.069vw 0.069vw 1.7vw 0px rgba(255, 196, 3, 0.2) inset; 
+    }
     .A_TagFilter{
-      padding: 1.5vw 1.8vw;
-      box-shadow: -0.069vw -0.069vw 1.7vw 0px rgba(255, 196, 3, 0.2) inset, 0.069vw 0.069vw 1.7vw 0px rgba(255, 196, 3, 0.2) inset;
       .p3{
+        padding: 1.5vw 1.8vw;
         font-size: 18px;
       }
     }

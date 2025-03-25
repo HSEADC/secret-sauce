@@ -187,9 +187,12 @@ a.A-Hero-Card {
   align-items: center;
   gap: 0.7vw;
   border-radius: 7vw;
+  backdrop-filter: blur(0.278vw);
+  cursor: pointer;
+}
+.A_TagFilter.active{
   box-shadow: -0.069vw -0.069vw 0.7vw 0px rgba(255, 196, 3, 0.2) inset,
     0.069vw 0.069vw 0.7vw 0px rgba(255, 196, 3, 0.2) inset;
-  backdrop-filter: blur(0.278vw);
 }
 
 .A_TagFilterPrimary {

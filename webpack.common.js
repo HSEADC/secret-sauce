@@ -12,11 +12,12 @@ module.exports = {
     tab: './src/javascript/tab.js',
     changingimg: './src/javascript/ChangingImg.js',
     BurgerMenu: './src/javascript/BurgerMenu.js',
+    FilterTip: './src/javascript/FilterTip.js'
   },
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, 'docs'),
-    clean: true,
+    clean: true
   },
   module: {
     rules: [
@@ -27,9 +28,9 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             presets: ['@babel/preset-env', '@babel/preset-react'],
-            plugins: ['@babel/plugin-proposal-class-properties'],
-          },
-        },
+            plugins: ['@babel/plugin-proposal-class-properties']
+          }
+        }
       },
       {
         test: /\.(sa|sc|c)ss$/i,
@@ -40,86 +41,85 @@ module.exports = {
             loader: 'postcss-loader',
             options: {
               postcssOptions: {
-                plugins: [['postcss-preset-env']],
-              },
-            },
+                plugins: [['postcss-preset-env']]
+              }
+            }
           },
-          'sass-loader',
-        ],
+          'sass-loader'
+        ]
       },
       {
         test: /\.html$/i,
-        loader: 'html-loader',
+        loader: 'html-loader'
       },
       {
         resourceQuery: /raw/,
-        type: 'asset/source',
+        type: 'asset/source'
       },
       {
         test: /\.(png|jpg|jpeg|gif|svg|webp)$/i,
         type: 'asset/resource',
         generator: {
-          filename: 'images/[hash][ext][query]',
-        },
+          filename: 'images/[hash][ext][query]'
+        }
       },
       {
         test: /\.(ttf|otf|woff|woff2)$/i,
         type: 'asset/resource',
         generator: {
-          filename: 'fonts/[hash][ext][query]',
-        },
-      },
-    ],
+          filename: 'fonts/[hash][ext][query]'
+        }
+      }
+    ]
   },
   plugins: [
     new MiniCssExtractPlugin({
       filename: '[name].css',
-      chunkFilename: '[id].css',
+      chunkFilename: '[id].css'
     }),
 
     // index
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: './index.html',
-      chunks: ['index', 'swiper', 'tab', 'BurgerMenu'],
+      chunks: ['index', 'swiper', 'tab', 'BurgerMenu']
     }),
 
     // все страницы разделов
     new HtmlWebpackPlugin({
       template: './src/articles.html',
       filename: './articles.html',
-      chunks: ['index', 'BurgerMenu'],
+      chunks: ['index', 'BurgerMenu', 'FilterTip']
     }),
 
     new HtmlWebpackPlugin({
       template: './src/about.html',
       filename: './about.html',
-      chunks: ['index', 'BurgerMenu'],
+      chunks: ['index', 'BurgerMenu']
     }),
 
     new HtmlWebpackPlugin({
       template: './src/newsletter.html',
       filename: './newsletter.html',
-      chunks: ['index'],
+      chunks: ['index']
     }),
 
     new HtmlWebpackPlugin({
       template: './src/styleguide.html',
       filename: './src/styleguide.html',
-      chunks: ['index', 'BurgerMenu'],
+      chunks: ['index', 'BurgerMenu']
     }),
 
     // публикации в разделе "статьи" (articles)
-
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/plantarosa.html',
       filename: './articles/visual-fast-food/plantarosa.html',
-      chunks: ['index', 'changingimg', 'BurgerMenu'],
+      chunks: ['index', 'changingimg', 'BurgerMenu']
     }),
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/holiday-duo.html',
       filename: './articles/visual-fast-food/holiday-duo.html',
-      chunks: ['index', 'changingimg', 'BurgerMenu'],
+      chunks: ['index', 'changingimg', 'BurgerMenu']
     }),
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/isamaya.html',
@@ -219,7 +219,6 @@ module.exports = {
       chunks: ['index', 'changingimg', 'BurgerMenu']
     }),
 
-
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/gentle.html',
       filename: './articles/visual-fast-food/gentle.html',
@@ -228,35 +227,35 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/articles/large-articles/tiffany.html',
       filename: './articles/large-articles/tiffany.html',
-      chunks: ['index', 'BurgerMenu'],
+      chunks: ['index', 'BurgerMenu']
     }),
 
     // публикации в разделе "ошибки" (erors)
     new HtmlWebpackPlugin({
       template: './src/erors/404.html',
       filename: './erors/404.html',
-      chunks: ['index', 'BurgerMenu'],
+      chunks: ['index', 'BurgerMenu']
     }),
     new HtmlWebpackPlugin({
       template: './src/erors/500.html',
       filename: './erors/500.html',
-      chunks: ['index', 'BurgerMenu'],
+      chunks: ['index', 'BurgerMenu']
     }),
     new HtmlWebpackPlugin({
       template: './src/erors/505.html',
       filename: './erors/505.html',
-      chunks: ['index', 'BurgerMenu'],
+      chunks: ['index', 'BurgerMenu']
     }),
     new HtmlWebpackPlugin({
       template: './src/erors/504.html',
       filename: './erors/504.html',
-      chunks: ['index', 'BurgerMenu'],
+      chunks: ['index', 'BurgerMenu']
     }),
 
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/apple-music.html',
       filename: './articles/visual-fast-food/apple-music.html',
-      chunks: ['index', 'changingimg','BurgerMenu']
+      chunks: ['index', 'changingimg', 'BurgerMenu']
     }),
 
     // Internal pages
@@ -274,8 +273,8 @@ module.exports = {
         path: path.join(__dirname, './src/partials/analytics.html'),
         location: 'analytics',
         template_filename: '*',
-        priority: 'replace',
-      },
-    ]),
-  ],
-};
+        priority: 'replace'
+      }
+    ])
+  ]
+}

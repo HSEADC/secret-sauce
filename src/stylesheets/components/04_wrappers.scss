@@ -36,6 +36,9 @@
     transition: 0.7s;
   }
 }
+.W-DirectionFilter.active {
+  background: var(--soft-orange);
+}
 .W_MainBlock {
   width: 100%;
   padding-left: 3vw;
