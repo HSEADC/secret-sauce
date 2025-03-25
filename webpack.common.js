@@ -179,6 +179,35 @@ module.exports = {
       chunks: ['index', 'changingimg', 'BurgerMenu']
     }),
 
+    new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/nothing.html',
+      filename: './articles/visual-fast-food/nothing.html',
+      chunks: ['index', 'changingimg', 'BurgerMenu']
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/gisou.html',
+      filename: './articles/visual-fast-food/gisou.html',
+      chunks: ['index', 'changingimg', 'BurgerMenu']
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/bork.html',
+      filename: './articles/visual-fast-food/bork.html',
+      chunks: ['index', 'changingimg', 'BurgerMenu']
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/toyota.html',
+      filename: './articles/visual-fast-food/toyota.html',
+      chunks: ['index', 'changingimg', 'BurgerMenu']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/nike.html',
+      filename: './articles/visual-fast-food/nike.html',
+      chunks: ['index', 'changingimg', 'BurgerMenu']
+    }),
+
 
 
     new HtmlWebpackPlugin({
