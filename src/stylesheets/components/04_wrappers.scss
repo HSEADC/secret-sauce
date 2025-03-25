@@ -7,17 +7,17 @@
   justify-content: space-between;
   align-items: center;
 }
-
+.W-Header-Mobile{
+    display: none;
+}
 .W-HeroContent {
   display: flex;
-  width: 99.79vw;
   flex-direction: column;
   align-items: center;
   gap: 2.78vw;
 
   h1 {
     color: var(--soft-orange);
-    width: 53.54vw;
     text-align: center;
   }
 }
@@ -72,3 +72,85 @@
   display: flex;
   flex-direction: column;
 }
+
+.W_HeadingAuthor {
+  display: flex;
+  width: 23vw;
+  gap: 17.71vw;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.W_ImgChanging {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.85vw;
+}
+
+.W_SimmilarTags {
+  display: flex;
+  width: 23vw;
+  gap: 16.41vw;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.W_Similar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4vw;
+}
+.W_TextRead {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.W_CoverInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 4vw;
+  padding: 5vw 3vw 3vw 3vw; /* top right bottom left */
+}
+
+.W_ArticleMenuBox {
+  display: flex;
+  padding: 1.111vw 0vw;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
+  align-self: stretch;
+  border-radius: 3.333vw;
+  box-shadow: -30px -30px 74px 0px rgba(255, 255, 255, 0.5) inset,
+    30px 30px 74px 0px rgba(255, 255, 255, 0.5) inset;
+}
+.W_ArticleMenuBoxBlue {
+  background: var(--tiffany-superlight, #e6f8f6);
+  box-shadow: -30px -30px 74px 0px rgba(255, 255, 255, 0.5) inset,
+    30px 30px 74px 0px rgba(255, 255, 255, 0.5) inset;
+}
+
+.W_ArticleMenu {
+  display: flex;
+  width: 34.236vw;
+  height: 17.778vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.W_AddSomethingCard {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  gap: 6vw;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+

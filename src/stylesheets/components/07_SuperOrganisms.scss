@@ -2,7 +2,7 @@
   display: flex;
   align-items: flex-start;
   align-content: flex-start;
-  gap: 8vw 1.1vw;
+  gap: 8vw 1vw;
   flex-wrap: wrap;
   align-self: stretch;
   justify-content: flex-start;
@@ -21,4 +21,34 @@
   align-items: center;
   justify-content: center;
   position: relative;
+}
+
+.S_VisualFast-Food {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+  gap: 1.39vw;
+  padding: 12vw 3vw 6vw 3vw;
+}
+.S_LargeArticle {
+  display: flex;
+  flex-direction: row;
+  padding: 3vw 3vw 3vw 9vw;
+  justify-content: space-between;
+}
+
+.S_Feed {
+  display: flex;
+  flex-direction: row;
+  padding: 3vw 3vw;
+  justify-content: space-between;
+}
+
+.S_Eror {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
