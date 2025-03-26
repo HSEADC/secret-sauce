@@ -395,6 +395,9 @@ a.M_ArticleBottomMenu {
   gap: 1vw;
   display: flex;
   flex-direction: column;
+  p.p2 {
+    color: var(--dark-brown-60);
+  }
 }
 
 .M_FeedTextBlock {
