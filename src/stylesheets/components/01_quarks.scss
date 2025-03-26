@@ -155,6 +155,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 16vw;
 }
 .Q_LargeArticle {
   background-image: url(/src/images/AboutUs/Q_LargeArticle.webp);
@@ -164,11 +165,14 @@
 }
 .Q_AdvertImg {
   background-image: url(/src/images/AboutUs/advertblockwrapper.webp);
-  background-size: cover;
+  height: 140%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  width: 100%;
+  background-size: cover; /* Это делает картинку полностью видимой без обрезки */
+  background-position: center center;
+  background-repeat: no-repeat;
+  align-items: center;
+  margin-bottom: 10vw;
 }
 
 .Q_Author {
