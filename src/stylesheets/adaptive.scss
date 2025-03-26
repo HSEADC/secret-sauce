@@ -91,9 +91,36 @@
     border-radius: 8vw;
     border: 1vw solid var(--off-white);
   }
-
   .S_FooterDesktop {
     height: 50vw;
+  }
+
+  .S_AuthorPage{
+    gap: 50px;
+    padding: 6vw 14.5vw 10vw 14.5vw;
+  }
+  .C_AuthorArticle {
+    width: auto;
+  }
+  .M_Author{
+    width: 100%;
+    flex-direction: column;
+    gap: 10vw;
+    padding: 4.6vw 11.32vw 4.6vw 4.6vw;
+    .Q_Avatar_L{
+      width: 35%;
+      border-radius: 25vw;
+      border: 1.2vw  solid var(--off-white);
+    }
+  }
+  .M_TextAuthor{
+    gap: 3vw;
+    h4{
+      font-size: 32px;
+    }
+    .p2{
+      font-size: 20px;
+    }
   }
 }
 
@@ -396,6 +423,34 @@
 
     h4 {
       font-family: 'SuisseIntl-Book';
+      font-size: 20px;
+    }
+  }
+
+  .S_AuthorPage{
+    gap: 50px;
+    padding: 6vw 3vw 14vw 3vw;
+  }
+  .C_AuthorArticle {
+    width: auto;
+  }
+  .M_Author{
+    width: 100%;
+    flex-direction: column;
+    gap: 10vw;
+    padding: 4.6vw 11.32vw 4.6vw 4.6vw;
+    .Q_Avatar_L{
+      width: 35%;
+      border-radius: 25vw;
+      border: 1.8vw solid var(--off-white);
+    }
+  }
+  .M_TextAuthor{
+    gap: 3vw;
+    h4{
+      font-size: 32px;
+    }
+    .p2{
       font-size: 20px;
     }
   }
