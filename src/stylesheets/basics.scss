@@ -24,51 +24,61 @@ body {
 h1 {
   font-family: 'SuisseIntl-Medium';
   font-size: 64px;
+  line-height: 90%;
 }
 
 h2 {
   font-family: 'SuisseIntl-Book';
   font-size: 48px;
+  line-height: 100%;
 }
 
 h3 {
   font-family: 'SuisseIntl-Medium';
   font-size: 36px;
+  line-height: 120%;
 }
 
 h4 {
   font-family: 'SuisseIntl-Book';
   font-size: 32px;
+  line-height: 105%;
 }
 
 h5 {
   font-family: 'SuisseIntl-Medium';
   font-size: 24px;
+  line-height: 100%;
 }
 
 h6 {
   font-family: 'SuisseIntl-Book';
   font-size: 14px;
+  line-height: 120%;
 }
 
 p.p1 {
   font-family: 'SuisseIntl-Regular';
   font-size: 22px;
+  line-height: 130%;
 }
 
 p.p2 {
   font-family: 'SuisseIntl-Regular';
   font-size: 20px;
+  line-height: 130%;
 }
 
 p.p3 {
   font-family: 'SuisseIntl-Book';
   font-size: 16px;
+  line-height: 120%;
 }
 
 p.p4 {
   font-family: 'SuisseIntl-Regular';
   font-size: 14px;
+  line-height: 120%;
 }
 @media screen and (max-width: 1025px){
   h1 {

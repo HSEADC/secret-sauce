@@ -295,7 +295,7 @@ a.M_ArticleBottomMenu {
   }
 }
 .M_ArticleBottomMenuOrange {
-  background: var(--oem-halftone);
+  background: var(--oem-superlight);
   &:hover {
     opacity: 0.7;
     transition: 0.5s;
@@ -335,8 +335,7 @@ a.M_ArticleBottomMenu {
 }
 .M_ArticlePointMenu {
   display: flex;
-  height: 4.444vw;
-  padding: 1.111vw 2.222vw;
+  padding: 1.1vw 2.2vw;
   justify-content: space-between;
   align-items: center;
   flex-shrink: 0;
