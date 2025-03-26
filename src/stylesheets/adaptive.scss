@@ -462,6 +462,10 @@
   }
   .M_Bottom-Fixed-Article{
     flex-direction: column;
+    gap: 2vw;
+  }
+  .M_LargeArticleTags{
+    align-self: auto;
   }
   .A_CoverInfoImg{
     width: 100%;
