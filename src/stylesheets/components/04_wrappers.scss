@@ -138,11 +138,25 @@
   box-shadow: -30px -30px 74px 0px rgba(255, 255, 255, 0.5) inset,
     30px 30px 74px 0px rgba(255, 255, 255, 0.5) inset;
 }
+.W_ArticleMenuBoxPink {
+  background: var(--xoxo-superlight);
+  box-shadow: -30px -30px 74px 0px rgba(255, 255, 255, 0.5) inset,
+    30px 30px 74px 0px rgba(255, 255, 255, 0.5) inset;
+}
+.W_ArticleMenuBoxOrange {
+  background: var(--oem-superlight);
+  box-shadow: -30px -30px 74px 0px rgba(255, 255, 255, 0.5) inset,
+    30px 30px 74px 0px rgba(255, 255, 255, 0.5) inset;
+}
+.W_ArticleMenuBoxBlack {
+  background: var(--balencidada-superlight, #e6e6e6);
+  box-shadow: -30px -30px 74px 0px rgba(255, 255, 255, 0.5) inset,
+    30px 30px 74px 0px rgba(255, 255, 255, 0.5) inset;
+}
 
 .W_ArticleMenu {
   display: flex;
   width: 34.236vw;
-  height: 17.778vw;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -159,11 +173,11 @@
 
 .W_AboutUsInfo {
   width: 46.67vw;
-  height: 53.52vw;
+  margin-bottom: 10vw;
   display: flex;
   flex-direction: column;
   align-self: center;
-  gap: 10vw;
+  gap: 6vw;
   h2 {
     text-align: center;
     color: var(--soft-orange);
@@ -172,8 +186,8 @@
 
 .W_AuthorBlock {
   display: flex;
-  width: 100vw;
-  padding: 20.83vw 6.19vw;
+  width: 100%;
+  padding: 8vw 6vw;
   flex-direction: column;
   align-items: center;
   gap: 8.06vw;

@@ -81,6 +81,10 @@ a.A-Hero-Card {
     box-shadow: -20px -20px 50px 0px rgba(255, 255, 255, 0.5) inset,
       20px 20px 50px 0px rgba(255, 255, 255, 0.5) inset;
   }
+  &:hover {
+    transition: 0.5s;
+    background-size: 105%;
+  }
   &:hover .p2,
   &:hover .M_TagLine {
     opacity: 1;
@@ -121,6 +125,10 @@ a.A-Hero-Card {
 }
 .A-Card-11 {
   background-image: url(/src/images/video/BORK.gif);
+  &:hover {
+    transition: 0.5s;
+    background-size: 130%;
+  }
 }
 .A-Card-12 {
   background-image: url(/src/images/video/Rhode.gif);
@@ -190,7 +198,7 @@ a.A-Hero-Card {
   backdrop-filter: blur(0.278vw);
   cursor: pointer;
 }
-.A_TagFilter.active{
+.A_TagFilter.active {
   box-shadow: -0.069vw -0.069vw 0.7vw 0px rgba(255, 196, 3, 0.2) inset,
     0.069vw 0.069vw 0.7vw 0px rgba(255, 196, 3, 0.2) inset;
 }
@@ -224,9 +232,6 @@ a.A-Hero-Card {
   align-items: center;
   gap: 0.7vw;
   border-radius: 7vw;
-  background: var(--tiffany-dark);
-  box-shadow: 0.3vw 0.3 1.4vw 0px rgba(255, 196, 3, 0) inset,
-    -0.3vw -0.3vw 1.4vw 0px rgba(255, 196, 3, 0) inset;
 }
 
 .A_LargeArticleTagSecondary {
@@ -236,9 +241,43 @@ a.A-Hero-Card {
   align-items: center;
   gap: 0.7vw;
   border-radius: 7vw;
+  backdrop-filter: blur(4px);
+}
+
+.A_LargeArticleTagPrimaryBlue {
+  background: var(--tiffany-dark);
+  box-shadow: 0.3vw 0.3 1.4vw 0px rgba(255, 196, 3, 0) inset,
+    -0.3vw -0.3vw 1.4vw 0px rgba(255, 196, 3, 0) inset;
+}
+.A_LargeArticleTagSecondaryBlue {
   box-shadow: -1px -1px 10px 0px var(--tiffany-dark, #32cec0) inset,
     1px 1px 10px 0px var(--tiffany-dark, #32cec0) inset;
-  backdrop-filter: blur(4px);
+}
+
+.A_LargeArticleTagPrimaryPink {
+  background: var(--xoxo);
+}
+.A_LargeArticleTagSecondaryPink {
+  background: rgba(253, 239, 167, 0.01);
+  box-shadow: -1px -1px 10px 0px rgba(236, 51, 150, 0.2) inset,
+    1px 1px 10px 0px rgba(236, 51, 150, 0.2) inset;
+}
+.A_LargeArticleTagPrimaryOrange {
+  background: var(--oem);
+}
+.A_LargeArticleTagSecondaryOrange {
+  background: rgba(253, 239, 167, 0.01);
+  box-shadow: -1px -1px 10px 0px var(--oem-green, #ff951c) inset,
+    1px 1px 10px 0px var(--oem-green, #ff951c) inset;
+}
+.A_LargeArticleTagPrimaryBlack {
+  background: var(--balencidada-black);
+  color: var(--off-white);
+}
+.A_LargeArticleTagSecondaryBlack {
+  background: rgba(253, 239, 167, 0.01);
+  box-shadow: -1px -1px 10px 0px var(--balencidada-black, #080808) inset,
+    1px 1px 10px 0px var(--balencidada-black, #080808) inset;
 }
 .A_TagFilterPrimaryOrange {
   display: flex;
@@ -357,6 +396,21 @@ a.A_Menu-Point {
     1px 1px 2px 0px var(--tiffany-dark, #32cec0) inset;
   background: var(--tiffany-superlight, #e6f8f6);
 }
+.A_MenuEyePink {
+  background: var(---light, #fbd6ea);
+  box-shadow: -1px -1px 2px 0px rgba(236, 51, 150, 0.2) inset,
+    1px 1px 2px 0px rgba(236, 51, 150, 0.2) inset;
+}
+.A_MenuEyeOrange {
+  background: var(--oem-superlight, #ffdfd5);
+  box-shadow: -1px -1px 2px 0px var(--oem-halftone, rgba(255, 149, 28, 0.5)) inset,
+    1px 1px 2px 0px var(--oem-halftone, rgba(255, 149, 28, 0.5)) inset;
+}
+.A_MenuEyeBlack {
+  background: var(--balencidada-superlight, #e6e6e6);
+  box-shadow: -1px -1px 2px 0px var(--balencidada-grey, #afafb4) inset,
+    1px 1px 2px 0px var(--balencidada-grey, #afafb4) inset;
+}
 
 .A_PrimaryButton {
   display: inline-flex;
@@ -372,7 +426,11 @@ a.A_Menu-Point {
   }
 }
 
-.A_Author {
+a.A_Author {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 2vw;
+  text-decoration: none;
+  color: inherit;
 }

@@ -16,7 +16,7 @@
 
 .Q_MiddleImg {
   width: 22.5vw;
-  height: 30vw;
+  height: 29.4vw;
   background-size: cover;
   border-radius: 0.8vw;
 }
@@ -89,12 +89,27 @@
 
 .Q_TiffanyCover {
   background-image: url(/src/images/LargeArticles/Q_Cover_Article_Tiffany.webp);
+}
+.Q_DieselCover {
+  background-image: url(/src/images/LargeArticles/Q_Cover_Article_Xoxo.webp);
+}
+.Q_BlackCover {
+  background-image: url(/src/images/LargeArticles/Q_Cover_Article_Balenciaga.webp);
+}
+.Q_OemCover {
+  background-image: url(/src/images/LargeArticles/Q_Cover_Article_Content.webp);
+}
+.Q_TiffanyCover,
+.Q_DieselCover,
+.Q_BlackCover,
+.Q_OemCover {
   background-size: cover;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+
 .Q_SendButton img {
   width: 3.8vw;
   height: 3.8vw;
@@ -117,7 +132,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .Q_Back_404 {
@@ -134,24 +149,38 @@
 }
 
 .Q_BackgroundAbout {
-  background-image: url(/src/images/AboutUs/Q_background.webp);
+  background-image: url(/src/images/AboutUs/Q_BackgroundAbout.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 6vw;
 }
 .Q_LargeArticle {
   background-image: url(/src/images/AboutUs/Q_LargeArticle.webp);
+  background-position: right;
 }
 .Q_Visible {
   background-image: url(/src/images/AboutUs/Q_Visible.webp);
+  background-position: right;
 }
 .Q_AdvertImg {
-  background-image: url(/src/images/AboutUs/advert-block-wrapper.webp);
-  background-size: cover;
+  background-image: url(/src/images/AboutUs/advertblockwrapper.webp);
+  height: 80vw;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  background-size: cover; /* Это делает картинку полностью видимой без обрезки */
+  background-position: center center;
+  background-repeat: no-repeat;
+  align-items: center;
+  margin-bottom: 10vw;
+}
+
+.Q_Author {
+  border-radius: 20vw;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
 }

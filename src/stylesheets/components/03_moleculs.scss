@@ -178,7 +178,9 @@
   gap: 1.4vw;
 }
 
-.M_Author-Bar {
+a.M_Author-Bar {
+  text-decoration: none;
+  color: inherit;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -285,6 +287,27 @@ a.M_ArticleBottomMenu {
     transition: 0.5s;
   }
 }
+.M_ArticleBottomMenuPink {
+  background: var(--xoxo-superlight);
+  &:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+}
+.M_ArticleBottomMenuOrange {
+  background: var(--oem-superlight);
+  &:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+}
+.M_ArticleBottomMenuBlack {
+  background: var(--balencidada-superlight);
+  &:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+}
 .M_ArticleTopMenu {
   display: flex;
   width: 31.2vw;
@@ -297,13 +320,22 @@ a.M_ArticleBottomMenu {
 .M_ArticleTopMenuBlue {
   background: var(--tiffany-light, #c7eeeb);
 }
+.M_ArticleTopMenuPink {
+  background: var(--xoxo-light);
+}
+.M_ArticleTopMenuOrange {
+  background: var(--oem-halftone);
+}
+.M_ArticleTopMenuBlack {
+  background: var(--balencidada-grey);
+}
+
 .M_ArticleTopMenu img {
   width: 35%;
 }
 .M_ArticlePointMenu {
   display: flex;
-  height: 4.444vw;
-  padding: 1.111vw 2.222vw;
+  padding: 1.1vw 2.2vw;
   justify-content: space-between;
   align-items: center;
   flex-shrink: 0;
@@ -313,6 +345,15 @@ a.M_ArticleBottomMenu {
 }
 .M_ArticlePointMenuBlue {
   border-top: 1px solid var(--tiffany-light);
+}
+.M_ArticlePointMenuPink {
+  border-top: 1px solid var(--xoxo-light);
+}
+.M_ArticlePointMenuOrange {
+  border-top: 1px solid var(--oem-halftone);
+}
+.M_ArticlePointMenuBlack {
+  border-top: 1px solid var(--balencidada-grey);
 }
 
 .M_TextField {
@@ -337,6 +378,12 @@ a.M_ArticleBottomMenu {
 .M_QuoteFieldBlue {
   background: var(--tiffany-light);
 }
+.M_QuoteFieldPink {
+  background: var(--xoxo-light);
+}
+.M_QuoteFieldBlack {
+  background: var(--balencidada-superlight);
+}
 .M_QuoteAuthorLine {
   display: flex;
   flex-direction: row;
@@ -348,6 +395,9 @@ a.M_ArticleBottomMenu {
   gap: 1vw;
   display: flex;
   flex-direction: column;
+  p.p2 {
+    color: var(--dark-brown-60);
+  }
 }
 
 .M_FeedTextBlock {
@@ -380,7 +430,6 @@ a.M_ArticleBottomMenu {
 
 .M_Author {
   display: flex;
-  width: 46.67vw;
   padding: 2.6vw 11.32vw 2.6vw 2.6vw;
   align-items: flex-start;
   align-self: center;
@@ -409,8 +458,9 @@ a.M_ArticleBottomMenu {
 .M_AuthorArticleBox {
   background-size: cover;
   width: 46.67vw;
-  height: 17.5vw;
+  height: 15vw;
   border-radius: 2.22vw;
+  gap: 3vw;
   padding: 3vw 19vw 3vw 3vw;
   display: flex;
   flex-direction: column;
@@ -428,7 +478,7 @@ a.M_ArticleBottomMenu {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3vw;
+  gap: 1.2vw;
   p {
     color: var(--dark-brown-60);
   }

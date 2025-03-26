@@ -6,14 +6,12 @@ body::-webkit-scrollbar {
   width: 4px;
 }
 body::-webkit-scrollbar-track {
-  
   background-color: var(--soft-orange-halftone);
 }
 body::-webkit-scrollbar-thumb {
   background-color: var(--orange);
   border-radius: 3px;
 }
-
 
 html,
 body {
@@ -24,132 +22,145 @@ body {
 h1 {
   font-family: 'SuisseIntl-Medium';
   font-size: 64px;
+  line-height: 90%;
 }
 
 h2 {
   font-family: 'SuisseIntl-Book';
   font-size: 48px;
+  line-height: 100%;
 }
 
 h3 {
   font-family: 'SuisseIntl-Medium';
   font-size: 36px;
+  line-height: 120%;
 }
 
 h4 {
   font-family: 'SuisseIntl-Book';
   font-size: 32px;
+  line-height: 105%;
 }
 
 h5 {
   font-family: 'SuisseIntl-Medium';
   font-size: 24px;
+  line-height: 100%;
 }
 
 h6 {
   font-family: 'SuisseIntl-Book';
   font-size: 14px;
+  line-height: 120%;
 }
 
 p.p1 {
   font-family: 'SuisseIntl-Regular';
   font-size: 22px;
+  line-height: 130%;
 }
 
 p.p2 {
   font-family: 'SuisseIntl-Regular';
   font-size: 20px;
+  line-height: 130%;
 }
 
 p.p3 {
   font-family: 'SuisseIntl-Book';
   font-size: 16px;
+  line-height: 120%;
 }
 
 p.p4 {
   font-family: 'SuisseIntl-Regular';
   font-size: 14px;
+  line-height: 120%;
 }
-@media screen and (max-width: 1025px){
+@media screen and (max-width: 1025px) {
   h1 {
-  font-size: 48px;
-}
+    font-size: 48px;
+  }
 
-h2 {
-  font-size: 36px;
-}
+  h2 {
+    font-size: 36px;
+  }
 
-h3 {
-  font-size: 32px;
-}
+  h3 {
+    font-size: 32px;
+  }
 
-h4 {
-  font-size: 24px;
-}
+  h4 {
+    font-size: 24px;
+  }
 
-h5 {
-  font-size: 20px;
-}
+  h5 {
+    font-size: 20px;
+  }
 
-h6 {
-  font-size: 14px;
-}
+  h6 {
+    font-size: 14px;
+  }
 
-p.p1 {
-  font-size: 20px;
-}
+  p.p1 {
+    font-size: 20px;
+  }
 
-p.p2 {
-  font-size: 18px;
-}
+  p.p2 {
+    font-size: 18px;
+  }
 
-p.p3 {
-  font-size: 16px;
-}
+  p.p3 {
+    font-size: 16px;
+  }
 
-p.p4 {
-  font-size: 14px;
-}
+  p.p4 {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 700px) {
   h1 {
-  font-size: 38px;
-}
+    font-size: 38px;
+  }
 
-h2 {
-  font-size: 48px;
-}
+  h2 {
+    font-size: 48px;
+  }
 
-h3 {
-  font-size: 36px;
-}
+  h3 {
+    font-family: 'SuisseIntl-Regular';
+    font-size: 20px;
+    line-height: 130%;
+  }
 
-h4 {
-  font-size: 24px;
-}
+  h4 {
+    font-size: 24px;
+  }
 
-h5 {
-  font-size: 24px;
-}
+  h5 {
+    font-size: 24px;
+  }
 
-h6 {
-  font-size: 14px;
-}
+  h6 {
+    font-size: 14px;
+  }
 
 p.p1 {
   font-size: 22px;
+  line-height: 100%;
 }
 
-p.p2 {
-  font-size: 16px;
-}
+  p.p2 {
+    font-size: 16px;
+  }
 
-p.p3 {
-  font-size: 14px;
-}
+  p.p3 {
+    font-size: 14px;
+  }
 
-p.p4 {
-  font-size: 14px;
-}
+  p.p4 {
+    font-size: 14px;
+  }
 }
