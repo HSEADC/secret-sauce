@@ -454,6 +454,41 @@
       font-size: 20px;
     }
   }
+
+  .O_ArticleMenuFullDiv{
+    display: none;
+  }
+  .M_Author-Bar-NonVisible{
+    display: none;
+  }
+  .M_Bottom-Fixed-Article{
+    flex-direction: column;
+  }
+  .A_CoverInfoImg{
+    width: 100%;
+  }
+  .W_CoverInfo{
+    padding: 20vw 3vw 6vw 3vw;
+    gap: 8vw;
+    h2{
+      font-size: 36px;
+    }
+  }
+  .S_LargeArticle {
+    padding: 12vw 3vw 3vw 3vw;
+  }
+  .C_LargeArticle{
+    width: 100%;
+    h2{
+      font-size: 36px;
+    }
+  }
+  .M_ImgArticle{
+    width: 100%;
+  }
+  .M_TextField{
+    padding: 5vw 10vw 5vw 5vw;
+  }
 }
 @media screen and (max-width: 431px) {
 
