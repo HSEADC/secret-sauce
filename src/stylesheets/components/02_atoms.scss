@@ -418,7 +418,11 @@ a.A_Menu-Point {
   }
 }
 
-.A_Author {
+a.A_Author {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 2vw;
+  text-decoration: none;
+  color: inherit;
 }

@@ -149,13 +149,13 @@
 }
 
 .Q_BackgroundAbout {
-  background-image: url(/src/images/AboutUs/Q_background.webp);
+  background-image: url(/src/images/AboutUs/Q_BackgroundAbout.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 16vw;
 }
 .Q_LargeArticle {
   background-image: url(/src/images/AboutUs/Q_LargeArticle.webp);
@@ -164,9 +164,21 @@
   background-image: url(/src/images/AboutUs/Q_Visible.webp);
 }
 .Q_AdvertImg {
-  background-image: url(/src/images/AboutUs/advert-block-wrapper.webp);
-  background-size: cover;
+  background-image: url(/src/images/AboutUs/advertblockwrapper.webp);
+  height: 140%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  background-size: cover; /* Это делает картинку полностью видимой без обрезки */
+  background-position: center center;
+  background-repeat: no-repeat;
+  align-items: center;
+  margin-bottom: 10vw;
+}
+
+.Q_Author {
+  border-radius: 10vw;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
 }
