@@ -981,6 +981,34 @@ a.A-MenuPoint {
     transition: 0.5s;
   }
 }
+.A-SuggestIdea {
+    position: relative;
+    z-index: 1; /* Оставляем кнопку на нижнем уровне */
+}
+
+.A-Star {
+    position: absolute; /* Меняем на absolute, чтобы не привязываться к экрану */
+    background-image: url(images/4ec4b240d156f8212fe6.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    opacity: 1;
+    z-index: 10; /* Теперь звездочки поверх кнопки */
+    animation: fly-away 1s ease-out forwards;
+}
+
+/* Анимация разлета */
+@keyframes fly-away {
+    from {
+        opacity: 1;
+        transform: translate(0, 0) scale(1);
+    }
+    to {
+        opacity: 0;
+        transform: translate(var(--xMove), var(--yMove)) scale(0.5);
+    }
+}
+
 
 .A-Searchbar {
   display: flex;
@@ -1356,6 +1384,7 @@ a.A_Menu-Point {
   box-shadow: -1px -1px 2px 0px var(--tiffany-dark, #32cec0) inset,
     1px 1px 2px 0px var(--tiffany-dark, #32cec0) inset;
   background: var(--tiffany-superlight, #e6f8f6);
+  
 }
 .A_MenuEyePink {
   background: var(---light, #fbd6ea);
@@ -1744,14 +1773,38 @@ a.M_ArticleBottomMenu {
 .M_ArticlePointMenuBlue {
   border-top: 1px solid var(--tiffany-light);
 }
+.M_ArticlePointMenuBlue:hover .A_MenuEyeBlue {
+  background-image: url(images/9477d134f808bee53150.webp);
+  background-size: 65%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .M_ArticlePointMenuPink {
   border-top: 1px solid var(--xoxo-light);
+}
+.M_ArticlePointMenuPink:hover .A_MenuEyePink {
+  background-image: url(images/a03c63b6b5fd2716de33.webp);
+  background-size: 65%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .M_ArticlePointMenuOrange {
   border-top: 1px solid var(--oem-halftone);
 }
+.M_ArticlePointMenuOrange:hover .A_MenuEyeOrange {
+  background-image: url(images/0b6dfba2c9ecc174ea97.webp);
+  background-size: 65%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .M_ArticlePointMenuBlack {
   border-top: 1px solid var(--balencidada-grey);
+}
+.M_ArticlePointMenuBlack:hover .A_MenuEyeBlack {
+  background-image: url(images/9288edefe807de4e7f06.webp);
+  background-size: 65%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .M_TextField {
