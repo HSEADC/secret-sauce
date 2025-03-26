@@ -346,14 +346,38 @@ a.M_ArticleBottomMenu {
 .M_ArticlePointMenuBlue {
   border-top: 1px solid var(--tiffany-light);
 }
+.M_ArticlePointMenuBlue:hover .A_MenuEyeBlue {
+  background-image: url(/src/images/icons/Q_Icons_Blue.webp);
+  background-size: 65%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .M_ArticlePointMenuPink {
   border-top: 1px solid var(--xoxo-light);
+}
+.M_ArticlePointMenuPink:hover .A_MenuEyePink {
+  background-image: url(/src/images/icons/Q_Icons_Pink.webp);
+  background-size: 65%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .M_ArticlePointMenuOrange {
   border-top: 1px solid var(--oem-halftone);
 }
+.M_ArticlePointMenuOrange:hover .A_MenuEyeOrange {
+  background-image: url(/src/images/icons/Q_Icons_Orange.webp);
+  background-size: 65%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .M_ArticlePointMenuBlack {
   border-top: 1px solid var(--balencidada-grey);
+}
+.M_ArticlePointMenuBlack:hover .A_MenuEyeBlack {
+  background-image: url(/src/images/icons/Q_Icons_Black.webp);
+  background-size: 65%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .M_TextField {
