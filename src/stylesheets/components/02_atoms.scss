@@ -81,6 +81,10 @@ a.A-Hero-Card {
     box-shadow: -20px -20px 50px 0px rgba(255, 255, 255, 0.5) inset,
       20px 20px 50px 0px rgba(255, 255, 255, 0.5) inset;
   }
+  &:hover {
+    transition: 0.5s;
+    background-size: 105%;
+  }
   &:hover .p2,
   &:hover .M_TagLine {
     opacity: 1;
@@ -121,6 +125,10 @@ a.A-Hero-Card {
 }
 .A-Card-11 {
   background-image: url(/src/images/video/BORK.gif);
+  &:hover {
+    transition: 0.5s;
+    background-size: 130%;
+  }
 }
 .A-Card-12 {
   background-image: url(/src/images/video/Rhode.gif);
