@@ -89,12 +89,27 @@
 
 .Q_TiffanyCover {
   background-image: url(/src/images/LargeArticles/Q_Cover_Article_Tiffany.webp);
+}
+.Q_DieselCover {
+  background-image: url(/src/images/LargeArticles/Q_Cover_Article_Xoxo.webp);
+}
+.Q_BlackCover {
+  background-image: url(/src/images/LargeArticles/Q_Cover_Article_Balenciaga.webp);
+}
+.Q_OemCover {
+  background-image: url(/src/images/LargeArticles/Q_Cover_Article_Content.webp);
+}
+.Q_TiffanyCover,
+.Q_DieselCover,
+.Q_BlackCover,
+.Q_OemCover {
   background-size: cover;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+
 .Q_SendButton img {
   width: 3.8vw;
   height: 3.8vw;
@@ -117,7 +132,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .Q_Back_404 {
