@@ -7,22 +7,22 @@
   background-size: cover;
 }
 .Q_SmalImg {
-  width: 23vw;
-  height: 23vw;
+  width: 22.5vw;
+  height: 22.5vw;
   border-radius: 11vw;
   background-position: 60% 70%;
   object-fit: cover;
 }
 
 .Q_MiddleImg {
-  width: 22vw;
+  width: 22.5vw;
   height: 30vw;
   background-size: cover;
   border-radius: 0.8vw;
 }
 
 .Q_BigImg {
-  width: 46.5vw;
+  width: 46.3vw;
   height: 46vw;
   background-size: cover;
   border-radius: 0.8vw;
@@ -30,6 +30,11 @@
 
 .Q-CollabImgXOXO {
   background-image: url('/src/images/articles/O_CollabCard.webp');
+  background-size: cover;
+  background-position: center;
+}
+.Q-CollabImgACT {
+  background-image: url('/src/images/articles/O_CollabCard2.webp');
   background-size: cover;
   background-position: center;
 }
@@ -126,4 +131,27 @@
 }
 .Q_Back_504 {
   background-image: url(/src/images/erorrs/Q_Back_504.webp);
+}
+
+.Q_BackgroundAbout {
+  background-image: url(/src/images/AboutUs/Q_background.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Q_LargeArticle {
+  background-image: url(/src/images/AboutUs/Q_LargeArticle.webp);
+}
+.Q_Visible {
+  background-image: url(/src/images/AboutUs/Q_Visible.webp);
+}
+.Q_AdvertImg {
+  background-image: url(/src/images/AboutUs/advert-block-wrapper.webp);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

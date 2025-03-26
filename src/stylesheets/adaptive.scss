@@ -4,7 +4,7 @@
   }
   .A-Hero-Card {
     height: 45.51vw;
-    padding: 1.46vw;
+    padding: 3.5vw;
   }
   .A-Card-1,
   .A-Card-4,
@@ -66,12 +66,12 @@
   }
 
   .S_ArticlePage {
-    gap: 8vw 0.9vw;
+    gap: 6vw 0.9vw;
   }
   .M_format-filter {
-    align-items: flex-end;
+    align-items: flex-start;
     flex-direction: column;
-    gap: 0.6vw;
+    gap: 1vw;
   }
   .W_Filters {
     align-items: flex-end;
@@ -87,9 +87,9 @@
     gap: 0.6vw;
   }
   .Q_Avatar_L {
-    width: 35%;
+    width: 55%;
     border-radius: 8vw;
-    border: 0.6vw solid var(--off-white);
+    border: 1vw solid var(--off-white);
   }
 
   .S_FooterDesktop {
@@ -137,7 +137,7 @@
       flex-direction: column;
       align-items: flex-start;
       padding: 3vw 3vw 140vw;
-      gap: 4vw;
+      gap: 7vw;
     }
     .A_LogoHeader img {
       width: 42px;
@@ -186,13 +186,7 @@
       flex-direction: column;
       align-items: flex-start;
       gap: 4vw;
-      padding: 5vw 3vw;
-    }
-    .S_VisualFast-Food {
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 4vw;
-      padding: 5vw 3vw;
+      padding: 14vw 3vw 5vw 3vw;
     }
     .C_Similar {
       display: none;
@@ -201,7 +195,7 @@
       gap: 5.7vw;
     }
     .W_HeadingAuthor {
-      width: 70%;
+      width: 80%;
       gap: 16vw;
     }
     .W_SimmilarTags {
@@ -212,6 +206,9 @@
     }
     .M_TitleArticle {
       gap: 2.8vw;
+      .p3{
+        font-size: 16px;
+      }
     }
     .M_PhBar {
       gap: 0.8vw;
@@ -221,6 +218,9 @@
     .M_PhBar img {
       width: 17.29vw;
       height: 17.29vw;
+      border-radius: 2.29vw;
+    }
+    .M_PhBar img.active {
       border-radius: 2.29vw;
     }
     .M_Similar img {
@@ -239,24 +239,34 @@
       border-radius: 3.43vw;
     }
     .Q_Avatar_S {
-      width: 7.5vw;
-      height: 7.5vw;
-      border: 0.5vw solid var(--off-white);
+      width: 11.5vw;
+      height: 11.5vw;
+      border: 0.7vw solid var(--off-white);
+    }
+    .A_TgAuthor{
+      .p3{
+        font-size: 16px;
+      }
     }
 
     .C-FilterBox {
       width: 100%;
       padding: 0 3vw;
       align-items: center;
-      gap: 0.9vw;
+      gap: 1.6vw;
       flex-wrap: wrap;
       justify-content: center;
     }
     .W-DirectionFilter {
-      width: 49.5%;
-      padding: 1.7vw;
-      gap: 1.6vw;
+      width: 49%;
+      padding: 2vw;
+      gap: 2vw;
       border-radius: 1.6vw;
+    }
+    .M-FilterAndNumber{
+      .p2{
+        font-size: 18px;
+      }
     }
     .Q-ImgFilter {
       border-radius: 1.2vw;
@@ -272,22 +282,46 @@
     }
     .W_CollabAvatarsHeadingTag {
       width: 68vw;
-      gap: 20vw;
+      gap: 45vw;
     }
     .W_CollabTagHeading {
+      gap: 6vw;
+    }
+    .M_CollabHeading {
       gap: 3vw;
+    }
+    .A_TagFilter.active{
+      box-shadow: -0.069vw -0.069vw 1.7vw 0px rgba(255, 196, 3, 0.2) inset, 0.069vw 0.069vw 1.7vw 0px rgba(255, 196, 3, 0.2) inset; 
+    }
+    .A_TagFilter{
+      .p3{
+        padding: 1.5vw 1.8vw;
+        font-size: 18px;
+      }
+    }
+    .A_TagFilterPrimary{
+      padding: 8px 12px;
+      .p3{
+        font-size: 12px;
+      }
+    }
+    .A_TagsCardSecondary{
+      padding: 8px 12px;
+      .p3{
+        font-size: 12px;
+      }
     }
 
     body.articles {
       gap: 14vw;
     }
     .S_ArticlePage {
-      gap: 8vw 0.9vw;
+      gap: 8vw 1.6vw;
       flex-wrap: wrap;
       align-self: stretch;
     }
     .W_MainBlock {
-      gap: 3vw;
+      gap: 5vw;
     }
     a.O_SmallCard {
       width: 49%;
@@ -319,7 +353,7 @@
       padding-right: 0;
     }
     .S_FooterDesktop {
-      height: 150vw;
+      height: 180vw;
       padding: 8vw;
       background-image: url(/src/images/footer/S_FooterMobile.webp);
       border-radius: 0;

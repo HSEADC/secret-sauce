@@ -377,3 +377,59 @@ a.M_ArticleBottomMenu {
   background: rgba(254, 247, 211, 0.6);
   backdrop-filter: blur(17px);
 }
+
+.M_Author {
+  display: flex;
+  width: 46.67vw;
+  padding: 2.6vw 11.32vw 2.6vw 2.6vw;
+  align-items: flex-start;
+  align-self: center;
+  justify-content: center;
+  gap: 2.08vw;
+  border-radius: 2.78vw;
+  background: rgba(254, 247, 211, 0.6);
+}
+.M_TextContact {
+  display: flex;
+  flex-direction: column;
+  gap: 4vw;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.M_TextAuthor {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+
+  p {
+    color: var(--dark-brown-60);
+  }
+}
+
+.M_AuthorArticleBox {
+  background-size: cover;
+  width: 46.67vw;
+  height: 17.5vw;
+  border-radius: 2.22vw;
+  padding: 3vw 19vw 3vw 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  p {
+    color: var(--dark-brown-60);
+  }
+}
+
+.M_Authors {
+  text-align: center;
+  width: 38vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3vw;
+  p {
+    color: var(--dark-brown-60);
+  }
+}

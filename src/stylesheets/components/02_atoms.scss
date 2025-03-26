@@ -172,7 +172,7 @@ a.A-Hero-Card {
 }
 
 .A_FilterText {
-  display: flex;
+  display: none;
   padding: 0.5vw 0.7vw;
   justify-content: center;
   align-items: center;
@@ -187,9 +187,12 @@ a.A-Hero-Card {
   align-items: center;
   gap: 0.7vw;
   border-radius: 7vw;
+  backdrop-filter: blur(0.278vw);
+  cursor: pointer;
+}
+.A_TagFilter.active{
   box-shadow: -0.069vw -0.069vw 0.7vw 0px rgba(255, 196, 3, 0.2) inset,
     0.069vw 0.069vw 0.7vw 0px rgba(255, 196, 3, 0.2) inset;
-  backdrop-filter: blur(0.278vw);
 }
 
 .A_TagFilterPrimary {
@@ -266,14 +269,14 @@ a.A-Hero-Card {
   padding: 8px 12px;
   border-radius: 7vw;
 }
-.shadow{
-  box-shadow: inset -3px -3px 50px 10px rgba(255, 255, 255, 0.5) ,
+.A-Shadow {
+  box-shadow: inset -3px -3px 50px 10px rgba(255, 255, 255, 0.5),
     inset 3px 3px 50px 10px rgba(255, 255, 255, 0.5);
 }
 .A_MainPhoto {
+  position: relative;
+  z-index: -1;
   border-radius: 1.39vw;
-  box-shadow: inset -3px -3px 50px 10px rgba(255, 255, 255, 0.5) ,
-    inset 3px 3px 50px 10px rgba(255, 255, 255, 0.5);
 }
 .A_TgAuthorLargeArticle {
   display: flex;
@@ -364,6 +367,12 @@ a.A_Menu-Point {
   background: var(--soft-orange, #fdefa7);
   &:hover {
     transition: 0.5s;
-    box-shadow: 2px 2px 30px 0px rgba(255, 196, 3, 0.7) inset, -1.19px -1.19px 20px 0px rgba(255, 196, 3, 0.7) inset;
+    box-shadow: 2px 2px 30px 0px rgba(255, 196, 3, 0.7) inset,
+      -1.19px -1.19px 20px 0px rgba(255, 196, 3, 0.7) inset;
   }
+}
+
+.A_Author {
+  display: flex;
+  flex-direction: column;
 }
