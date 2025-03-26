@@ -508,4 +508,18 @@
   .Q_BackgroundAbout {
     background-image: url(/src/images/AboutUs/Q_background.webp);
   }
+  .M_AuthorArticleBox {
+    width: 27.08vw;
+    height: 34.64vw;
+    flex-shrink: 0;
+  }
+  .Q_LargeArticle {
+    background-image: url(/src/images/AboutUs/Q_LargeArticleMpbile.webp);
+  }
+  .Q_Visible {
+    background-image: url(/src/images/AboutUs/Q_VisualMobile.webp);
+  }
+  .Q_AdvertImg {
+    background-image: url(/src/images/AboutUs/events-wrapper.webp);
+  }
 }
