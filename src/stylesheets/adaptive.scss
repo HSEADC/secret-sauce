@@ -382,7 +382,7 @@
   .S_FooterDesktop {
     height: 180vw;
     padding: 8vw;
-    background-image: url(/src/images/footer/S_FooterMobile.webp);
+    background-image: url(/src/images/footer/BackgroundFooterMobile.webp);
     border-radius: 0;
     background-size: cover;
     box-shadow: none;
@@ -454,39 +454,73 @@
     }
   }
 
-  .O_ArticleMenuFullDiv{
+  .O_ArticleMenuFullDiv {
     display: none;
   }
-  .M_Author-Bar-NonVisible{
+  .M_Author-Bar-NonVisible {
     display: none;
   }
-  .M_Bottom-Fixed-Article{
+  .M_Bottom-Fixed-Article {
     flex-direction: column;
+    gap: 3vw;
   }
-  .A_CoverInfoImg{
+  .A_CoverInfoImg {
     width: 100%;
   }
-  .W_CoverInfo{
+  .W_CoverInfo {
     padding: 20vw 3vw 6vw 3vw;
     gap: 8vw;
-    h2{
+    h2 {
       font-size: 36px;
     }
   }
   .S_LargeArticle {
     padding: 12vw 3vw 3vw 3vw;
   }
-  .C_LargeArticle{
+  .C_LargeArticle {
     width: 100%;
-    h2{
+    gap: 5vw;
+    h2 {
       font-size: 36px;
     }
   }
-  .M_ImgArticle{
+  .M_ImgArticle {
     width: 100%;
   }
-  .M_TextField{
+  .M_TextField {
     padding: 5vw 10vw 5vw 5vw;
+  }
+  .M_LargeArticleTags {
+    align-self: auto;
+  }
+  .Q_ClockImg {
+    width: 100%;
+    height: 48.25vw;
+    border-radius: 3vw;
+    padding: 4vw 30vw 4vw 4vw;
+  }
+  .S_Feed {
+    flex-direction: column;
+    gap: 12vw;
+    padding: 12vw 3vw;
+  }
+  .C_Similar_Article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+  }
+  .M_FeedTextBlock {
+    width: 100%;
+    gap: 1vw;
+    position: static;
+  }
+  .W_AddSomethingCard {
+    gap: 14vw;
+  }
+  .M_QuoteField {
+    padding: 7vw 5.78vw;
+    border-radius: 2vw;
   }
 }
 @media screen and (max-width: 431px) {
@@ -556,5 +590,11 @@
   }
   .Q_AdvertImg {
     background-image: url(/src/images/AboutUs/events-wrapper.webp);
+  }
+  .Q_ClockImg {
+    height: 90.25vw;
+    border-radius: 3vw;
+    padding: 4vw 8vw 4vw 4vw;
+    background-position-x: right;
   }
 }
