@@ -58,6 +58,33 @@ a.O-Collabcard {
     }
   }
 }
+.O_ArticleMenuFullPink {
+  p {
+    color: var(--xoxo-text);
+    &:hover {
+      opacity: 0.7;
+      transition: 0.5s;
+    }
+  }
+}
+.O_ArticleMenuFullOrange {
+  p {
+    color: var(--oem);
+    &:hover {
+      opacity: 0.7;
+      transition: 0.5s;
+    }
+  }
+}
+.O_ArticleMenuFullBlack {
+  p {
+    color: var(--balencidada-black);
+    &:hover {
+      opacity: 0.7;
+      transition: 0.5s;
+    }
+  }
+}
 
 a.O_Similar-L {
   display: flex;

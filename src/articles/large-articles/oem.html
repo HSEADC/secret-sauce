@@ -52,7 +52,7 @@
     />
   </head>
   <body class="LargeArticles">
-    <div class="Q_TiffanyCover">
+    <div class="Q_OemCover">
       <div class="W-Header">
         <div class="M-HeaderCategories">
           <a
@@ -122,7 +122,6 @@
         </div>
       </div>
 
-
       <!-- начало статьи -->
 
       <!-- цветная оболожка (овальная) -->
@@ -132,14 +131,14 @@
           src="/src/images/LargeArticles/oem_img.webp"
           alt=""
         />
-        <h2>
-            Влияние контекста на восприятие
-        </h2>
+        <h2>Влияние контекста на восприятие</h2>
         <div class="M_Bottom-Fixed-Article">
-          <div class="M_Author-Bar">
+          <a
+            href="https://hseadc.github.io/secret-sauce/authors/anya.html"
+            class="M_Author-Bar"
+          >
             <div class="M_Avatars_S">
               <!-- если аватаров от двух — в стайле писать цифру +1 -->
-
 
               <!-- авторы -->
               <img
@@ -148,70 +147,91 @@
                 alt=""
                 style="--i: 1"
               />
-
             </div>
             <div class="A_TgAuthorLargeArticle">
               <p class="p3">@hanna_shpak</p>
             </div>
-          </div>
+          </a>
 
           <div class="M_LargeArticleTags">
-            <div class="A_LargeArticleTagPrimary">
-              <p class="p4">статья</p></div>
-            <div class="A_LargeArticleTagSecondary">
+            <div
+              class="A_LargeArticleTagPrimary A_LargeArticleTagPrimaryOrange"
+            >
+              <p class="p4">статья</p>
+            </div>
+            <div
+              class="A_LargeArticleTagSecondary A_LargeArticleTagSecondaryOrange"
+            >
+              <!-- поменять -->
+              <p class="p4">медиа</p>
+            </div>
+          </div>
+          <div class="M_Author-Bar-NonVisible">
+            <div class="A_TgAuthorLargeArticle">
+              <p class="p3">@viktoriyayamshikova</p>
+            </div>
+            <div class="M_Avatars_S">
+              <!-- если аватаров от двух — в стайле писать цифру +1 -->
+              <img
+                class="Q_Avatar_S"
+                src="/src/images/avatars/vika.webp"
+                alt=""
+                style="--i: 1"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
-
     <div class="S_LargeArticle">
       <div class="O_ArticleMenuFullDiv">
-        <div class="O_ArticleMenuFull O_ArticleMenuFullBlue">
-          <div class="W_ArticleMenuBox W_ArticleMenuBoxBlue">
-            <div class="M_ArticleTopMenu M_ArticleTopMenuBlue">
+        <div class="O_ArticleMenuFull O_ArticleMenuFullOrange">
+          <div class="W_ArticleMenuBox W_ArticleMenuBoxOrange">
+            <div class="M_ArticleTopMenu M_ArticleTopMenuOrange">
               <img
-                src="/src/images/LargeArticles/Large Article Icons/BlueLogo.webp"
+                src="/src/images/LargeArticles/Large Article Icons/OrangeLogo.webp"
                 alt=""
               />
             </div>
             <div class="W_ArticleMenu">
               <a
-                class="M_ArticlePointMenu M_ArticlePointMenuBlue"
+                class="M_ArticlePointMenu M_ArticlePointMenuOrange"
                 href="#chapter1"
               >
-
-              <!-- штука которая слева -->
+                <!-- штука которая слева -->
                 <p class="p2">Объективные критерии</p>
-                <div class="A_MenuEye A_MenuEyeBlue"></div>
+                <div class="A_MenuEye A_MenuEyeOrange"></div>
               </a>
               <a
-                class="M_ArticlePointMenu M_ArticlePointMenuBlue"
+                class="M_ArticlePointMenu M_ArticlePointMenuOrange"
                 href="#chapter2"
               >
                 <p class="p2">Субъективные критерии</p>
-                <div class="A_MenuEye A_MenuEyeBlue"></div>
+                <div class="A_MenuEye A_MenuEyeOrange"></div>
               </a>
               <a
-                class="M_ArticlePointMenu M_ArticlePointMenuBlue"
+                class="M_ArticlePointMenu M_ArticlePointMenuOrange"
                 href="#chapter3"
               >
                 <p class="p2">Заключение</p>
-                <div class="A_MenuEye A_MenuEyeBlue"></div>
+                <div class="A_MenuEye A_MenuEyeOrange"></div>
               </a>
             </div>
           </div>
-          <a href="https://t.me/secretsausemd/224" class="M_ArticleBottomMenu M_ArticleBottomMenuBlue">
+          <a
+            href="https://t.me/secretsausemd/49"
+            class="M_ArticleBottomMenu M_ArticleBottomMenuOrange"
+          >
             <p class="p2">Статья в коротком формате</p>
             <div class="Q_SendButton">
               <img
-                src="/src/images/LargeArticles/Large Article Icons/BlueSendButton.webp"
+                src="/src/images/LargeArticles/Large Article Icons/OrangeSendButton.webp"
                 alt=""
               />
             </div>
           </a>
         </div>
       </div>
-
-
 
       <!-- картинки + текст -------------------------------------------------------------------------------->
       <div class="C_LargeArticle">
@@ -223,118 +243,141 @@
         <h2 id="chapter1">Объективные критерии</h2>
         <div class="M_TextField">
           <p class="p2">
-            Восприятие — это интерпретация данных, полученных через органы чувств. Этот процесс включает не только получение сенсорной информации, но и ее интерпретацию.
-        </p>
+            Восприятие — это интерпретация данных, полученных через органы
+            чувств. Этот процесс включает не только получение сенсорной
+            информации, но и ее интерпретацию.
+          </p>
         </div>
         <div class="M_TextField">
-            <p class="p2">
-                Однако восприятие человека легко обмануть, что связано с особенностями работы нашего мозга. Человеческий мозг часто применяет эвристики и шаблоны для обработки сенсорной информации, что может приводить к ошибкам и искажениям в восприятии.
-            </p>
-          </div>
+          <p class="p2">
+            Однако восприятие человека легко обмануть, что связано
+            с особенностями работы нашего мозга. Человеческий мозг часто
+            применяет эвристики и шаблоны для обработки сенсорной информации,
+            что может приводить к ошибкам и искажениям в восприятии.
+          </p>
+        </div>
         <img
           class="M_ImgArticle"
           src="/src/images/LargeArticles/oem/oem_2.webp"
           alt=""
         />
-         <img
+        <img
           class="M_ImgArticle"
           src="/src/images/LargeArticles/oem/oem_3.webp"
           alt=""
         />
-          <img
+        <img
           class="M_ImgArticle"
           src="/src/images/LargeArticles/oem/oem_4.webp"
           alt=""
         />
         <img
-        class="M_ImgArticle"
-        src="/src/images/LargeArticles/oem/oem_5.webp"
-        alt=""
-      />
-      <div class="Q_ClockImg">
-        <div class="W_AddSomethingCard">
-          <div class="M_TextSmthCard">
-            <h2>Жесть долго читать</h2>
-            <p class="p2">
-              В&nbsp;Telegram канале пишем в&nbsp;формате визуального
-              фаст-фуда&nbsp;&mdash; быстро и&nbsp;вкусно
-            </p>
-          </div>
-          <div class="A_PrimaryButton">
-            <p class="p4">Подписаться в Telegram</p>
+          class="M_ImgArticle"
+          src="/src/images/LargeArticles/oem/oem_5.webp"
+          alt=""
+        />
+        <div class="Q_ClockImg">
+          <div class="W_AddSomethingCard">
+            <div class="M_TextSmthCard">
+              <h2>Жесть долго читать</h2>
+              <p class="p2">
+                В&nbsp;Telegram канале пишем в&nbsp;формате визуального
+                фаст-фуда&nbsp;&mdash; быстро и&nbsp;вкусно
+              </p>
+            </div>
+            <div class="A_PrimaryButton">
+              <p class="p4">Подписаться в Telegram</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <img
-        class="M_ImgArticle"
-        src="/src/images/LargeArticles/oem/oem_6.webp"
-        alt=""
-      />
+        <img
+          class="M_ImgArticle"
+          src="/src/images/LargeArticles/oem/oem_6.webp"
+          alt=""
+        />
 
-      <div class="M_TextField">
-        <p class="p2">
-            На&nbsp;восприятие формы, цвета и&nbsp;размера объектов можно легко повлиять с&nbsp;помощью правильного ракурса, окружения, освещения и&nbsp;других приемов.
-            В&nbsp;маркетинге эти техники активно используются для того, чтобы подчеркнуть определенные качества продукта и&nbsp;представить его в&nbsp;выгодном свете. Например, игра света и&nbsp;тени может сделать объект более объемным и&nbsp;привлекательным, повлиять на&nbsp;восприятие материала, из&nbsp;которого он&nbsp;сделан, а&nbsp;выбор фона может создать контраст, который выделит продукт.
-        </p>
-      </div>
+        <div class="M_TextField">
+          <p class="p2">
+            На&nbsp;восприятие формы, цвета и&nbsp;размера объектов можно легко
+            повлиять с&nbsp;помощью правильного ракурса, окружения, освещения
+            и&nbsp;других приемов. В&nbsp;маркетинге эти техники активно
+            используются для того, чтобы подчеркнуть определенные качества
+            продукта и&nbsp;представить его в&nbsp;выгодном свете. Например,
+            игра света и&nbsp;тени может сделать объект более объемным
+            и&nbsp;привлекательным, повлиять на&nbsp;восприятие материала,
+            из&nbsp;которого он&nbsp;сделан, а&nbsp;выбор фона может создать
+            контраст, который выделит продукт.
+          </p>
+        </div>
 
-      <h2 id="chapter1">Субъективные критерии</h2>
-      <div class="M_TextField">
-        <p class="p2">
-            Контекст может оказывать влияние не только на базовые аспекты восприятия, такие как форма и цвет, но и на более субъективные критерии, включая ощущения от продукта, настроение и его ценность.
-        </p>
-      </div>
+        <h2 id="chapter2">Субъективные критерии</h2>
+        <div class="M_TextField">
+          <p class="p2">
+            Контекст может оказывать влияние не только на базовые аспекты
+            восприятия, такие как форма и цвет, но и на более субъективные
+            критерии, включая ощущения от продукта, настроение и его ценность.
+          </p>
+        </div>
 
-      <img
-        class="M_ImgArticle"
-        src="/src/images/LargeArticles/oem/oem_7.webp"
-        alt=""
-      />
-      <img
-        class="M_ImgArticle"
-        src="/src/images/LargeArticles/oem/oem_8.webp"
-        alt=""
-      />
-      <div class="M_TextField">
-        <p class="p2">
-            В&nbsp;отличие от&nbsp;формы и&nbsp;цвета, которые могут изменяться случайно в&nbsp;процессе стилизации съемки, настроение, которое продукт вызывает у&nbsp;потребителя, всегда продумывается очень тщательно.
-        </p>
-      </div>
-      <img
-        class="M_ImgArticle"
-        src="/src/images/LargeArticles/oem/oem_9.webp"
-        alt=""
-      />
+        <img
+          class="M_ImgArticle"
+          src="/src/images/LargeArticles/oem/oem_7.webp"
+          alt=""
+        />
+        <img
+          class="M_ImgArticle"
+          src="/src/images/LargeArticles/oem/oem_8.webp"
+          alt=""
+        />
+        <div class="M_TextField">
+          <p class="p2">
+            В&nbsp;отличие от&nbsp;формы и&nbsp;цвета, которые могут изменяться
+            случайно в&nbsp;процессе стилизации съемки, настроение, которое
+            продукт вызывает у&nbsp;потребителя, всегда продумывается очень
+            тщательно.
+          </p>
+        </div>
+        <img
+          class="M_ImgArticle"
+          src="/src/images/LargeArticles/oem/oem_9.webp"
+          alt=""
+        />
 
-      <div class="M_TextField">
-        <p class="p2">
-            В&nbsp;отличие от&nbsp;формы и&nbsp;цвета, которые могут изменяться случайно в&nbsp;процессе стилизации съемки, настроение, которое продукт вызывает у&nbsp;потребителя, всегда продумывается очень тщательно.
-        </p>
-      </div>
-      <img
-        class="M_ImgArticle"
-        src="/src/images/LargeArticles/oem/oem_10.webp"
-        alt=""
-      />
+        <div class="M_TextField">
+          <p class="p2">
+            В&nbsp;отличие от&nbsp;формы и&nbsp;цвета, которые могут изменяться
+            случайно в&nbsp;процессе стилизации съемки, настроение, которое
+            продукт вызывает у&nbsp;потребителя, всегда продумывается очень
+            тщательно.
+          </p>
+        </div>
+        <img
+          class="M_ImgArticle"
+          src="/src/images/LargeArticles/oem/oem_10.webp"
+          alt=""
+        />
 
-      <div class="M_TextField">
-        <p class="p2">
-            Важно понимать, что контекст, в&nbsp;котором находится продукт, не&nbsp;ограничивается рамками одной съемки. Для создания полноценного образа недостаточно провести одну фотосессию; гораздо важнее, как бренд &laquo;говорит&raquo; со&nbsp;своими покупателями на&nbsp;постоянной основе.
-        </p>
-      </div>
+        <div class="M_TextField" id="chapter3">
+          <p class="p2">
+            Важно понимать, что контекст, в&nbsp;котором находится продукт,
+            не&nbsp;ограничивается рамками одной съемки. Для создания
+            полноценного образа недостаточно провести одну фотосессию; гораздо
+            важнее, как бренд &laquo;говорит&raquo; со&nbsp;своими покупателями
+            на&nbsp;постоянной основе.
+          </p>
+        </div>
 
-      <img
-        class="M_ImgArticle"
-        src="/src/images/LargeArticles/oem/oem_11.webp"
-        alt=""
-      />
-      <img
-        class="M_ImgArticle"
-        src="/src/images/LargeArticles/oem/oem_12.webp"
-        alt=""
-      />
-
+        <img
+          class="M_ImgArticle"
+          src="/src/images/LargeArticles/oem/oem_11.webp"
+          alt=""
+        />
+        <img
+          class="M_ImgArticle"
+          src="/src/images/LargeArticles/oem/oem_12.webp"
+          alt=""
+        />
       </div>
     </div>
     <div class="S_Feed">

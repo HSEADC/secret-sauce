@@ -178,7 +178,9 @@
   gap: 1.4vw;
 }
 
-.M_Author-Bar {
+a.M_Author-Bar {
+  text-decoration: none;
+  color: inherit;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -285,6 +287,27 @@ a.M_ArticleBottomMenu {
     transition: 0.5s;
   }
 }
+.M_ArticleBottomMenuPink {
+  background: var(--xoxo-superlight);
+  &:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+}
+.M_ArticleBottomMenuOrange {
+  background: var(--oem-halftone);
+  &:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+}
+.M_ArticleBottomMenuBlack {
+  background: var(--balencidada-superlight);
+  &:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+}
 .M_ArticleTopMenu {
   display: flex;
   width: 31.2vw;
@@ -297,6 +320,16 @@ a.M_ArticleBottomMenu {
 .M_ArticleTopMenuBlue {
   background: var(--tiffany-light, #c7eeeb);
 }
+.M_ArticleTopMenuPink {
+  background: var(--xoxo-light);
+}
+.M_ArticleTopMenuOrange {
+  background: var(--oem-halftone);
+}
+.M_ArticleTopMenuBlack {
+  background: var(--balencidada-grey);
+}
+
 .M_ArticleTopMenu img {
   width: 35%;
 }
@@ -313,6 +346,15 @@ a.M_ArticleBottomMenu {
 }
 .M_ArticlePointMenuBlue {
   border-top: 1px solid var(--tiffany-light);
+}
+.M_ArticlePointMenuPink {
+  border-top: 1px solid var(--xoxo-light);
+}
+.M_ArticlePointMenuOrange {
+  border-top: 1px solid var(--oem-halftone);
+}
+.M_ArticlePointMenuBlack {
+  border-top: 1px solid var(--balencidada-grey);
 }
 
 .M_TextField {
@@ -336,6 +378,12 @@ a.M_ArticleBottomMenu {
 }
 .M_QuoteFieldBlue {
   background: var(--tiffany-light);
+}
+.M_QuoteFieldPink {
+  background: var(--xoxo-light);
+}
+.M_QuoteFieldBlack {
+  background: var(--balencidada-superlight);
 }
 .M_QuoteAuthorLine {
   display: flex;
