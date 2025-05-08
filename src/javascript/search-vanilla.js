@@ -1,25 +1,21 @@
-import { getPostTeasers } from './Search-data';
+import { getPostTeasers } from './Search-data'
 
-document.addEventListener('DOMContentLoaded', () => {
-  getPostTeasers().then((data) => {
-    update(data)
-  })
-})
+let content,
+  container = document.querySelector('.S_Content')
 
 document.addEventListener('DOMContentLoaded', () => {
   getPostTeasers().then((data) => {
     content = data
-    // createCard(content)
     initSearch()
   })
 })
 
 function initSearch() {
-  const O_Search = document.querySelector('.O_Search')
-  const A_SearchButton = O_Search.querySelector('.A_SearchButton')
-  const A_SearchInput = O_Search.querySelector('.A_SearchInput')
+  const A_SearchInput = document.querySelector('.A_SearchInput')
+  const A_SearchButton = document.querySelector('.A_SearchButton')
 
   let requestText = getSearchRequest()
+  // let requestText = 'html'
 
   if (requestText != undefined) {
     A_SearchInput.value = requestText
@@ -35,9 +31,9 @@ function initSearch() {
     requestText = e.target.value
 
     if (requestText.length >= 3) {
-      A_SearchButton.classList.remove('disable')
+      A_SearchButton.classList.remove('disabled')
     } else {
-      A_SearchButton.classList.add('disable')
+      A_SearchButton.classList.add('disabled')
     }
   })
 
@@ -51,7 +47,7 @@ function initSearch() {
   })
 
   A_SearchButton.addEventListener('click', (e) => {
-    if (!e.target.classList.contains('disable')) {
+    if (!e.target.classList.contains('disabled')) {
       requestText = A_SearchInput.value
       setSearchRequest(requestText)
       searchContent(requestText)
@@ -75,16 +71,15 @@ function getSearchRequest() {
 }
 
 function searchContent(requestText) {
-  const container = document.querySelector('.S_Content')
   container.innerHTML = ''
 
   let contentItemIds = []
 
-  content.forEach((contentItem) => {
+  content.forEach((contentDataItem) => {
     const nbspRegEx = /[\u202F\u00A0]/gm
     const punctuationRegEx = /[.,\/#!$%\^&\*;:{}=\-_`()]/gm
 
-    let { title, description, id } = contentItem
+    let { title, description, id } = contentDataItem
 
     title = title.replaceAll(nbspRegEx, ' ')
     title = title.replaceAll(punctuationRegEx, '')
@@ -95,68 +90,69 @@ function searchContent(requestText) {
     if (requestText.length >= 3) {
       if (title.includes(requestText) || description.includes(requestText)) {
         contentItemIds.push(id)
+      } else {
+        // contentItemIds.push(id)
       }
     }
-  })
 
-  if (contentItemIds.length > 0) {
-    renderCardsByIds(container, contentItemIds)
-  } else {
-    renderNothingFounded(container)
-  }
+    if (contentItemIds.length > 0) {
+      renderCardsByIds(contentItemIds)
+    } else {
+      renderNothingFounded()
+    }
+  })
 }
 
-function renderNothingFounded(container) {
+function renderNothingFounded() {
   container.innerHTML = 'Ничего не найдено :('
 }
 
-function renderCardsByIds(container, ids) {
+function renderCardsByIds(ids) {
   ids = [...new Set(ids)]
 
   ids.forEach((id) => {
     content.forEach((item) => {
-      if (item.id == id) {
-        createCard(item)
+      if (item.id === id) {
+        createCards(item)
       }
     })
   })
 }
 
-function update(content) {
-  const container = document.querySelector('.S_Content');
+function createCards(contentDataItem) {
+  let { title, description, image, url, tags, className } = contentDataItem
 
-  content.forEach((contentItemData) => {
-    const contentItem = document.createElement('a');
-    contentItem.classList.add('O_ContentItem');
-    contentItem.href = contentItemData.url;
+  const contentItem = document.createElement('a')
+  contentItem.classList.add('O_ContentItem')
+  contentItem.classList.add(`${className}`)
+  contentItem.href = url
 
-    const contentItemCover = document.createElement('img');
-    contentItemCover.classList.add('A_ContentItemCover');
-    contentItemCover.src = contentItemData.images;
+  const contentItemCover = document.createElement('img')
+  contentItemCover.classList.add('A_ContentItemCover')
+  contentItemCover.src = image
 
-    const contentItemTitle = document.createElement('h3');
-    contentItemTitle.classList.add('A_ContentItemTitle');
-    contentItemTitle.innerText = contentItemData.title;
+  const contentItemTitle = document.createElement('h3')
+  contentItemTitle.classList.add('A_ContentItemTitle')
+  contentItemTitle.innerText = title
 
-    const contentItemDescription = document.createElement('p');
-    contentItemDescription.classList.add('A_ContentItemDescription');
-    contentItemDescription.innerText = contentItemData.description;
+  const contentItemDescription = document.createElement('p')
+  contentItemDescription.classList.add('A_ContentItemDescription')
+  contentItemDescription.innerText = description
 
-    const contentItemTags = document.createElement('div');
-    contentItemTags.classList.add('C_ContentItemTags');
+  const contentItemTags = document.createElement('div')
+  contentItemTags.classList.add('C_ContentItemTags')
 
-    contentItemData.tags.forEach((tag) => {
-      const contentItemTag = document.createElement('div');
-      contentItemTag.classList.add('A_ContentItemTag');
-      contentItemTags.innerText = tag;
-      contentItemTags.appendChild(contentItemTag);
-    });
+  tags.forEach((tag) => {
+    const contentItemTag = document.createElement('div')
+    contentItemTag.classList.add('A_ContentItemTag')
+    contentItemTag.innerText = tag
+    contentItemTags.appendChild(contentItemTag)
+  })
 
-    contentItem.appendChild(contentItemCover);
-    contentItem.appendChild(contentItemTags);
-    contentItem.appendChild(contentItemTitle);
-    contentItem.appendChild(contentItemDescription);
+  contentItem.appendChild(contentItemCover)
+  contentItem.appendChild(contentItemTags)
+  contentItem.appendChild(contentItemTitle)
+  contentItem.appendChild(contentItemDescription)
 
-    container.appendChild(contentItem);
-  });
+  container.appendChild(contentItem)
 }
