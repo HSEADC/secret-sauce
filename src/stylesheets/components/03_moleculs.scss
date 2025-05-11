@@ -507,3 +507,12 @@ a.M_ArticleBottomMenu {
     color: var(--dark-brown-60);
   }
 }
+
+.M_StyleHeading {
+  display: flex;
+  width: 4vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+}
