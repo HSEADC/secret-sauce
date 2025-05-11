@@ -56,3 +56,26 @@
   gap: 3vw;
   justify-content: center;
 }
+
+.C_BlocksStyle {
+  display: flex;
+  width: 64vw;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8.3vw;
+}
+
+.C_ImagesBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
+  align-self: stretch;
+  flex-flow: row wrap-reverse;
+}
+
+.C_FullLine {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}

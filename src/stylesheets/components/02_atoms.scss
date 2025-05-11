@@ -484,7 +484,37 @@ a:hover {
 }
 
 .A_StyleBlock2 {
-  margin-top: 15vw;
+  margin-top: 10vw;
   margin-left: 6vw;
   width: 43vw;
+}
+
+.A_TextStyleHeadingParagrapgh {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.56vw;
+}
+.A_DoubleLine {
+  width: 49%;
+}
+
+.A_FourLine {
+  width: 23%;
+}
+
+.A_ExtraColorLine {
+  width: 20%;
+}
+.A_ExtraColorLineFour {
+  width: 27%;
+}
+
+.A_FillLine {
+  width: 100%;
+}
+.A_DoubleSquareLine {
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
 }

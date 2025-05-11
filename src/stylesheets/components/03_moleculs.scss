@@ -510,9 +510,41 @@ a.M_ArticleBottomMenu {
 
 .M_StyleHeading {
   display: flex;
-  width: 4vw;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 1vw;
+  text-align: center;
+  align-self: center;
+  width: 5vw;
+}
+
+.M_StyleMenu {
+  position: sticky;
+  display: flex;
+  padding: 0.4vw;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.3vw;
+  border-radius: 1.67vw;
+  background: var(--soft-orange-halftone);
+  img {
+    width: 70%;
+  }
+}
+
+.M_HeadingandParagraphs {
+  display: flex;
+  width: 64vw;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4vw;
+}
+
+.M_Paragraphs {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  gap: 3.61vw;
 }

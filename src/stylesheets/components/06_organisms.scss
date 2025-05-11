@@ -99,3 +99,11 @@ a.O_Similar-L {
   box-shadow: -3px -3px 70px 10px rgba(255, 255, 255, 0.5) inset,
     3px 3px 70px 10px rgba(255, 255, 255, 0.5) inset;
 }
+
+.O_BlockContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5vw;
+  align-self: stretch;
+}

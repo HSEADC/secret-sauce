@@ -73,3 +73,20 @@
   flex-direction: column;
   align-items: center;
 }
+
+.S_Blocks {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10vw;
+  padding: 0 10vw 0 2vw;
+  align-items: flex-start;
+  gap: 11vw;
+}
+
+.S_BlockStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4vw;
+  align-self: stretch;
+}
