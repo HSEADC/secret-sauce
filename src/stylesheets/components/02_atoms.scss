@@ -21,33 +21,32 @@ a.A-MenuPoint {
   }
 }
 .A-SuggestIdea {
-    position: relative;
-    z-index: 1; /* Оставляем кнопку на нижнем уровне */
+  position: relative;
+  z-index: 1; /* Оставляем кнопку на нижнем уровне */
 }
 
 .A-Star {
-    position: absolute; /* Меняем на absolute, чтобы не привязываться к экрану */
-    background-image: url("/src/images/header/Star.webp");
-    background-size: contain;
-    background-repeat: no-repeat;
-    pointer-events: none;
-    opacity: 1;
-    z-index: 10; /* Теперь звездочки поверх кнопки */
-    animation: fly-away 1s ease-out forwards;
+  position: absolute; /* Меняем на absolute, чтобы не привязываться к экрану */
+  background-image: url('/src/images/header/Star.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  opacity: 1;
+  z-index: 10; /* Теперь звездочки поверх кнопки */
+  animation: fly-away 1s ease-out forwards;
 }
 
 /* Анимация разлета */
 @keyframes fly-away {
-    from {
-        opacity: 1;
-        transform: translate(0, 0) scale(1);
-    }
-    to {
-        opacity: 0;
-        transform: translate(var(--xMove), var(--yMove)) scale(0.5);
-    }
+  from {
+    opacity: 1;
+    transform: translate(0, 0) scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: translate(var(--xMove), var(--yMove)) scale(0.5);
+  }
 }
-
 
 .A-Searchbar {
   display: flex;
@@ -423,7 +422,6 @@ a.A_Menu-Point {
   box-shadow: -1px -1px 2px 0px var(--tiffany-dark, #32cec0) inset,
     1px 1px 2px 0px var(--tiffany-dark, #32cec0) inset;
   background: var(--tiffany-superlight, #e6f8f6);
-  
 }
 .A_MenuEyePink {
   background: var(---light, #fbd6ea);
@@ -462,4 +460,61 @@ a.A_Author {
   gap: 2vw;
   text-decoration: none;
   color: inherit;
+}
+
+a.A_StyleMenuPoint {
+  width: 12vw;
+  height: 4vw;
+  text-decoration: none;
+  color: #1c1500;
+  border-radius: 1vw;
+  background: #fff;
+  display: flex;
+  padding: 1.5vw 1.5vw;
+  align-items: center;
+  gap: 5vw;
+  align-self: stretch;
+}
+
+a:hover {
+  background: #ffc403;
+  box-shadow: -8px -8px 20px 0px rgba(255, 255, 255, 0.4) inset,
+    8px 8px 20px 0px rgba(255, 255, 255, 0.4) inset;
+  color: #f2f2f2;
+}
+
+.A_StyleBlock2 {
+  margin-top: 10vw;
+  margin-left: 6vw;
+  width: 43vw;
+}
+
+.A_TextStyleHeadingParagrapgh {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.56vw;
+}
+.A_DoubleLine {
+  width: 49%;
+}
+
+.A_FourLine {
+  width: 23%;
+}
+
+.A_ExtraColorLine {
+  width: 20%;
+}
+.A_ExtraColorLineFour {
+  width: 27%;
+}
+
+.A_FillLine {
+  width: 100%;
+}
+.A_DoubleSquareLine {
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
 }

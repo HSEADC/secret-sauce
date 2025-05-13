@@ -61,3 +61,32 @@
   gap: 80px;
   padding: 6vw 26.7vw 10vw 26.7vw;
 }
+
+.S_StyleGuide1 {
+  background: url(/src/images/styleguide/styleguidebackcover.webp);
+  width: 100%;
+  height: 51vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0% 0% 5% 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.S_Blocks {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10vw;
+  padding: 0 10vw 0 2vw;
+  align-items: flex-start;
+  gap: 11vw;
+}
+
+.S_BlockStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4vw;
+  align-self: stretch;
+}
