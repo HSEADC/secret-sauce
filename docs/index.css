@@ -854,13 +854,12 @@ a.A_StyleMenuPoint {
   align-items: center;
   gap: 5vw;
   align-self: stretch;
-}
-
-a:hover {
-  background: #ffc403;
-  box-shadow: -8px -8px 20px 0px rgba(255, 255, 255, 0.4) inset,
-    8px 8px 20px 0px rgba(255, 255, 255, 0.4) inset;
-  color: #f2f2f2;
+  a:hover {
+    background: #ffc403;
+    box-shadow: -8px -8px 20px 0px rgba(255, 255, 255, 0.4) inset,
+      8px 8px 20px 0px rgba(255, 255, 255, 0.4) inset;
+    color: #f2f2f2;
+  }
 }
 
 .A_StyleBlock2 {
@@ -874,6 +873,7 @@ a:hover {
   flex-direction: column;
   align-items: flex-start;
   gap: 0.56vw;
+  width: 30vw;
 }
 .A_DoubleLine {
   width: 49%;
@@ -897,6 +897,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   gap: 1vw;
+  flex-wrap: wrap;
 }
 
 .M-HeaderCategories {
@@ -1418,6 +1419,10 @@ a.M_ArticleBottomMenu {
   text-align: center;
   align-self: center;
   width: 5vw;
+  margin-top: 15vw;
+  img {
+    width: 100%;
+  }
 }
 
 .M_StyleMenu {
@@ -1429,9 +1434,7 @@ a.M_ArticleBottomMenu {
   gap: 0.3vw;
   border-radius: 1.67vw;
   background: var(--soft-orange-halftone);
-  img {
-    width: 70%;
-  }
+  top: 10rem;
 }
 
 .M_HeadingandParagraphs {
@@ -1797,11 +1800,24 @@ a.O_Similar-L {
   background-image: url(images/16cec661cada46276b17.webp);
   background-size: cover;
   background-position: center;
+
+  &:hover {
+    transition: box-shadow 0.6s ease, transform 0.4s ease;
+    box-shadow: -30px -30px 74px 0px rgba(255, 255, 255, 0.5) inset,
+      30px 30px 74px 0px rgba(255, 255, 255, 0.5) inset;
+  }
 }
 .Q-CollabImgACT {
   background-image: url(images/a551646c67540ef12473.webp);
   background-size: cover;
   background-position: center;
+  transition: transform 0.5s ease;
+
+  &:hover {
+    transition: box-shadow 0.6s ease, transform 0.4s ease;
+    box-shadow: -30px -30px 74px 0px rgba(255, 255, 255, 0.5) inset,
+      30px 30px 74px 0px rgba(255, 255, 255, 0.5) inset;
+  }
 }
 
 .Q_Avatar_L {
@@ -2033,6 +2049,7 @@ a.O_Similar-L {
   padding: 0 10vw 0 2vw;
   align-items: flex-start;
   gap: 11vw;
+  margin-bottom: 5vw;
 }
 
 .S_BlockStyle {
