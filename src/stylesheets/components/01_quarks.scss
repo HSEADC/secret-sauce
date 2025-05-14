@@ -32,11 +32,24 @@
   background-image: url('/src/images/articles/O_CollabCard.webp');
   background-size: cover;
   background-position: center;
+
+  &:hover {
+    transition: box-shadow 0.6s ease, transform 0.4s ease;
+    box-shadow: -30px -30px 74px 0px rgba(255, 255, 255, 0.5) inset,
+      30px 30px 74px 0px rgba(255, 255, 255, 0.5) inset;
+  }
 }
 .Q-CollabImgACT {
   background-image: url('/src/images/articles/O_CollabCard2.webp');
   background-size: cover;
   background-position: center;
+  transition: transform 0.5s ease;
+
+  &:hover {
+    transition: box-shadow 0.6s ease, transform 0.4s ease;
+    box-shadow: -30px -30px 74px 0px rgba(255, 255, 255, 0.5) inset,
+      30px 30px 74px 0px rgba(255, 255, 255, 0.5) inset;
+  }
 }
 
 .Q_Avatar_L {

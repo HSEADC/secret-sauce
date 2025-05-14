@@ -517,6 +517,10 @@ a.M_ArticleBottomMenu {
   text-align: center;
   align-self: center;
   width: 5vw;
+  margin-top: 15vw;
+  img {
+    width: 100%;
+  }
 }
 
 .M_StyleMenu {
@@ -528,9 +532,7 @@ a.M_ArticleBottomMenu {
   gap: 0.3vw;
   border-radius: 1.67vw;
   background: var(--soft-orange-halftone);
-  img {
-    width: 70%;
-  }
+  top: 10rem;
 }
 
 .M_HeadingandParagraphs {
