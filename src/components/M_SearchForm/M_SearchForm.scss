@@ -1,0 +1,12 @@
+.M_SearchForm {
+    display: flex;
+    width: 24.03vw;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 0.69vw;
+    border-radius: 69.44vw;
+    background: var(--soft-orange);
+    backdrop-filter: blur(calc(var(--80, 80px) / 2));
+    color: var(--dark-brown);
+    opacity: 0.5;
+}

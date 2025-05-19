@@ -1,7 +1,7 @@
 import Airtable from 'airtable';
 
 const token =
-  'patODIAqZ8BWqGyc7.bb700c7eae3abb2607a52d12d04b3249c9ab33df7d538e29ae961cb70d1c0bd9';
+  'patODIAqZ8BWqGyc7.6b8587b44164c42c937290f703ffb49c87e299d3e1412bf1b8a1b3f03ecd7a4c'
 
 Airtable.configure({
   endpointUrl: 'https://api.airtable.com',

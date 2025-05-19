@@ -7,7 +7,8 @@
     <analytics></analytics>
   </head>
   <body>
-    <div class="W-Header">
+    <searchbar></searchbar>
+    <div class="W_Header">
       <div class="M-HeaderCategories">
         <a class="A-MenuPoint" href="./articles.html"
           ><p class="p3">Статьи</p></a
@@ -26,19 +27,23 @@
       <a href="https://hseadc.github.io/secret-sauce/"
         ><img class="A-LogoHeader" src="images/header/A_LogoHeader.webp" alt=""
       /></a>
-      <div class="M_SearchBar">
-        <div class="A_SearchForm">
-          <img class="Q-search" src="images/header/Q_Search.webp" alt="" />
+      <div class="O_SearchBar">
+        <div class="M_SearchForm">
+          <img class="A_Button primary" src="images/header/Q_Search.webp" alt="" />
           <input
             type="text"
-            class="A-SearchInput"
+            class="A_Input"
             value=""
             placeholder="Найти"
           />
+          <div class="A_Button resetField"></div>
         </div>
+        
         <div class="C_PostSuggestions"></div>
       </div>
     </div>
-    <div class="S_ArticlePage"></div>
+    <div class="W_ContentReactModule">
+      <div class="S_SearchContent"></div>
+    </div>
   </body>
 </html>

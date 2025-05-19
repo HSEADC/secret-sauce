@@ -1,7 +1,8 @@
+import './W_Header.scss'
 import React from 'react'
-import { getPostTeasers } from '../../Search-data.js'
+import { getPostTeasers } from '../../javascript/Search-data.js'
 
-import A_MainMenu from '../A_MainMenu/A_MainMenu.jsx'
+import A_MenuPoint from '../A_MenuPoint/A_MenuPoint.jsx'
 import O_SearchBar from '../O_SearchBar/O_SearchBar.jsx'
 
 export default class W_Header extends React.Component {
@@ -19,12 +20,18 @@ export default class W_Header extends React.Component {
 
   componentDidMount() {
     getPostTeasers().then((data) => {
-      this.setState({ postTeasers: data })
+      this.setState({
+        postTeasers: data
+      })
     })
   }
 
   handleSearchInput = (searchInputValue) => {
-    const isSearchButtonDisabled = searchInputValue.length < 3
+    let isSearchButtonDisabled = true
+
+    if (searchInputValue.length >= 3) {
+      isSearchButtonDisabled = false
+    }
 
     this.setState({
       isSearchButtonDisabled,
@@ -36,16 +43,18 @@ export default class W_Header extends React.Component {
     const { prerender, homeURL } = this.props
     const { searchInputValue } = this.state
 
-    if (prerender === undefined && searchInputValue.length >= 3) {
-      window.location.href =
-        homeURL + 'search.html?request=' + encodeURIComponent(searchInputValue)
+    if (prerender == undefined) {
+      if (searchInputValue.length >= 3) {
+        window.location.href =
+          homeURL + 'search.html?request=' + searchInputValue
+      }
     }
   }
 
   render() {
     const { prerender, homeURL, menu } = this.props
     const { isSearchButtonDisabled, searchInputValue, postTeasers } = this.state
-    const currentURL = prerender === undefined ? window.location.href : ''
+    const currentURL = prerender == undefined ? window.location.href : ''
     const menuElements = []
 
     menu.forEach((menuItem, i) => {
@@ -53,10 +62,10 @@ export default class W_Header extends React.Component {
       const linkURL = homeURL + url
 
       menuElements.push(
-        <A_MainMenu
+        <A_MenuPoint
           text={text}
           type="mainMenuItem"
-          current={linkURL === currentURL}
+          current={linkURL == currentURL}
           url={linkURL}
           key={i}
         />
@@ -65,9 +74,9 @@ export default class W_Header extends React.Component {
 
     return (
       <>
-        <A_MainMenu text="" type="menubarLogo" url={homeURL} current={false} />
+        <A_MenuPoint text="" type="menubarLogo" url={homeURL} current={false} />
 
-        <div className="M-HeaderCategories">{menuElements}</div>
+        <div className="C_MainMenu">{menuElements}</div>
 
         <O_SearchBar
           isSearchButtonDisabled={isSearchButtonDisabled}
