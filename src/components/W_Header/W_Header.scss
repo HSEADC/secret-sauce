@@ -6,5 +6,50 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: aqua;
   }
+.W_Header .menubarLogo{
+    background-image: url(../../images/header/A_LogoHeader.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 42px;
+    height: 42px;
+}
+.W_Header .M_HeaderCategories{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.28vw;
+}
+.W_Header .C_PostSuggestions{
+    width: 24.03vw;
+    height: 12.92vw;
+    margin-top: 0.36vw;
+    overflow: hidden;
+    position: absolute;
+    z-index: 10;
+    border-radius: 0.83vw;
+    .A_ScrollSearch{
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+        width: 24.03vw;
+        height: 12.92vw;
+        .M_PostSuggestion{
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            display: flex;
+            padding: 16px 20px 16px 16px;
+            width: 100%;
+            gap: 0.42vw;
+            color: var(--dark-brown);
+            background: var(--soft-orange-halftone);
+            backdrop-filter: blur(calc(var(--80, 80px) / 2));
+            opacity: 0.6;
+            &:hover {
+                opacity: 1;
+                transition: 0.5s;
+            }
+        }
+    }
+}

@@ -31,21 +31,19 @@ export default class M_SearchForm extends React.Component {
 
     return (
       <div className="M_SearchForm">
-        <A_Input
-          value={searchInputValue}
-          placeholder="Найти"
-          handleInput={handleSearchInput}
-          handleSubmit={handleSearchSubmit}
-        />
-
-        {searchInputValue != '' && this.renderResetButton()}
-
         <A_Button
           text=""
           type="primary"
           disabled={isSearchButtonDisabled}
           handleClick={handleSearchSubmit}
         />
+        <A_Input
+          value={searchInputValue}
+          placeholder="Найти"
+          handleInput={handleSearchInput}
+          handleSubmit={handleSearchSubmit}
+        />
+        {searchInputValue != '' && this.renderResetButton()}
       </div>
     )
   }

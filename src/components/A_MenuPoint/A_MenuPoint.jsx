@@ -1,4 +1,4 @@
-// import './A_MainMenu.scss'
+import './A_MenuPoint.scss'
 import React from 'react'
 import classNames from 'classnames'
 

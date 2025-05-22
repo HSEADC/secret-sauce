@@ -16,7 +16,8 @@ module.exports = {
     Stars: './src/javascript/Stars.js',
     Search: './src/javascript/search-vanilla.js',
     SearchData: './src/javascript/Search-data.js',
-    search: './src/search.jsx'
+    search: './src/search.jsx',
+    menubar: './src/javascript/menubar.jsx'
   },
   output: {
     filename: '[name].js',
@@ -86,13 +87,13 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: './index.html',
-      chunks: ['index', 'tab', 'BurgerMenu', 'Stars']
+      chunks: ['index', 'tab', 'BurgerMenu', 'Stars', 'menubar']
     }),
 
     new HtmlWebpackPlugin({
       template: './src/search.html',
       filename: './search.html',
-      chunks: ['index', 'search']
+      chunks: ['index', 'search', 'menubar']
     }),
 
     // все страницы разделов

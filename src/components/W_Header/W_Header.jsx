@@ -74,9 +74,8 @@ export default class W_Header extends React.Component {
 
     return (
       <>
+        <div className="M_HeaderCategories">{menuElements}</div>
         <A_MenuPoint text="" type="menubarLogo" url={homeURL} current={false} />
-
-        <div className="C_MainMenu">{menuElements}</div>
 
         <O_SearchBar
           isSearchButtonDisabled={isSearchButtonDisabled}

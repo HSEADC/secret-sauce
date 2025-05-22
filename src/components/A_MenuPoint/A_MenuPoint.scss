@@ -1,0 +1,15 @@
+.A_MenuPoint{
+    text-decoration: none;
+    color: var(--dark-brown);
+    font-size: 16px;
+    display: flex;
+    padding: 12px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.52vw;
+    border-radius: 5vw;
+    background: var(--off-white-02);
+    text-decoration: none;
+    color: inherit;
+}
