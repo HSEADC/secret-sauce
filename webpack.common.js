@@ -14,7 +14,7 @@ module.exports = {
     BurgerMenu: './src/javascript/BurgerMenu.js',
     FilterTip: './src/javascript/FilterTip.js',
     Stars: './src/javascript/Stars.js',
-    Search: './src/javascript/search-vanilla.js',
+    searchVanilla: './src/javascript/search-vanilla.js',
     SearchData: './src/javascript/Search-data.js',
     search: './src/search.jsx',
     menubar: './src/javascript/menubar.jsx'
