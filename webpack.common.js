@@ -110,6 +110,12 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
+      template: './src/collaborations.html',
+      filename: './collaborations.html',
+      chunks: ['index', 'tab', 'BurgerMenu', 'Stars', 'menubar'],
+    }),
+
+    new HtmlWebpackPlugin({
       template: './src/newsletter.html',
       filename: './newsletter.html',
       chunks: ['index'],
