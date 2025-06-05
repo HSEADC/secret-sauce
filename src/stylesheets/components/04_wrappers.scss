@@ -192,3 +192,19 @@
   align-items: center;
   gap: 8.06vw;
 }
+
+.W_CollabsCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  width: 75%;
+  position: sticky;
+}
+
+.W_PageCollabDes {
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  width: 48vw;
+}

@@ -555,3 +555,21 @@ a.M_ArticleBottomMenu {
   align-items: flex-start;
   gap: 32px;
 }
+
+.M_HeadingC {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.M_TitleCollabPage {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vw;
+}
+
+.M_AuthorCollabs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vw;
+}

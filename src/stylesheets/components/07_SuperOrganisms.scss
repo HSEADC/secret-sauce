@@ -92,3 +92,11 @@
   gap: 4vw;
   align-self: stretch;
 }
+
+.S_AllBlocksC {
+  display: flex;
+  flex-direction: column;
+  padding: 0 3vw;
+  gap: 5vw;
+  margin-top: 5vw;
+}
