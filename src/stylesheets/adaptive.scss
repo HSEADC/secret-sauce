@@ -123,21 +123,20 @@
     }
   }
 
-
   .M_AuthorArticleBox {
     height: 27vw;
     padding: 3vw 12vw 3vw 3vw;
   }
-  .W_AboutUsInfoP{
+  .W_AboutUsInfoP {
     margin-bottom: 6vw;
   }
-  .W_AboutUsInfo{
+  .W_AboutUsInfo {
     gap: 4vw;
   }
-  .C_AuthorBox{
+  .C_AuthorBox {
     gap: 2vw;
   }
-  .W_AuthorBlock{
+  .W_AuthorBlock {
     padding: 10vw 3vw;
     gap: 6vw;
   }
@@ -151,11 +150,10 @@
     justify-content: center;
     flex-wrap: wrap;
   }
-  .Q_AdvertImg{
+  .Q_AdvertImg {
     height: 100vw;
     margin-bottom: 6vw;
   }
-  
 }
 
 @media screen and (max-width: 700px) {
@@ -317,7 +315,7 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-  .W_Filters{
+  .W_Filters {
     display: none;
   }
   .W-DirectionFilter {
@@ -501,7 +499,7 @@
     flex-direction: column;
     gap: 2vw;
   }
-  .M_LargeArticleTags{
+  .M_LargeArticleTags {
     align-self: auto;
     gap: 3vw;
   }
@@ -550,19 +548,19 @@
     background-image: url(/src/images/AboutUs/events-wrapper.webp);
     background-size: 100%;
   }
-  .W_AboutUsInfo{
+  .W_AboutUsInfo {
     width: 100%;
     gap: 24vw;
     padding: 3vw;
     margin-bottom: 14vw;
-    h2{
+    h2 {
       font-size: 36px;
     }
   }
-  .M_Authors{
+  .M_Authors {
     width: 85%;
     gap: 3vw;
-    h2{
+    h2 {
       font-size: 36px;
     }
   }
@@ -570,7 +568,7 @@
     padding: 14vw 8vw;
     gap: 10vw;
   }
-  .C_AuthorLine{
+  .C_AuthorLine {
     gap: 5vw;
   }
 
@@ -605,6 +603,17 @@
   .M_QuoteField {
     padding: 7vw 5.78vw;
     border-radius: 2vw;
+  }
+  .O_CollabPage {
+    flex-direction: column;
+    gap: 6vw;
+  }
+  .C_CollabsAuthors {
+    flex-direction: row;
+  }
+  .W_CollabsCard {
+    position: relative;
+    width: 100%;
   }
 }
 @media screen and (max-width: 431px) {
@@ -663,5 +672,4 @@
     border-radius: 3vw;
     padding: 4vw 16vw 4vw 4vw;
   }
-  
 }
