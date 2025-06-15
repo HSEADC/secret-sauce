@@ -14,25 +14,21 @@ a.A-MenuPoint {
   backdrop-filter: blur(calc(var(--80, 80px) / 2));
   text-decoration: none;
   color: inherit;
-
-  &:hover {
-    background: var(--soft-orange);
-    transition: 0.5s;
-  }
 }
+
 .A-SuggestIdea {
   position: relative;
-  z-index: 1; /* Оставляем кнопку на нижнем уровне */
+  z-index: 1;
 }
 
 .A-Star {
-  position: absolute; /* Меняем на absolute, чтобы не привязываться к экрану */
+  position: absolute;
   background-image: url('/src/images/header/Star.webp');
   background-size: contain;
   background-repeat: no-repeat;
   pointer-events: none;
   opacity: 1;
-  z-index: 10; /* Теперь звездочки поверх кнопки */
+  z-index: 10;
   animation: fly-away 1s ease-out forwards;
 }
 

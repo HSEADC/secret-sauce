@@ -5,12 +5,13 @@ const menu = [
     url: 'articles.html'
   },
   {
-    text: 'О нас',
-    url: 'ideas.html'
+    text: 'Коллаборации',
+    url: 'collaborations.html'
   },
   {
     text: 'Предложить идею',
-    url: 'https://t.me/secretsausemd/190'
+    url: 'https://t.me/secretsausemd/190',
+    suggest: true
   }
 ]
 

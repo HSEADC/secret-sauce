@@ -97,21 +97,22 @@
 
   .S_AuthorPage {
     gap: 50px;
-    padding: 6vw 14.5vw 10vw 14.5vw;
   }
   .C_AuthorArticle {
     width: auto;
   }
   .M_Author {
     width: 100%;
-    flex-direction: column;
     gap: 10vw;
-    padding: 4.6vw 11.32vw 4.6vw 4.6vw;
+    padding: 0 3vw 0vw 3vw;
     .Q_Avatar_L {
       width: 35%;
       border-radius: 25vw;
       border: 1.2vw solid var(--off-white);
     }
+  }
+  .M_TextContact{
+    width: 100%;
   }
   .M_TextAuthor {
     gap: 3vw;
@@ -160,6 +161,9 @@
 
 @media screen and (max-width: 700px) {
   .W-Header {
+    display: none;
+  }
+  .W_Header {
     display: none;
   }
   .C-Burger-Menu {
@@ -464,8 +468,9 @@
   }
 
   .S_AuthorPage {
-    gap: 50px;
-    padding: 6vw 3vw 14vw 3vw;
+    gap: 14vw;
+    margin-top: 14vw;
+    margin-bottom: 14vw;
   }
   .C_AuthorArticle {
     width: auto;
@@ -474,11 +479,9 @@
     width: 100%;
     flex-direction: column;
     gap: 10vw;
-    padding: 4.6vw 11.32vw 4.6vw 4.6vw;
-    .Q_Avatar_L {
-      width: 35%;
-      border-radius: 25vw;
-      border: 1.8vw solid var(--off-white);
+    padding: 0 3vw 0vw 3vw;
+    .Q_AuthorMiddleImg {
+      width: 100%;
     }
   }
   .M_TextAuthor {
