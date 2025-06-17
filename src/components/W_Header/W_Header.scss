@@ -2,7 +2,6 @@
     display: flex;
     width: 100%;
     padding: 1.25vw 3vw;
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -64,4 +63,10 @@
             }
         }
     }
+}
+
+@media screen and (max-width: 700px){
+    .W_Header {
+        display: none;
+      }
 }
