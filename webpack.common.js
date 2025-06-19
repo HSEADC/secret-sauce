@@ -1,9 +1,70 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const HtmlWebpackPartialsPlugin = require('html-webpack-partials-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
+const SitemapPlugin = require('sitemap-webpack-plugin').default
 
 const webpack = require('webpack');
 const path = require('path');
+
+const paths = [
+  '/secret-sauce/',
+  '/secret-sauce/search.html',
+  '/secret-sauce/articles.html',
+  '/secret-sauce/about.html',
+  '/secret-sauce/collaborations.html',
+  '/secret-sauce/newsletter.html',
+  '/secret-sauce/styleguide.html',
+
+  // Visual Fast Food articles
+  '/secret-sauce/articles/visual-fast-food/plantarosa.html',
+  '/secret-sauce/articles/visual-fast-food/holiday-duo.html',
+  '/secret-sauce/articles/visual-fast-food/isamaya.html',
+  '/secret-sauce/articles/visual-fast-food/pixar.html',
+  '/secret-sauce/articles/visual-fast-food/canyaon.html',
+  '/secret-sauce/articles/visual-fast-food/castle.html',
+  '/secret-sauce/articles/visual-fast-food/puma.html',
+  '/secret-sauce/articles/visual-fast-food/osoi.html',
+  '/secret-sauce/articles/visual-fast-food/severance.html',
+  '/secret-sauce/articles/visual-fast-food/lapka.html',
+  '/secret-sauce/articles/visual-fast-food/jeremy.html',
+  '/secret-sauce/articles/visual-fast-food/studio.html',
+  '/secret-sauce/articles/visual-fast-food/fenty.html',
+  '/secret-sauce/articles/visual-fast-food/nothing.html',
+  '/secret-sauce/articles/visual-fast-food/gisou.html',
+  '/secret-sauce/articles/visual-fast-food/bork.html',
+  '/secret-sauce/articles/visual-fast-food/toyota.html',
+  '/secret-sauce/articles/visual-fast-food/nike.html',
+  '/secret-sauce/articles/visual-fast-food/rhode.html',
+  '/secret-sauce/articles/visual-fast-food/ismotion.html',
+  '/secret-sauce/articles/visual-fast-food/gentle.html',
+  '/secret-sauce/articles/visual-fast-food/apple-music.html',
+
+  // Large articles
+  '/secret-sauce/articles/large-articles/tiffany.html',
+  '/secret-sauce/articles/large-articles/diesel.html',
+  '/secret-sauce/articles/large-articles/charlie.html',
+  '/secret-sauce/articles/large-articles/oem.html',
+  '/secret-sauce/articles/large-articles/balencidada.html',
+
+  // Errors
+  '/secret-sauce/erors/404.html',
+  '/secret-sauce/erors/500.html',
+  '/secret-sauce/erors/505.html',
+  '/secret-sauce/erors/504.html',
+
+  // Authors
+  '/secret-sauce/authors/masha.html',
+  '/secret-sauce/authors/anya.html',
+  '/secret-sauce/authors/vika.html',
+  '/secret-sauce/authors/dasha.html',
+  '/secret-sauce/authors/dashap.html',
+  '/secret-sauce/authors/kate.html',
+  '/secret-sauce/authors/ira.html',
+  '/secret-sauce/authors/marina.html',
+  '/secret-sauce/authors/ksusha.html'
+]
+
 
 module.exports = {
   entry: {
@@ -387,6 +448,14 @@ module.exports = {
         template_filename: '*',
         priority: 'replace'
       }
-    ])
-  ]
+    ]),
+
+    new SitemapPlugin({
+      base: 'https://hseadc.github.io/secret-sauce',
+      paths
+    })
+  ],
+  optimization: {
+    minimizer: [new CssMinimizerPlugin()]
+  }
 }

@@ -1,4 +1,3 @@
-// import './menubar.scss'
 import React from 'react'
 import { createRoot } from 'react-dom/client'
 import * as ReactDOM from 'react-dom/client'
@@ -20,8 +19,9 @@ function getSearchRequest() {
 }
 
 const props = {
+  prerender: true,
   homeURL,
   menu
 }
-const root = ReactDOM.createRoot(document.querySelector('.W_Header '))
+const root = ReactDOM.createRoot(document.querySelector('.W_Header'))
 root.render(<W_Header searchInputValue={getSearchRequest()} {...props} />)
