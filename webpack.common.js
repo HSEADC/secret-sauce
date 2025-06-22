@@ -69,7 +69,6 @@ const paths = [
 module.exports = {
   entry: {
     index: './src/index.js',
-    swiper: './src/javascript/swiper.js',
     tab: './src/javascript/tab.js',
     changingimg: './src/javascript/ChangingImg.js',
     BurgerMenu: './src/javascript/BurgerMenu.js',
@@ -78,7 +77,9 @@ module.exports = {
     searchVanilla: './src/javascript/search-vanilla.js',
     SearchData: './src/javascript/Search-data.js',
     search: './src/search.jsx',
-    menubar: './src/javascript/menubar.jsx'
+    menubar: './src/javascript/menubar.jsx',
+    scrolltop: './src/javascript/scroll-to-top.js',
+    loadcards: './src/javascript/loadcards.js'
   },
   output: {
     filename: '[name].js',
@@ -101,7 +102,9 @@ module.exports = {
       {
         test: /\.(sa|sc|c)ss$/i,
         use: [
-          MiniCssExtractPlugin.loader,
+          process.env.NODE_ENV === 'development'
+            ? 'style-loader'
+            : MiniCssExtractPlugin.loader,
           'css-loader',
           {
             loader: 'postcss-loader',
@@ -161,7 +164,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/articles.html',
       filename: './articles.html',
-      chunks: ['index', 'BurgerMenu', 'FilterTip', 'Stars']
+      chunks: ['index', 'BurgerMenu', 'FilterTip', 'Stars', 'scrolltop', 'loadcards']
     }),
 
     new HtmlWebpackPlugin({

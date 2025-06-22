@@ -375,7 +375,7 @@ a.A_Menu-Point {
   border-radius: 50%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   cursor: pointer;
 }
 .A_SendButton img {
@@ -514,4 +514,36 @@ a.A_StyleMenuPoint {
   flex-direction: row;
   gap: 1vw;
   flex-wrap: wrap;
+}
+
+.A_Arrow_Top {
+  position: fixed;
+  bottom: 3vw;
+  right: 3vw;
+  background: var(--off-white-01);
+  border-radius: 100%;
+  border: none;
+  width: 58px;
+  height: 58px;
+  cursor: pointer;
+  z-index: 999;
+  &:hover{
+    background: var(--soft-orange-halftone);
+    transition: 0.5s;
+  }
+}
+
+.A_LoadMoreButton{
+  display: inline-flex;
+  padding: 20px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10vw;
+  border: none;
+  background: var(--soft-orange, #fdefa7);
+  &:hover {
+    transition: 0.5s;
+    box-shadow: 2px 2px 30px 0px rgba(255, 196, 3, 0.7) inset,
+      -1.19px -1.19px 20px 0px rgba(255, 196, 3, 0.7) inset;
+  }
 }
