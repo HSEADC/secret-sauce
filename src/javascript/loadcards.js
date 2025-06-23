@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function showNextCards() {
     const nextCards = allCards.slice(currentIndex, currentIndex + batchSize)
-    nextCards.forEach((card) => (card.style.display = 'block'))
+    nextCards.forEach((card) => (card.style.display = 'flex'))
     currentIndex += batchSize
 
     if (currentIndex >= allCards.length) {

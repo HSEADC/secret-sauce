@@ -66,7 +66,47 @@
 }
 
 @media screen and (max-width: 700px){
-    .W_Header {
-        display: none;
+  .W_Header {
+    flex-wrap: wrap;
+    gap: 1.5vw;
+    padding: 3vw;
+    justify-content: center;
+    .M_HeaderCategories{
+      gap: 0.6vw;
+      order: 2;
+      .A_MenuPoint{
+        font-size: 15px;
+        padding: 10px 7px;
       }
+    }
+    .menubarLogo{
+      width: 40px;
+      height: 40px;
+    }
+    .O_SearchBar {
+      width: 100%;
+      order: 3;
+      .M_SearchForm{
+        width: 100%;
+        padding: 10px 12px;
+        
+      }
+    }
+  }
+  .W_Header .C_PostSuggestions{
+    width: 93.5%;
+    height: 50vw;
+    border-radius: 3.5vw;
+    .A_ScrollSearch{
+      width: 100%;
+      height: 50vw;
+      .M_PostSuggestion{
+        gap: 1.5vw;
+        padding: 20px 30px 20px 20px;
+        background: var(--soft-orange-halftone);
+        opacity: 1;
+      }
+    }
+  }
+  
 }
