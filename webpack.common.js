@@ -260,6 +260,12 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
+      template: './src/articles/large-articles/brands.html',
+      filename: './articles/large-articles/brands.html',
+      chunks: ['index', 'BurgerMenu', 'Stars'],
+    }),
+
+    new HtmlWebpackPlugin({
       template: './src/articles/large-articles/oem.html',
       filename: './articles/large-articles/oem.html',
       chunks: ['index', 'BurgerMenu', 'Stars'],
