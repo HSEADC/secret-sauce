@@ -39,6 +39,15 @@ const paths = [
   '/secret-sauce/articles/visual-fast-food/ismotion.html',
   '/secret-sauce/articles/visual-fast-food/gentle.html',
   '/secret-sauce/articles/visual-fast-food/apple-music.html',
+  '/secret-sauce/articles/visual-fast-food/adidas.html',
+  '/secret-sauce/articles/visual-fast-food/bratz.html',
+  '/secret-sauce/articles/visual-fast-food/gisou2.html',
+  '/secret-sauce/articles/visual-fast-food/labubu.html',
+  '/secret-sauce/articles/visual-fast-food/loewe.html',
+  '/secret-sauce/articles/visual-fast-food/matcha.html',
+  '/secret-sauce/articles/visual-fast-food/nike2.html',
+  '/secret-sauce/articles/visual-fast-food/surf.html',
+  '/secret-sauce/articles/visual-fast-food/tamburins.html',
 
   // Large articles
   '/secret-sauce/articles/large-articles/tiffany.html',
@@ -64,8 +73,8 @@ const paths = [
   '/secret-sauce/authors/kate.html',
   '/secret-sauce/authors/ira.html',
   '/secret-sauce/authors/marina.html',
-  '/secret-sauce/authors/ksusha.html',
-];
+  '/secret-sauce/authors/ksusha.html'
+]
 
 module.exports = {
   entry: {
@@ -351,6 +360,56 @@ module.exports = {
       filename: './articles/large-articles/balencidada.html',
       chunks: ['index', 'menubar']
     }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/adidas.html',
+      filename: './articles/visual-fast-food/adidas.html',
+      chunks: ['index', 'menubar']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/bratz.html',
+      filename: './articles/visual-fast-food/bratz.html',
+      chunks: ['index', 'menubar']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/gisou2.html',
+      filename: './articles/visual-fast-food/gisou2.html',
+      chunks: ['index', 'menubar']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/labubu.html',
+      filename: './articles/visual-fast-food/labubu.html',
+      chunks: ['index', 'menubar']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/loewe.html',
+      filename: './articles/visual-fast-food/loewe.html',
+      chunks: ['index', 'menubar']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/matcha.html',
+      filename: './articles/visual-fast-food/matcha.html',
+      chunks: ['index', 'menubar']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/nike2.html',
+      filename: './articles/visual-fast-food/nike2.html',
+      chunks: ['index', 'menubar']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/surf.html',
+      filename: './articles/visual-fast-food/surf.html',
+      chunks: ['index', 'menubar']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/tamburins.html',
+      filename: './articles/visual-fast-food/tamburins.html',
+      chunks: ['index', 'menubar']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/apple-music.html',
+      filename: './articles/visual-fast-food/apple-music.html',
+      chunks: ['index', 'changingimg', 'menubar']
+    }),
 
     // публикации в разделе "ошибки" (erors)
     new HtmlWebpackPlugin({
@@ -372,12 +431,6 @@ module.exports = {
       template: './src/erors/504.html',
       filename: './erors/504.html',
       chunks: ['index', 'menubar']
-    }),
-
-    new HtmlWebpackPlugin({
-      template: './src/articles/visual-fast-food/apple-music.html',
-      filename: './articles/visual-fast-food/apple-music.html',
-      chunks: ['index', 'changingimg', 'menubar']
     }),
 
     // публикации в разделе "авторы" (authors)
