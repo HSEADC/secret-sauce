@@ -105,7 +105,7 @@
   margin-left: -5%; /* Все, кроме первого, накладываются друг на друга */
   z-index: calc(10 - var(--i)); /* Контролирует порядок наложения */
 }
-// visual fast-food
+
 .Q_ArrowButton img {
   width: 1.11vw;
   height: 1.11vw;
