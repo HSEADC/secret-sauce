@@ -1,1 +1,11 @@
-document.addEventListener("DOMContentLoaded",(function(){var e=document.querySelector(".C-Burger-Menu"),t=document.querySelector(".A-Item-Menu"),n=document.querySelector(".M-HeaderCategories-Mobile");t.addEventListener("click",(function(){e.classList.toggle("Active"),n.classList.toggle("Active")}))}));
+/******/ (() => { // webpackBootstrap
+document.addEventListener('DOMContentLoaded', function () {
+  var burgerMenu = document.querySelector('.C-Burger-Menu');
+  var item = document.querySelector('.A-Item-Menu');
+  var menu = document.querySelector('.M-HeaderCategories-Mobile');
+  item.addEventListener('click', function () {
+    burgerMenu.classList.toggle('Active'), menu.classList.toggle('Active');
+  });
+});
+/******/ })()
+;

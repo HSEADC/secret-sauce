@@ -1,1 +1,0 @@
-(()=>{"use strict";new Swiper(".swiper",{loop:!0,autoplay:{delay:3e3},pagination:{el:".swiper-pagination"},navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"},scrollbar:{el:".swiper-scrollbar"}})})();

@@ -1,1 +1,76 @@
-document.addEventListener("DOMContentLoaded",(function(){var e=document.querySelectorAll(".A_TagFilter"),t=document.querySelectorAll(".W-DirectionFilter"),a=document.querySelectorAll("[data-category][data-type]"),c=new Set,n=new Set;function r(){a.forEach((function(e){var t=e.dataset.category,a=e.dataset.type,r=0===c.size||c.has(t),s=0===n.size||n.has(a);r&&s?e.style.removeProperty("display"):e.style.display="none"}))}e.forEach((function(a){var s=a.dataset.category;a.addEventListener("click",(function(){s?c.has(s)?(c.delete(s),a.classList.remove("active")):(c.add(s),a.classList.add("active")):(c.clear(),n.clear(),e.forEach((function(e){return e.classList.remove("active")})),t.forEach((function(e){return e.classList.remove("active")})),e.forEach((function(e){e.dataset.category||e.classList.add("active")})),r()),r()}))})),t.forEach((function(e){var t=e.dataset.type;e.addEventListener("click",(function(){n.has(t)?(n.delete(t),e.classList.remove("active")):(n.add(t),e.classList.add("active")),r()}))})),r()}));
+/******/ (() => { // webpackBootstrap
+document.addEventListener('DOMContentLoaded', function () {
+  var tagButtons = document.querySelectorAll('.A_TagFilter'); // Фильтры категорий
+  var typeButtons = document.querySelectorAll('.W-DirectionFilter'); // Фильтры типов
+  var articles = document.querySelectorAll('[data-category][data-type]');
+  var selectedCategories = new Set();
+  var selectedTypes = new Set();
+
+  // Фильтры категорий (первая группа)
+  tagButtons.forEach(function (button) {
+    var category = button.dataset.category;
+    button.addEventListener('click', function () {
+      if (!category) {
+        resetFilters();
+      } else {
+        if (selectedCategories.has(category)) {
+          selectedCategories["delete"](category);
+          button.classList.remove('active');
+        } else {
+          selectedCategories.add(category);
+          button.classList.add('active');
+        }
+      }
+      filterArticles();
+    });
+  });
+
+  // Фильтры типов (вторая группа)
+  typeButtons.forEach(function (button) {
+    var type = button.dataset.type;
+    button.addEventListener('click', function () {
+      if (selectedTypes.has(type)) {
+        selectedTypes["delete"](type);
+        button.classList.remove('active');
+      } else {
+        selectedTypes.add(type);
+        button.classList.add('active');
+      }
+      filterArticles();
+    });
+  });
+  function filterArticles() {
+    articles.forEach(function (article) {
+      var articleCategory = article.dataset.category;
+      var articleType = article.dataset.type;
+      var categoryMatch = selectedCategories.size === 0 || selectedCategories.has(articleCategory);
+      var typeMatch = selectedTypes.size === 0 || selectedTypes.has(articleType);
+      if (categoryMatch && typeMatch) {
+        article.style.removeProperty('display');
+      } else {
+        article.style.display = 'none';
+      }
+    });
+  }
+  function resetFilters() {
+    selectedCategories.clear();
+    selectedTypes.clear();
+    tagButtons.forEach(function (btn) {
+      return btn.classList.remove('active');
+    });
+    typeButtons.forEach(function (btn) {
+      return btn.classList.remove('active');
+    });
+
+    // Добавляем "active" на кнопку "Все материалы"
+    tagButtons.forEach(function (btn) {
+      if (!btn.dataset.category) {
+        btn.classList.add('active');
+      }
+    });
+    filterArticles();
+  }
+  filterArticles();
+});
+/******/ })()
+;
