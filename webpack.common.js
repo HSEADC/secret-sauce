@@ -371,47 +371,47 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/adidas.html',
       filename: './articles/visual-fast-food/adidas.html',
-      chunks: ['index', 'menubar'],
+      chunks: ['index', 'menubar', 'changingimg'],
     }),
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/bratz.html',
       filename: './articles/visual-fast-food/bratz.html',
-      chunks: ['index', 'menubar'],
+      chunks: ['index', 'menubar', 'changingimg'],
     }),
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/gisou2.html',
       filename: './articles/visual-fast-food/gisou2.html',
-      chunks: ['index', 'menubar'],
+      chunks: ['index', 'menubar', 'changingimg'],
     }),
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/labubu.html',
       filename: './articles/visual-fast-food/labubu.html',
-      chunks: ['index', 'menubar'],
+      chunks: ['index', 'menubar', 'changingimg'],
     }),
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/loewe.html',
       filename: './articles/visual-fast-food/loewe.html',
-      chunks: ['index', 'menubar'],
+      chunks: ['index', 'menubar', 'changingimg'],
     }),
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/matcha.html',
       filename: './articles/visual-fast-food/matcha.html',
-      chunks: ['index', 'menubar'],
+      chunks: ['index', 'menubar', 'changingimg'],
     }),
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/nike2.html',
       filename: './articles/visual-fast-food/nike2.html',
-      chunks: ['index', 'menubar'],
+      chunks: ['index', 'menubar', 'changingimg'],
     }),
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/surf.html',
       filename: './articles/visual-fast-food/surf.html',
-      chunks: ['index', 'menubar'],
+      chunks: ['index', 'menubar', 'changingimg'],
     }),
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/tamburins.html',
       filename: './articles/visual-fast-food/tamburins.html',
-      chunks: ['index', 'menubar'],
+      chunks: ['index', 'menubar', 'changingimg'],
     }),
     new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/apple-music.html',
@@ -439,12 +439,6 @@ module.exports = {
       template: './src/erors/504.html',
       filename: './erors/504.html',
       chunks: ['index', 'menubar'],
-    }),
-
-    new HtmlWebpackPlugin({
-      template: './src/articles/visual-fast-food/apple-music.html',
-      filename: './articles/visual-fast-food/apple-music.html',
-      chunks: ['index', 'changingimg', 'menubar'],
     }),
 
     // публикации в разделе "авторы" (authors)
