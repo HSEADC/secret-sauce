@@ -155,6 +155,28 @@
     height: 100vw;
     margin-bottom: 6vw;
   }
+
+  .S_StyleGuide1{
+    height: 70vw;
+  }
+  .M_StyleHeading {
+    margin-bottom: 25vw
+  }
+  .A_StyleBlock2{
+    width: 50%;
+  }
+  .M_StyleMenu{
+    padding: 0.8vw;
+    gap: 0.6vw;
+  }
+  a.A_StyleMenuPoint{
+    padding: 1.2vw 1.8vw;
+    &:hover{
+      transform: 0.5s;
+      background: var(--soft-caramel-sause, #FFC403);
+      box-shadow: -8px -8px 20px 0px rgba(255, 255, 255, 0.40) inset, 8px 8px 20px 0px rgba(255, 255, 255, 0.40) inset;
+    }
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -343,9 +365,17 @@
     border-radius: 8vw;
     border: 0.8vw solid var(--off-white);
   }
+
+  .S_StyleGuide1{
+    width: 100%;
+  }
   .W_CollabAvatarsHeadingTag {
-    width: 68vw;
-    gap: 45vw;
+    width: 100%;
+    gap: 0vw;
+    justify-content: space-between;
+  }
+  a.O-Collabcard{
+    height: 95vw;
   }
   .W_CollabTagHeading {
     gap: 6vw;
@@ -667,6 +697,37 @@
   }
   .Q_ImgC {
     width: 180px;
+  }
+
+  .A_StyleBlock2{
+    width: 100%;
+    padding: 6vw 10vw 3vw 3vw;
+    margin-top: 0vw;
+    margin-left: 0vw;
+    h2{
+      font-size: 32px;
+    }
+  }
+  .M_StyleMenu{
+    display: none;
+  }
+  .C_BlocksStyle{
+    width: 100%;
+  }
+  .M_HeadingandParagraphs{
+    width: 100%;
+  }
+  .S_Blocks{
+    padding: 0px 3vw 7vw 3vw;
+  }
+  .M_Paragraphs{
+    flex-direction: column;
+    .p2{
+      font-size: 20px;
+    }
+  }
+  .A_TextStyleHeadingParagrapgh{
+    width: 100%;
   }
 }
 @media screen and (max-width: 431px) {

@@ -459,14 +459,12 @@ a.A_Author {
 }
 
 a.A_StyleMenuPoint {
-  width: 12vw;
-  height: 4vw;
   text-decoration: none;
   color: #1c1500;
   border-radius: 1vw;
   background: #fff;
   display: flex;
-  padding: 1.5vw 1.5vw;
+  padding: 1vw 1.5vw;
   align-items: center;
   gap: 5vw;
   align-self: stretch;
@@ -481,7 +479,7 @@ a.A_StyleMenuPoint {
 .A_StyleBlock2 {
   margin-top: 10vw;
   margin-left: 6vw;
-  width: 43vw;
+  width: 50%;
 }
 
 .A_TextStyleHeadingParagrapgh {
