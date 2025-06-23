@@ -222,6 +222,11 @@ module.exports = {
       chunks: ['index', 'changingimg', 'menubar'],
     }),
     new HtmlWebpackPlugin({
+      template: './src/articles/visual-fast-food/oakley.html',
+      filename: './articles/visual-fast-food/oakley.html',
+      chunks: ['index', 'changingimg', 'menubar'],
+    }),
+    new HtmlWebpackPlugin({
       template: './src/articles/visual-fast-food/holiday-duo.html',
       filename: './articles/visual-fast-food/holiday-duo.html',
       chunks: ['index', 'changingimg', 'menubar'],
