@@ -47,69 +47,8 @@
     <analytics></analytics>
   </head>
   <body class="articles">
-    <div class="W-Header">
-      <div class="M-HeaderCategories">
-        <a
-          class="A-MenuPoint"
-          href="https://hseadc.github.io/secret-sauce/articles.html"
-          ><p class="p3">Статьи</p></a
-        >
-        <a
-          class="A-MenuPoint"
-          href="https://hseadc.github.io/secret-sauce/about.html"
-          ><p class="p3">О нас</p></a
-        >
-        <a
-          class="A-MenuPoint A-SuggestIdea"
-          href="https://t.me/secretsausemd/190"
-          ><p class="p3">Предложить идею</p></a
-        >
-      </div>
-      <a href="https://hseadc.github.io/secret-sauce/"
-        ><img class="A-LogoHeader" src="images/header/A_LogoHeader.webp" alt=""
-      /></a>
-      <div class="A-Searchbar">
-        <img class="Q-search" src="images/header/Q_Search.webp" alt="" />
-        <p class="p3">Найти</p>
-      </div>
-    </div>
-    <div class="C-Burger-Menu">
-      <div class="W-Header-Mobile">
-        <div class="A-Searchbar">
-          <img class="Q-search" src="images/header/Q_Search.webp" alt="" />
-          <p class="p3">Найти</p>
-        </div>
-        <a href="https://hseadc.github.io/secret-sauce/"
-          ><img
-            class="A-LogoHeader"
-            src="images/header/A_LogoHeader.webp"
-            alt=""
-        /></a>
-        <div class="A_LogoHeader A-Item-Menu">
-          <img src="images/icons/Q_LogoHeader.webp" alt="" />
-        </div>
-      </div>
-      <div class="M-HeaderCategories-Mobile">
-        <a
-          class="A-MenuPoint-Mobile"
-          href="https://hseadc.github.io/secret-sauce/"
-          ><h3>Главная</h3></a
-        >
-        <a
-          class="A-MenuPoint-Mobile"
-          href="https://hseadc.github.io/secret-sauce/articles.html"
-          ><h3>Статьи</h3></a
-        >
-        <a
-          class="A-MenuPoint-Mobile"
-          href="https://hseadc.github.io/secret-sauce/about.html"
-          ><h3>О нас</h3></a
-        >
-        <a class="A-MenuPoint-Mobile" href="https://t.me/secretsausemd/190"
-          ><h3>Предложить идею</h3></a
-        >
-      </div>
-    </div>
+
+    <searchbar></searchbar>
     <div class="C-FilterBox">
       <div class="W-DirectionFilter" data-type="collection">
         <img
@@ -233,7 +172,7 @@
           data-type="collection"
           href="./articles/visual-fast-food/holiday-duo.html"
         >
-          <img class="Q_MiddleImg" src="./images/articles/Rhode.webp" alt="" />
+          <img class="Q_MiddleImg" src="./images/visual_fast-food/holida_duo/hd_1.webp" alt="" />
           <h4>Holiday duo</h4>
           <div class="M_TagLineArticles">
             <div class="A_TagFilterPrimary">
@@ -265,7 +204,6 @@
             </div>
           </div>
         </a>
-
         <a
           class="O_MediumCard"
           data-category="fast-food"
@@ -572,7 +510,7 @@
           <h4>Визуальный контекст в медиа</h4>
           <div class="M_TagLineArticles">
             <div class="A_TagFilterPrimary">
-              <p class="p3">Статья</p>
+              <p class="p3">статья</p>
             </div>
             <div class="A_TagsCardSecondary">
               <p class="p3">медиа</p>
@@ -830,68 +768,20 @@
             </div>
           </div>
         </a>
+        
+      </div>
+      <div class="M_LoadMoreWrapper">
+        <button id="loadMoreBtn" class="A_LoadMoreButton">
+          <p class="p4">Смотреть ещё</p>
+        </button>
       </div>
     </div>
-    <div class="W_FooterWrapper">
-      <div class="S_FooterDesktop">
-        <div class="M_FooterText">
-          <img
-            class="A_LogoFooter"
-            src="./images/footer/logofooter.webp"
-            alt=""
-          />
-          <h2>Есть идея!</h2>
-          <p class="p2">
-            Если тебе есть что рассказать и&nbsp;показать по&nbsp;теме
-            медиа&nbsp;&mdash; оставь свой ник в&nbsp;Telegram.
-          </p>
-          <form
-            id="my-form"
-            class="M_formfooter"
-            action="https://formspree.io/f/mpwavbpj"
-            method="POST"
-          >
-            <div class="M_InputWrapper">
-              <input
-                class="A_Input"
-                type="email"
-                name="email"
-                placeholder="@mysupertg"
-              />
-              <button class="A_SendButton" id="my-form-button">
-                <img
-                  src="./images/telegram/Q_SendButton.webp"
-                  alt="Отправить"
-                />
-              </button>
-            </div>
-            <p id="my-form-status"></p>
-          </form>
-        </div>
-        <div class="M_MenuFooter">
-          <a class="A_Menu-Point" href="https://hseadc.github.io/secret-sauce/"
-            ><p class="p3">Главная</p></a
-          >
-          <a
-            class="A_Menu-Point"
-            href="https://hseadc.github.io/secret-sauce/about.html"
-            ><p class="p3">О&nbsp;нас</p></a
-          >
-          <a
-            class="A_Menu-Point"
-            href="https://hseadc.github.io/secret-sauce/articles.html"
-            ><p class="p3">Статьи</p></a
-          >
-          <a
-            class="A_Menu-Point"
-            href="https://hseadc.github.io/secret-sauce/styleguide.html"
-            ><p class="p3">Стайлгайд</p></a
-          >
-          <a class="A_Menu-Point" href="https://t.me/secretsausemd"
-            ><p class="p3">TG канал</p></a
-          >
-        </div>
-      </div>
-    </div>
+    
+
+    <button class="A_Arrow_Top" id="scrollToTopBtn">
+      <img src="/src/images/icons/A_Arrow_Top.png" alt="">
+    </button>
+
+    <footer></footer>
   </body>
 </html>

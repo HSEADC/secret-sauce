@@ -58,8 +58,8 @@ export default class W_Header extends React.Component {
     const menuElements = []
 
     menu.forEach((menuItem, i) => {
-      const { text, url } = menuItem
-      const linkURL = homeURL + url
+      const { text, url} = menuItem
+      const linkURL = url.startsWith('http') ? url : homeURL + url
 
       menuElements.push(
         <A_MenuPoint
