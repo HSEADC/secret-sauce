@@ -37,6 +37,28 @@
       30px 30px 74px 0px rgba(255, 255, 255, 0.5) inset;
   }
 }
+.Q-CollabImgKate {
+  background-image: url('/src/images/articles/O_CollabCardKate.webp');
+  background-size: cover;
+  background-position: center;
+
+  &:hover {
+    transition: box-shadow 0.6s ease, transform 0.4s ease;
+    box-shadow: -30px -30px 74px 0px rgba(255, 255, 255, 0.5) inset,
+      30px 30px 74px 0px rgba(255, 255, 255, 0.5) inset;
+  }
+}
+.Q-CollabImgDasha {
+  background-image: url('/src/images/articles/O_CollabCardDasha.webp');
+  background-size: cover;
+  background-position: center;
+
+  &:hover {
+    transition: box-shadow 0.6s ease, transform 0.4s ease;
+    box-shadow: -30px -30px 74px 0px rgba(255, 255, 255, 0.5) inset,
+      30px 30px 74px 0px rgba(255, 255, 255, 0.5) inset;
+  }
+}
 .Q-CollabImgACT {
   background-image: url('/src/images/articles/O_CollabCard2.webp');
   background-size: cover;
@@ -104,12 +126,20 @@
 .Q_DieselCover {
   background-image: url(/src/images/LargeArticles/Q_Cover_Article_Xoxo.webp);
 }
+.Q_DashaCover {
+  background-image: url(/src/images/LargeArticles/Q_Cover_Article_Dasha.webp);
+}
 .Q_BlackCover {
   background-image: url(/src/images/LargeArticles/Q_Cover_Article_Balenciaga.webp);
+}
+.Q_BlackCoverTwo {
+  background-image: url(/src/images/LargeArticles/Q_Cover_Article_Kate.webp);
 }
 .Q_OemCover {
   background-image: url(/src/images/LargeArticles/Q_Cover_Article_Content.webp);
 }
+.Q_BlackCoverTwo,
+.Q_DashaCover,
 .Q_TiffanyCover,
 .Q_DieselCover,
 .Q_BlackCover,
