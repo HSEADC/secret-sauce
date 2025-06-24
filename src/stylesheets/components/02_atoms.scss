@@ -468,11 +468,10 @@ a.A_StyleMenuPoint {
   align-items: center;
   gap: 5vw;
   align-self: stretch;
-  a:hover {
-    background: #ffc403;
-    box-shadow: -8px -8px 20px 0px rgba(255, 255, 255, 0.4) inset,
-      8px 8px 20px 0px rgba(255, 255, 255, 0.4) inset;
-    color: #f2f2f2;
+  &:hover{
+    transform: 0.5s;
+    background: var(--soft-caramel-sause, #FFC403);
+    box-shadow: -8px -8px 20px 0px rgba(255, 255, 255, 0.40) inset, 8px 8px 20px 0px rgba(255, 255, 255, 0.40) inset;
   }
 }
 
